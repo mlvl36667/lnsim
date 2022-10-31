@@ -2,8 +2,12 @@
 # Usage: for i in {0..36..2}; do python3 run.py 10000 200 $i 32;done
 # Simulator for nodes in PCN with incoming and outgoing edges with channel capacity and routing fees
 import random
+import matplotlib
+import matplotlib.pyplot as plt
 import sys
 from scipy.stats import poisson
+import numpy as np
+import math
 
 
 def choose_in_out_edge(edges,transaction_value):
@@ -77,25 +81,73 @@ def run_simulation(number_of_edges, max_channel_capacity, average_number_of_tran
 
  return return_value
  
-overload_count  = 0 
-reorg_count  = 0 
+def get_curve(xx,yy, number_of_edges, max_channel_capacity, average_number_of_transactions):
+ simulations = [10,100,1000,10000]
+ for ii in simulations:
+  overload_count  = 0 
+  reorg_count  = 0 
+  for i in range(1,ii+1):
+   rt = run_simulation(number_of_edges, max_channel_capacity, average_number_of_transactions)
+   if(rt == 1 or rt == 3):
+    overload_count+=1
+   if(rt == 2 or rt == 4):
+    overload_count+=1
+    reorg_count+=1
+  
+  print("Number of edges: "+str(number_of_edges))
+  print("Average number of transactions: "+str(average_number_of_transactions))
+  print("Max channel capacity: "+str(max_channel_capacity))
+  print("Number of simulations: "+str(ii))
+  print("Ratio of overloaded channels: "+str(100*overload_count/ii)+"%")
+  print("Ratio of solvable routings with transaction reorg: "+str(100*reorg_count/ii)+"%")
+  yy.append(100*overload_count/ii)
+  xx.append(r'$10^'+str(simulations.index(ii)+1)+'$')
 
 number_of_simulations = int(sys.argv[1])
 max_channel_capacity = int(sys.argv[2])
 average_number_of_transactions = int(sys.argv[3]) # for Poission
 number_of_edges = int(sys.argv[4]) # this sets the degree of freedom in the simulator
 
-for i in range(1,number_of_simulations+1):
- rt = run_simulation(number_of_edges, max_channel_capacity, average_number_of_transactions)
- if(rt == 1 or rt == 3):
-  overload_count+=1
- if(rt == 2 or rt == 4):
-  overload_count+=1
-  reorg_count+=1
 
-print("Number of edges: "+str(number_of_edges))
-print("Average number of transactions: "+str(average_number_of_transactions))
-print("Max channel capacity: "+str(max_channel_capacity))
-print("Number of simulations: "+str(number_of_simulations))
-print("Ratio of overloaded channels: "+str(100*overload_count/number_of_simulations)+"%")
-print("Ratio of solvable routings with transaction reorg: "+str(100*reorg_count/number_of_simulations)+"%")
+yy1 = []
+xx = []
+get_curve(xx, yy1, number_of_edges, 75, average_number_of_transactions)
+yy2 = []
+xx = []
+get_curve(xx, yy2, number_of_edges, 100, average_number_of_transactions)
+yy3 = []
+xx = []
+get_curve(xx, yy3, number_of_edges, 150, average_number_of_transactions)
+yy4 = []
+xx = []
+get_curve(xx, yy4, number_of_edges, 200, average_number_of_transactions)
+yy5 = []
+xx = []
+get_curve(xx, yy5, number_of_edges, 350, average_number_of_transactions)
+
+
+
+matplotlib.use("pgf")
+matplotlib.rcParams.update({
+    "pgf.texsystem": "pdflatex",
+    'font.family': 'serif',
+    'text.usetex': True,
+    'pgf.rcfonts': False,
+})
+
+
+plt.clf()
+plt.xlabel(r'$N_{sim}$')
+plt.ylabel(r'$R_{ol}$ (%)')
+plt.yticks(np.arange(0, 105, 10))
+plt.grid(axis='y', color='0.95')
+plt.plot(xx, yy1, linestyle='dotted', label=r'$C_m$: '+str(75)+'')
+plt.plot(xx, yy2, linestyle='dashed', label=r'$C_m$: '+str(100)+'')
+plt.plot(xx, yy3, linestyle='solid', label=r'$C_m$: '+str(150)+'')
+plt.plot(xx, yy4, linestyle=(5, (10, 3)), label=r'$C_m$: '+str(200)+'')
+plt.plot(xx, yy5, linestyle='dashdot', label=r'$C_m$: '+str(350)+'')
+plt.legend(title=r'$R_{ol}$ wrt. $N_{sim}$')
+
+plt.savefig("output/overloaded_channel_ratio.pdf", bbox_inches='tight')
+plt.savefig('output/overloaded_channel_ratio.pgf')
+
