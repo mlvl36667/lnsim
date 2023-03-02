@@ -1,1 +1,3 @@
 output/*
+.sim.cpp.swp
+sim
