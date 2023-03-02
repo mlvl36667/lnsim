@@ -13,13 +13,22 @@
 
 struct Edge
 {
-    int source, destination, weight;
+    int source, destination, routing_fee, capacity;
 };
 struct d_up
 {
     int at, from;
 };
+struct payment
+{
+    int from, to, amount;
+};
  
+struct path
+{
+    int len;
+    int* nodes;
+};
 struct Graph
 {
     int V, E;
@@ -34,6 +43,14 @@ struct Graph* createGraph(int V, int E)
     graph->edge = (struct Edge*) malloc( graph->E * sizeof( struct Edge ) );
     return graph;
 }
+struct payment* create_payment(int f, int t, int a)
+{
+    struct payment* pm = (struct payment*) malloc( sizeof(struct payment));
+    pm->from = f;   
+    pm->to = t;   
+    pm->amount = a;   
+    return pm;
+}
  
 void FinalSolution(int dist[], int n)
 {
@@ -45,21 +62,24 @@ void FinalSolution(int dist[], int n)
     }
 }
  
-void findpaths(int tonode, struct d_up* dup, int dcnt){
+void findpaths(int tonode, struct d_up* dup, int dcnt, struct path* pth){
 
     if(tonode == 0) {
-       printf("now at: %d \n",tonode);
+//       printf("now at: %d \n",tonode);
+       pth->nodes[pth->len] = 0;
     return;
     }
     for(int ii = dcnt - 1; ii > -1; ii--){
      if(tonode == dup[ii].at) {
-       printf("now at: %d \n",dup[ii].at);
-       findpaths(dup[ii].from, dup, dcnt);
+//       printf("now at: %d \n",dup[ii].at);
+       pth->nodes[pth->len] = dup[ii].at;
+       pth->len = pth->len + 1;
+       findpaths(dup[ii].from, dup, dcnt, pth);
      }
     }
  
 }
-void BellmanFord(struct Graph* graph)
+struct path* BellmanFord(struct Graph* graph, int to)
 {
     int V = graph->V;
  
@@ -87,10 +107,10 @@ void BellmanFord(struct Graph* graph)
  
             int v = graph->edge[j].destination;
  
-            int weight = graph->edge[j].weight;
+            int routing_fee = graph->edge[j].routing_fee;
  
-            if (StoreDistance[u] + weight < StoreDistance[v]){
-                StoreDistance[v] = StoreDistance[u] + weight;
+            if (StoreDistance[u] + routing_fee < StoreDistance[v]){
+                StoreDistance[v] = StoreDistance[u] + routing_fee;
                 printf("distance update at: %d from: %d \n",v, u);
 
                 int newelem = 0;
@@ -111,10 +131,13 @@ void BellmanFord(struct Graph* graph)
         }
     }
 
-    for(int ii=0;ii < 6; ii++){
-     printf("findpaths %d: \n",ii);
-     findpaths(ii, dup, dcnt);
-    }
+     struct path* pth = (path*)malloc(sizeof(path) );
+     pth->nodes = (int*)malloc(sizeof(int) * graph->E );
+     pth->len = 0;
+     printf("findpaths %d: \n",to);
+     findpaths(to, dup, dcnt, pth);
+
+
 
     free(dup);
  
@@ -125,15 +148,15 @@ void BellmanFord(struct Graph* graph)
  
         int v = graph->edge[i].destination;
  
-        int weight = graph->edge[i].weight;
+        int routing_fee = graph->edge[i].routing_fee;
  
-        if (StoreDistance[u] + weight < StoreDistance[v])
+        if (StoreDistance[u] + routing_fee < StoreDistance[v])
             printf("This graph contains negative edge cycle\n");
     }
  
     FinalSolution(StoreDistance, V);
  
-    return;
+    return pth;
 }
  
 void read_ints (const char* file_name, Graph* graph)
@@ -155,7 +178,8 @@ void read_ints (const char* file_name, Graph* graph)
        graph->edge[counter].destination = i;
       }
       if(ii % 3 == 2){
-       graph->edge[counter].weight = i;
+       graph->edge[counter].routing_fee = i;
+       graph->edge[counter].capacity = 100;
        counter = counter + 1;
       }
 
@@ -164,11 +188,11 @@ void read_ints (const char* file_name, Graph* graph)
     }
   fclose (file);        
 }
-void set_routing_fee(struct Graph* graph, int source, int destination, int weight ){
+void set_routing_fee(struct Graph* graph, int source, int destination, int routing_fee ){
         for (int j = 0; j < graph->E; j++)
         {
           if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
-           graph->edge[j].weight = weight;
+           graph->edge[j].routing_fee = routing_fee;
            return;
           }
           
@@ -176,6 +200,44 @@ void set_routing_fee(struct Graph* graph, int source, int destination, int weigh
         
  printf(" No such edge: %d %d \n", source,destination);
  return;
+}
+
+void reduce_cap(struct Graph* graph, int source, int destination, int amt ){
+        for (int j = 0; j < graph->E; j++)
+        {
+          if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
+           graph->edge[j].capacity = graph->edge[j].capacity - amt;
+           return;
+          }
+          
+        }
+        
+ printf(" No such edge: %d %d \n", source,destination);
+ return;
+}
+
+void print_graph(struct Graph* graph){
+ for (int j = 0; j < graph->E; j++){
+  printf("G.add_edge(\"%d\", \"%d\", weight=%d)  \n", graph->edge[j].source, graph->edge[j].destination, graph->edge[j].capacity);
+//  printf("G.add_edge(\"%d\", \"%d\", weight=%d)  \n", graph->edge[j].source, graph->edge[j].destination, graph->edge[j].routing_fee);
+ }
+ return;
+}
+int send_payment(struct payment* pm, struct Graph* graph){
+ printf("sending payment from %d to %d amount: %d  \n",pm->from,pm->to,pm->amount);
+
+ struct path* pth = BellmanFord(graph, pm->to);
+
+ printf("sp len: %d \n",pth->len);
+ for(int jj=1; jj < pth->len+1 ; jj++){
+  printf(" %d ->", pth->nodes[jj]);
+  reduce_cap(graph, pth->nodes[jj], pth->nodes[jj-1], pm->amount );
+ }
+
+ printf(" \n");
+    print_graph(graph);
+
+ return 0;
 }
 int main(int argc, char *argv[])
 {
@@ -185,15 +247,15 @@ int main(int argc, char *argv[])
     sscanf (argv[2],"%d",&E);
 
     struct Graph* graph = createGraph(V, E);
+    struct payment* pm = create_payment(0, 3, 2);
  
     int i;
 
     read_ints("topology", graph);
+    print_graph(graph);
 
     set_routing_fee(graph, 1, 4, 2);
-    BellmanFord(graph);
-    set_routing_fee(graph, 1, 4, 20);
-    BellmanFord(graph);
+    send_payment(pm, graph);
  
     return 0;
 }
