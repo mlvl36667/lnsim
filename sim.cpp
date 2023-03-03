@@ -1,4 +1,6 @@
 // ########################################################################################
+// #### Bitcoin Lightning Network Simulator of Payment Forwarding Requests    #############
+// ########################################################################################
 // #### Developed by Bence Ladoczki <ladoczki@tmit.bme.hu> 2022-23  #######################
 // ####               All rights reserved                           #######################
 // ########################################################################################
@@ -79,7 +81,7 @@ void findpaths(int tonode, struct d_up* dup, int dcnt, struct path* pth){
     }
  
 }
-struct path* BellmanFord(struct Graph* graph, int to)
+struct path* BellmanFord(struct Graph* graph, int to, int amt)
 {
     int V = graph->V;
  
@@ -109,24 +111,26 @@ struct path* BellmanFord(struct Graph* graph, int to)
  
             int routing_fee = graph->edge[j].routing_fee;
  
-            if (StoreDistance[u] + routing_fee < StoreDistance[v]){
-                StoreDistance[v] = StoreDistance[u] + routing_fee;
-                printf("distance update at: %d from: %d \n",v, u);
+            if(graph->edge[j].capacity > amt){ /* use channels with enough capacity */
+             if (StoreDistance[u] + routing_fee < StoreDistance[v]){
+                 StoreDistance[v] = StoreDistance[u] + routing_fee;
+                 printf("distance update at: %d from: %d \n",v, u);
 
-                int newelem = 0;
-                for(int ii = 0; ii < dcnt; ii++){
-                 if(dup[ii].at == v){
-                  dup[ii].from = u;
-                  newelem = 1;
-                 }
-                 }
-
-                  if(newelem == 0){
-                   dup[dcnt].at = v;
-                   dup[dcnt].from = u;
+                 int newelem = 0;
+                 for(int ii = 0; ii < dcnt; ii++){
+                  if(dup[ii].at == v){
+                   dup[ii].from = u;
+                   newelem = 1;
+                  }
                   }
 
-                dcnt = dcnt + 1;
+                   if(newelem == 0){
+                    dup[dcnt].at = v;
+                    dup[dcnt].from = u;
+                   }
+
+                 dcnt = dcnt + 1;
+             }
             }
         }
     }
@@ -202,11 +206,37 @@ void set_routing_fee(struct Graph* graph, int source, int destination, int routi
  return;
 }
 
+void update_routing_fees(struct Graph* graph){
+    for (int i = 0; i <= graph->V ; i++)
+    {
+        for (int j = 0; j < graph->E; j++)
+        {
+// TODO how to set this?
+          if(graph->edge[j].source == i && graph->edge[j].capacity < 50){
+           graph->edge[j].routing_fee = graph->edge[j].routing_fee - graph->edge[j].routing_fee*0.3;
+          }
+        }
+     }
+ return;
+}
 void reduce_cap(struct Graph* graph, int source, int destination, int amt ){
         for (int j = 0; j < graph->E; j++)
         {
           if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
            graph->edge[j].capacity = graph->edge[j].capacity - amt;
+           return;
+          }
+          
+        }
+        
+ printf(" No such edge: %d %d \n", source,destination);
+ return;
+}
+void increase_cap(struct Graph* graph, int source, int destination, int amt ){
+        for (int j = 0; j < graph->E; j++)
+        {
+          if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
+           graph->edge[j].capacity = graph->edge[j].capacity + amt;
            return;
           }
           
@@ -226,17 +256,17 @@ void print_graph(struct Graph* graph){
 int send_payment(struct payment* pm, struct Graph* graph){
  printf("sending payment from %d to %d amount: %d  \n",pm->from,pm->to,pm->amount);
 
- struct path* pth = BellmanFord(graph, pm->to);
+ struct path* pth = BellmanFord(graph, pm->to, pm->amount);
 
  printf("sp len: %d \n",pth->len);
  for(int jj=1; jj < pth->len+1 ; jj++){
   printf(" %d ->", pth->nodes[jj]);
   reduce_cap(graph, pth->nodes[jj], pth->nodes[jj-1], pm->amount );
+  increase_cap(graph, pth->nodes[jj-1], pth->nodes[jj], pm->amount );
  }
 
  printf(" \n");
-    print_graph(graph);
-
+ free(pm);
  return 0;
 }
 int main(int argc, char *argv[])
@@ -247,15 +277,22 @@ int main(int argc, char *argv[])
     sscanf (argv[2],"%d",&E);
 
     struct Graph* graph = createGraph(V, E);
-    struct payment* pm = create_payment(0, 3, 2);
  
     int i;
 
     read_ints("topology", graph);
     print_graph(graph);
 
-    set_routing_fee(graph, 1, 4, 2);
-    send_payment(pm, graph);
+    set_routing_fee(graph, 1, 2, 2);
+
+    send_payment(create_payment(0, 3, 40), graph);
+    update_routing_fees(graph);
+    send_payment(create_payment(0, 3, 50), graph);
+    update_routing_fees(graph);
+    send_payment(create_payment(0, 3, 20), graph);
+    update_routing_fees(graph);
+
+    print_graph(graph);
  
     return 0;
 }
