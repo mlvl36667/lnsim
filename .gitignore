@@ -1,3 +1,5 @@
 output/*
 .sim.cpp.swp
 sim
+vis
+res
