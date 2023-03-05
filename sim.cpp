@@ -13,8 +13,10 @@
 #include <string.h>
 #include <limits.h>
 
-#define MAX_NUMBER_OF_PAYMENTS 10000
+#define MAX_NUMBER_OF_PAYMENTS 100000
 #define AMT_AVG 10
+#define FEE_CORRECTION 0
+#define CAPACITY_LIMIT 900
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
@@ -258,6 +260,10 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
             int v = graph->edge[j].destination;
  
             int routing_fee = graph->edge[j].routing_fee;
+
+            if(graph->edge[j].capacity > CAPACITY_LIMIT){
+             routing_fee = 0;
+            }
  
 //            printf("%d. trying edge: %d from: %d %d \n",j, v, u, routing_fee);
             if(graph->edge[j].capacity > amt){ /* use channels with enough capacity */
@@ -382,7 +388,7 @@ int reduce_cap(struct Graph* graph, int source, int destination, int amt ){
            graph->edge[j].capacity = graph->edge[j].capacity - amt;
 
            if(graph->edge[j].capacity < 700) {
-            graph->edge[j].routing_fee = graph->edge[j].routing_fee + 1;
+            graph->edge[j].routing_fee = graph->edge[j].routing_fee + FEE_CORRECTION;
 //            printf("Warning, low capacity (<100) \n");
 //            print_graph(graph);
             return 1;
@@ -402,7 +408,7 @@ void increase_cap(struct Graph* graph, int source, int destination, int amt ){
           if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
            graph->edge[j].capacity = graph->edge[j].capacity + amt;
            if(graph->edge[j].capacity > 1050) {
-           graph->edge[j].routing_fee = MAX(graph->edge[j].routing_fee - 1,0);
+           graph->edge[j].routing_fee = MAX(graph->edge[j].routing_fee - FEE_CORRECTION,0);
            }
            return;
           }
@@ -494,10 +500,10 @@ int main(int argc, char *argv[])
 // Simulate payments:
     for(int ii=0; ii < MAX_NUMBER_OF_PAYMENTS; ii++){
      if(ii == MAX_NUMBER_OF_PAYMENTS - 1){
-      fprintf(out_file, "[%d, %d, %d, %d, %d, %d] ",ii, get_channel_capacity(9,7, graph), get_channel_capacity(2,1, graph), get_channel_capacity(0,1, graph), get_channel_capacity(6,10, graph), get_channel_capacity(6,1, graph));
+      fprintf(out_file, "[%d, %d, %d, %d, %d] ",ii, get_channel_capacity(6,1, graph), get_channel_capacity(6,9, graph), get_channel_capacity(6,8, graph), get_channel_capacity(6,10, graph));
      }
      else{
-      fprintf(out_file, "[%d, %d, %d, %d, %d, %d], \n",ii, get_channel_capacity(9,7, graph), get_channel_capacity(2,1, graph), get_channel_capacity(0,1, graph), get_channel_capacity(6,10, graph), get_channel_capacity(6,1, graph));
+      fprintf(out_file, "[%d, %d, %d, %d, %d], \n",ii, get_channel_capacity(6,1, graph), get_channel_capacity(6,9, graph), get_channel_capacity(6,8, graph), get_channel_capacity(6,10, graph));
      }
      from = get_random_number() % V;
      to = get_random_number() % V;
@@ -516,10 +522,12 @@ int main(int argc, char *argv[])
  fprintf(out_file, "]");
  fclose(out_file);
  printf("cc: %d \n",cc);
- printf(" %5.3f \n",(float)(cc) / (float)MAX_NUMBER_OF_PAYMENTS);
+ printf(" %5.3f \n",(float)(100*cc) / (float)MAX_NUMBER_OF_PAYMENTS);
     for(int ii=0; ii < V; ii++){
  printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
     }
+    free(graph->edge);
+    free(graph);
 // szimulálni jó sok fizetést és megnézni hogyan ürülnek ki a csatornák, majd frissíteni a csúcsok fee-jét bizonyos dinamikus stratégiákkal
 // bele kell rakni a profit képletét is
 // ki kell tudni számolni egy kollektív profitot is --> ezt kellene maximalizálni valahogyan
