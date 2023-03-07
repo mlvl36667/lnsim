@@ -17,7 +17,7 @@
 #define NUM_SIM 10
 #define AMT_AVG 10
 #define FEE_CORRECTION 0
-#define CAPACITY_LIMIT 800000
+#define CAPACITY_LIMIT 800
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
@@ -503,7 +503,7 @@ int main(int argc, char *argv[])
     int cc = 0;
 // Simulate payments:
     for(int ii=0; ii < MAX_NUMBER_OF_PAYMENTS; ii++){
-      sim_res[isim][ii] = get_channel_capacity(6,1, graph);
+      sim_res[isim][ii] = get_channel_capacity(6,8, graph);
       from = get_random_number() % V;
       to = get_random_number() % V;
       while(to == from){
@@ -540,21 +540,22 @@ int main(int argc, char *argv[])
      int res7 = sim_res[7][ii];
      int res8 = sim_res[8][ii];
      int res9 = sim_res[9][ii];
+      int av = (res0+res1+res2+res3+res4+res5+res6+res7+res8+res9)/10;
       fprintf(out_file, "[%d,",ii );
-      fprintf(out_file, "%d, ",res0 );
-      fprintf(out_file, "%d, ",res1 );
-      fprintf(out_file, "%d, ",res2 );
-      fprintf(out_file, "%d, ",res3 );
-      fprintf(out_file, "%d, ",res4 );
-      fprintf(out_file, "%d, ",res5 );
-      fprintf(out_file, "%d, ",res6 );
-      fprintf(out_file, "%d, ",res7 );
-      fprintf(out_file, "%d, ",res8 );
+//      fprintf(out_file, "%d, ",res0 );
+//      fprintf(out_file, "%d, ",res1 );
+//      fprintf(out_file, "%d, ",res2 );
+//      fprintf(out_file, "%d, ",res3 );
+//      fprintf(out_file, "%d, ",res4 );
+//      fprintf(out_file, "%d, ",res5 );
+//      fprintf(out_file, "%d, ",res6 );
+//      fprintf(out_file, "%d, ",res7 );
+//      fprintf(out_file, "%d, ",res8 );
      if(ii < MAX_NUMBER_OF_PAYMENTS - 1){
-      fprintf(out_file, "%d ], \n ",res9 );
+      fprintf(out_file, "%d ], \n ",av );
      }
      else{
-      fprintf(out_file, "%d ]\n ",res9 );
+      fprintf(out_file, "%d ]\n ",av );
      }
     }
 
