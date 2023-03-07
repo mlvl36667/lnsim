@@ -13,10 +13,11 @@
 #include <string.h>
 #include <limits.h>
 
-#define MAX_NUMBER_OF_PAYMENTS 100000
+#define MAX_NUMBER_OF_PAYMENTS 10000
+#define NUM_SIM 10
 #define AMT_AVG 10
 #define FEE_CORRECTION 0
-#define CAPACITY_LIMIT 900
+#define CAPACITY_LIMIT 800000
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
@@ -482,6 +483,11 @@ int main(int argc, char *argv[])
     sscanf (argv[3],"%d",&from);
     sscanf (argv[4],"%d",&to);
 
+    int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
+     for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*MAX_NUMBER_OF_PAYMENTS);
+
+    for(int isim = 0; isim < NUM_SIM; isim++){
+
     struct Graph* graph = createGraph(V, E);
  
     int i;
@@ -495,39 +501,65 @@ int main(int argc, char *argv[])
 
     set_routing_fee(graph, 1, 2, 2);
     int cc = 0;
-    FILE *out_file = fopen("vis", "w"); // write only
-    fprintf(out_file, "[");
 // Simulate payments:
     for(int ii=0; ii < MAX_NUMBER_OF_PAYMENTS; ii++){
-     if(ii == MAX_NUMBER_OF_PAYMENTS - 1){
-      fprintf(out_file, "[%d, %d, %d, %d, %d] ",ii, get_channel_capacity(6,1, graph), get_channel_capacity(6,9, graph), get_channel_capacity(6,8, graph), get_channel_capacity(6,10, graph));
+      sim_res[isim][ii] = get_channel_capacity(6,1, graph);
+      from = get_random_number() % V;
+      to = get_random_number() % V;
+      while(to == from){
+       to = get_random_number() % V;
+      }
+      int amt = get_random_number() % AMT_AVG;
+      while(amt == 0){
+       amt = get_random_number() % AMT_AVG;
+      }
+
+      cc = cc + send_payment(create_payment(from, to, amt), graph, number_of_forwarded_payments);
+//      print_graph(graph);
+    }
+
+    printf("cc: %d \n",cc);
+    printf(" %5.3f \n",(float)(100*cc) / (float)MAX_NUMBER_OF_PAYMENTS);
+    for(int ii=0; ii < V; ii++){
+     printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
+    }
+    free(graph->edge);
+    free(graph);
+    }
+
+    FILE *out_file = fopen("vis", "w"); // write only
+    fprintf(out_file, "[");
+    for(int ii = 0; ii < MAX_NUMBER_OF_PAYMENTS; ii++){
+     int res0 = sim_res[0][ii];
+     int res1 = sim_res[1][ii];
+     int res2 = sim_res[2][ii];
+     int res3 = sim_res[3][ii];
+     int res4 = sim_res[4][ii];
+     int res5 = sim_res[5][ii];
+     int res6 = sim_res[6][ii];
+     int res7 = sim_res[7][ii];
+     int res8 = sim_res[8][ii];
+     int res9 = sim_res[9][ii];
+      fprintf(out_file, "[%d,",ii );
+      fprintf(out_file, "%d, ",res0 );
+      fprintf(out_file, "%d, ",res1 );
+      fprintf(out_file, "%d, ",res2 );
+      fprintf(out_file, "%d, ",res3 );
+      fprintf(out_file, "%d, ",res4 );
+      fprintf(out_file, "%d, ",res5 );
+      fprintf(out_file, "%d, ",res6 );
+      fprintf(out_file, "%d, ",res7 );
+      fprintf(out_file, "%d, ",res8 );
+     if(ii < MAX_NUMBER_OF_PAYMENTS - 1){
+      fprintf(out_file, "%d ], \n ",res9 );
      }
      else{
-      fprintf(out_file, "[%d, %d, %d, %d, %d], \n",ii, get_channel_capacity(6,1, graph), get_channel_capacity(6,9, graph), get_channel_capacity(6,8, graph), get_channel_capacity(6,10, graph));
+      fprintf(out_file, "%d ]\n ",res9 );
      }
-     from = get_random_number() % V;
-     to = get_random_number() % V;
-     while(to == from){
-      to = get_random_number() % V;
-     }
-     int amt = get_random_number() % AMT_AVG;
-     while(amt == 0){
-      amt = get_random_number() % AMT_AVG;
-     }
-
-     cc = cc + send_payment(create_payment(from, to, amt), graph, number_of_forwarded_payments);
-//     print_graph(graph);
     }
 
  fprintf(out_file, "]");
  fclose(out_file);
- printf("cc: %d \n",cc);
- printf(" %5.3f \n",(float)(100*cc) / (float)MAX_NUMBER_OF_PAYMENTS);
-    for(int ii=0; ii < V; ii++){
- printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
-    }
-    free(graph->edge);
-    free(graph);
 // szimulálni jó sok fizetést és megnézni hogyan ürülnek ki a csatornák, majd frissíteni a csúcsok fee-jét bizonyos dinamikus stratégiákkal
 // bele kell rakni a profit képletét is
 // ki kell tudni számolni egy kollektív profitot is --> ezt kellene maximalizálni valahogyan
