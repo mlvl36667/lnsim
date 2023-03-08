@@ -539,7 +539,6 @@ int main(int argc, char *argv[])
     for(int isim = 0; isim < NUM_SIM; isim++){
     
     printf("thread ID: %d \n",omp_get_thread_num());
-    if( isim % 4 == omp_get_thread_num() ){
 
     struct Graph* graph = createGraph(V, E);
  
@@ -587,7 +586,6 @@ t = clock() - t;
 //     }
 //     free(graph->edge);
 //     free(graph);
-     }
      }
 // 
 //     FILE *out_file = fopen("vis", "w"); // write only
