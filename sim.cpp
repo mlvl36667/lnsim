@@ -535,8 +535,10 @@ int main(int argc, char *argv[])
     int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
      for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*MAX_NUMBER_OF_PAYMENTS);
 
+    #pragma omp parallel for num_threads(4)
     for(int isim = 0; isim < NUM_SIM; isim++){
     
+    printf("thread ID: %d \n",omp_get_thread_num());
     if( isim % 4 == omp_get_thread_num() ){
 
     struct Graph* graph = createGraph(V, E);
@@ -548,7 +550,7 @@ int main(int argc, char *argv[])
      number_of_forwarded_payments[ii] = 0;
     }
 
-    printf("Loading topology... \n");
+    printf("Loading topology... %d %d \n", omp_get_thread_num(), isim);
     clock_t t;
 t  = clock();
     load_topology("ln_topology", graph, 1000);
