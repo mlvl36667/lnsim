@@ -12,9 +12,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
+#include <time.h>
 
-#define MAX_NUMBER_OF_PAYMENTS 10000
-#define NUM_SIM 10
+#define MAX_NUMBER_OF_PAYMENTS 100
+#define NUM_SIM 1
 #define AMT_AVG 10
 #define FEE_CORRECTION 0
 #define CAPACITY_LIMIT 800
@@ -23,7 +24,7 @@
 
 struct Edge
 {
-    int source, destination, routing_fee, capacity;
+    int source, destination, routing_fee, capacity, base_fee, variable_fee;
 };
 struct d_up
 {
@@ -219,21 +220,14 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
  
     int i,j;
  
-    struct d_up* dup = (d_up*)malloc(sizeof(d_up)*E*(V-1));
-
-    for(i=0;i<E*(V-1);i++){
-     dup[i].at = -1;
-     dup[i].from = -1;
-    }
-
 //    print_graph(graph);
-
     if(from != 0){
      struct Graph* new_graph = createGraph(graph->V, graph->E);
      new_graph->V = graph->V;
      new_graph->E = graph->E;
      int new_to = map_vertices(graph, new_graph, from, to);
      struct path* pth2 = BellmanFord(new_graph, 0, new_to, amt);
+     free(new_graph);
 
       for(int jj=0; jj < pth2->len + 1 ; jj++){
        pth2->nodes[jj] = pth2->nodes[jj] + from;
@@ -252,6 +246,46 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
     StoreDistance[from] = 0;
  
     int dcnt = 0;
+    for (i = 1; i <= V-1; i++)
+    {
+        for (j = 0; j < E; j++)
+        {
+            int u = graph->edge[j].source;
+            int v = graph->edge[j].destination;
+            int routing_fee = graph->edge[j].routing_fee;
+            if(graph->edge[j].capacity > CAPACITY_LIMIT){
+             routing_fee = 0;
+            }
+//            printf("%d. trying edge: %d from: %d %d \n",j, v, u, routing_fee);
+            if(graph->edge[j].capacity > amt){ /* use channels with enough capacity */
+             if (StoreDistance[u] + routing_fee < StoreDistance[v] && StoreDistance[u] != INT_MAX){
+                 StoreDistance[v] = StoreDistance[u] + routing_fee;
+//                 printf("%d. distance update at: %d from: %d %d %d \n",j, v, u, routing_fee, StoreDistance[u]);
+                 dcnt = dcnt + 1;
+             }
+            }
+        }
+    }
+
+     struct d_up* dup = (d_up*)malloc(sizeof(d_up)*(dcnt));
+     if(dup == NULL){
+       printf(" memory error in BellmanFord...\n");
+       exit(1);
+     }
+     else{
+      printf("mem allocated (Kb): %lu dcnt: %d \n",sizeof(d_up)*(dcnt+1)/(1024), dcnt);
+     }
+    for(i=0;i< dcnt;i++){
+     dup[i].at = -1;
+     dup[i].from = -1;
+    }
+
+    for (i = 0; i < V; i++)
+        StoreDistance[i] = INT_MAX;
+ 
+    StoreDistance[from] = 0;
+ 
+    dcnt = 0;
     for (i = 1; i <= V-1; i++)
     {
         for (j = 0; j < E; j++)
@@ -308,19 +342,19 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
     free(dup);
  
  
-    for (i = 0; i < E; i++)
-    {
-        int u = graph->edge[i].source;
- 
-        int v = graph->edge[i].destination;
- 
-        int routing_fee = graph->edge[i].routing_fee;
- 
-//        if (StoreDistance[u] + routing_fee < StoreDistance[v])
-//            printf("This graph contains negative edge cycle\n");
-    }
- 
-//    FinalSolution(StoreDistance, V);
+//     for (i = 0; i < E; i++)
+//     {
+//         int u = graph->edge[i].source;
+//  
+//         int v = graph->edge[i].destination;
+//  
+//         int routing_fee = graph->edge[i].routing_fee;
+//  
+// //        if (StoreDistance[u] + routing_fee < StoreDistance[v])
+// //            printf("This graph contains negative edge cycle\n");
+//     }
+//  
+// //    FinalSolution(StoreDistance, V);
  
     return pth;
 }
@@ -337,15 +371,19 @@ void load_topology(const char* file_name, Graph* graph, int cap)
     {  
       fscanf (file, "%d", &i);      
 
-      if(ii % 3 == 0){
+      if(ii % 4 == 0){
        graph->edge[counter].source = i;
       }
-      if(ii % 3 == 1){
+      if(ii % 4 == 1){
        graph->edge[counter].destination = i;
       }
-      if(ii % 3 == 2){
+      if(ii % 4 == 2){
        graph->edge[counter].routing_fee = i;
+       graph->edge[counter].base_fee = i;
        graph->edge[counter].capacity = cap;
+      }
+      if(ii % 4 == 3){
+       graph->edge[counter].variable_fee = i;
        counter = counter + 1;
       }
 
@@ -436,25 +474,31 @@ int get_channel_capacity(int from, int to, struct Graph* graph){
 int send_payment(struct payment* pm, struct Graph* graph, int* nofp){
  int capacity_critical;
 
-// printf("sending payment from %d to %d amount: %d  \n",pm->from,pm->to,pm->amount);
+ printf("sending payment from %d to %d amount: %d  \n",pm->from,pm->to,pm->amount);
 
- struct path* pth = BellmanFord(graph, pm->from, pm->to, pm->amount);
+    clock_t t;
+    t  = clock();
+    struct path* pth = BellmanFord(graph, pm->from, pm->to, pm->amount);
+    t = clock() - t;
+    double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
+    printf("BellmanFord() took %f seconds to execute \n", time_taken);
+
 
  capacity_critical = 0;
-// printf("sp len: %d \n",pth->len);
-// printf(" %d ->", pth->nodes[0]);
+ printf("sp len: %d \n",pth->len);
+ printf(" %d ->", pth->nodes[0]);
  for(int jj=1; jj < pth->len+1 ; jj++){
   if(jj == pth->len){
- //  printf(" %d ", pth->nodes[jj]);
+  printf(" %d ", pth->nodes[jj]);
   }
   else{
-//   printf(" %d ->", pth->nodes[jj]);
+   printf(" %d ->", pth->nodes[jj]);
    nofp[pth->nodes[jj]] = nofp[pth->nodes[jj]] + 1;
   }
   capacity_critical = reduce_cap(graph, pth->nodes[jj], pth->nodes[jj-1], pm->amount );
   increase_cap(graph, pth->nodes[jj-1], pth->nodes[jj], pm->amount );
  }
-// printf(" \n");
+ printf(" \n");
 
  free(pm);
  free(pth->nodes);
@@ -477,6 +521,7 @@ int main(int argc, char *argv[])
 {
     int V,E; 
     int from,to; 
+    clock_t start, end;
  
     sscanf (argv[1],"%d",&V);
     sscanf (argv[2],"%d",&E);
@@ -497,13 +542,22 @@ int main(int argc, char *argv[])
      number_of_forwarded_payments[ii] = 0;
     }
 
-    load_topology("topology", graph, 1000);
+    printf("Loading topology... \n");
+    clock_t t;
+t  = clock();
+    load_topology("ln_topology", graph, 1000);
+     end = clock();
+    printf("Topology loaded... \n");
+t = clock() - t;
+   double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
+    printf("topology() took %f seconds to execute \n", time_taken);
 
-    set_routing_fee(graph, 1, 2, 2);
+//    set_routing_fee(graph, 1, 2, 2);
     int cc = 0;
 // Simulate payments:
     for(int ii=0; ii < MAX_NUMBER_OF_PAYMENTS; ii++){
-      sim_res[isim][ii] = get_channel_capacity(6,8, graph);
+//      sim_res[isim][ii] = get_channel_capacity(6,8, graph);
+
       from = get_random_number() % V;
       to = get_random_number() % V;
       while(to == from){
@@ -518,49 +572,49 @@ int main(int argc, char *argv[])
 //      print_graph(graph);
     }
 
-    printf("cc: %d \n",cc);
-    printf(" %5.3f \n",(float)(100*cc) / (float)MAX_NUMBER_OF_PAYMENTS);
-    for(int ii=0; ii < V; ii++){
-     printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
-    }
-    free(graph->edge);
-    free(graph);
-    }
-
-    FILE *out_file = fopen("vis", "w"); // write only
-    fprintf(out_file, "[");
-    for(int ii = 0; ii < MAX_NUMBER_OF_PAYMENTS; ii++){
-     int res0 = sim_res[0][ii];
-     int res1 = sim_res[1][ii];
-     int res2 = sim_res[2][ii];
-     int res3 = sim_res[3][ii];
-     int res4 = sim_res[4][ii];
-     int res5 = sim_res[5][ii];
-     int res6 = sim_res[6][ii];
-     int res7 = sim_res[7][ii];
-     int res8 = sim_res[8][ii];
-     int res9 = sim_res[9][ii];
-      int av = (res0+res1+res2+res3+res4+res5+res6+res7+res8+res9)/10;
-      fprintf(out_file, "[%d,",ii );
-//      fprintf(out_file, "%d, ",res0 );
-//      fprintf(out_file, "%d, ",res1 );
-//      fprintf(out_file, "%d, ",res2 );
-//      fprintf(out_file, "%d, ",res3 );
-//      fprintf(out_file, "%d, ",res4 );
-//      fprintf(out_file, "%d, ",res5 );
-//      fprintf(out_file, "%d, ",res6 );
-//      fprintf(out_file, "%d, ",res7 );
-//      fprintf(out_file, "%d, ",res8 );
-     if(ii < MAX_NUMBER_OF_PAYMENTS - 1){
-      fprintf(out_file, "%d ], \n ",av );
+//     printf("cc: %d \n",cc);
+//     printf(" %5.3f \n",(float)(100*cc) / (float)MAX_NUMBER_OF_PAYMENTS);
+//     for(int ii=0; ii < V; ii++){
+//      printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
+//     }
+//     free(graph->edge);
+//     free(graph);
      }
-     else{
-      fprintf(out_file, "%d ]\n ",av );
-     }
-    }
-
- fprintf(out_file, "]");
- fclose(out_file);
+// 
+//     FILE *out_file = fopen("vis", "w"); // write only
+//     fprintf(out_file, "[");
+//     for(int ii = 0; ii < MAX_NUMBER_OF_PAYMENTS; ii++){
+//      int res0 = sim_res[0][ii];
+//      int res1 = sim_res[1][ii];
+//      int res2 = sim_res[2][ii];
+//      int res3 = sim_res[3][ii];
+//      int res4 = sim_res[4][ii];
+//      int res5 = sim_res[5][ii];
+//      int res6 = sim_res[6][ii];
+//      int res7 = sim_res[7][ii];
+//      int res8 = sim_res[8][ii];
+//      int res9 = sim_res[9][ii];
+//       int av = (res0+res1+res2+res3+res4+res5+res6+res7+res8+res9)/10;
+//       fprintf(out_file, "[%d,",ii );
+// //      fprintf(out_file, "%d, ",res0 );
+// //      fprintf(out_file, "%d, ",res1 );
+// //      fprintf(out_file, "%d, ",res2 );
+// //      fprintf(out_file, "%d, ",res3 );
+// //      fprintf(out_file, "%d, ",res4 );
+// //      fprintf(out_file, "%d, ",res5 );
+// //      fprintf(out_file, "%d, ",res6 );
+// //      fprintf(out_file, "%d, ",res7 );
+// //      fprintf(out_file, "%d, ",res8 );
+//      if(ii < MAX_NUMBER_OF_PAYMENTS - 1){
+//       fprintf(out_file, "%d ], \n ",av );
+//      }
+//      else{
+//       fprintf(out_file, "%d ]\n ",av );
+//      }
+//     }
+// 
+//  fprintf(out_file, "]");
+//  fclose(out_file);
 // szimulálni jó sok fizetést és megnézni hogyan ürülnek ki a csatornák, majd frissíteni a csúcsok fee-jét bizonyos dinamikus stratégiákkal
 // bele kell rakni a profit képletét is
 // ki kell tudni számolni egy kollektív profitot is --> ezt kellene maximalizálni valahogyan
