@@ -530,15 +530,12 @@ int main(int argc, char *argv[])
     sscanf (argv[3],"%d",&from);
     sscanf (argv[4],"%d",&to);
 
-    #pragma omp parallel
-    printf("Hello from process: %d\n", omp_get_thread_num());
     int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
      for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*MAX_NUMBER_OF_PAYMENTS);
 
     #pragma omp parallel for num_threads(4)
     for(int isim = 0; isim < NUM_SIM; isim++){
     
-    printf("thread ID: %d \n",omp_get_thread_num());
 
     struct Graph* graph = createGraph(V, E);
  
@@ -549,16 +546,18 @@ int main(int argc, char *argv[])
      number_of_forwarded_payments[ii] = 0;
     }
 
-    printf("Loading topology... %d %d \n", omp_get_thread_num(), isim);
-    clock_t t;
-t  = clock();
-    load_topology("ln_topology", graph, 1000);
-     end = clock();
-    printf("Topology loaded... \n");
-t = clock() - t;
-   double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
-    printf("topology() took %f seconds to execute \n", time_taken);
 
+    clock_t t;
+    #pragma omp critical
+    {
+    printf("Loading topology... %d %d \n", omp_get_thread_num(), isim);
+    t  = clock();
+    load_topology("ln_topology", graph, 1000);
+    printf("Topology loaded... \n");
+    t = clock() - t;
+    double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
+    printf("topology() took %f seconds to execute \n", time_taken);
+    }
 //    set_routing_fee(graph, 1, 2, 2);
     int cc = 0;
 // Simulate payments:
