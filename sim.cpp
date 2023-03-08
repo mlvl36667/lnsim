@@ -13,6 +13,7 @@
 #include <string.h>
 #include <limits.h>
 #include <time.h>
+#include <omp.h>
 
 #define MAX_NUMBER_OF_PAYMENTS 100
 #define NUM_SIM 1
@@ -528,6 +529,8 @@ int main(int argc, char *argv[])
     sscanf (argv[3],"%d",&from);
     sscanf (argv[4],"%d",&to);
 
+    #pragma omp parallel
+    printf(“Hello from process: %d\n”, omp_get_thread_num());
     int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
      for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*MAX_NUMBER_OF_PAYMENTS);
 
