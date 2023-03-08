@@ -4,7 +4,8 @@
 // #### Developed by Bence Ladoczki <ladoczki@tmit.bme.hu> 2022-23  #######################
 // ####               All rights reserved                           #######################
 // ########################################################################################
-// # run: gcc -o sim sim.cpp && ./sim 11 32 3 10 | tee res          #######################
+// # install: sudo apt install libomp-dev
+// # run: export OMP_NUM_THREADS=4 && g++ -o sim sim.cpp -fopenmp && ./sim 14160 141698 0 990
 // ########################################################################################
 // ########################################################################################
 
@@ -15,8 +16,8 @@
 #include <time.h>
 #include <omp.h>
 
-#define MAX_NUMBER_OF_PAYMENTS 100
-#define NUM_SIM 1
+#define MAX_NUMBER_OF_PAYMENTS 1
+#define NUM_SIM 10
 #define AMT_AVG 10
 #define FEE_CORRECTION 0
 #define CAPACITY_LIMIT 800
@@ -530,11 +531,13 @@ int main(int argc, char *argv[])
     sscanf (argv[4],"%d",&to);
 
     #pragma omp parallel
-    printf(“Hello from process: %d\n”, omp_get_thread_num());
+    printf("Hello from process: %d\n", omp_get_thread_num());
     int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
      for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*MAX_NUMBER_OF_PAYMENTS);
 
     for(int isim = 0; isim < NUM_SIM; isim++){
+    
+    if( isim % 4 == omp_get_thread_num() ){
 
     struct Graph* graph = createGraph(V, E);
  
@@ -582,6 +585,7 @@ t = clock() - t;
 //     }
 //     free(graph->edge);
 //     free(graph);
+     }
      }
 // 
 //     FILE *out_file = fopen("vis", "w"); // write only
