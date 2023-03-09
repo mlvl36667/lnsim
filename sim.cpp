@@ -16,9 +16,9 @@
 #include <time.h>
 #include <omp.h>
 
-#define MAX_NUMBER_OF_PAYMENTS 100
-#define NUM_SIM 10
-#define AMT_AVG 10
+#define MAX_NUMBER_OF_PAYMENTS 10000
+#define NUM_SIM 1
+#define AMT_AVG 100
 #define FEE_CORRECTION 0
 #define CAPACITY_LIMIT 800
 
@@ -427,7 +427,7 @@ int reduce_cap(struct Graph* graph, int source, int destination, int amt ){
 
            if(graph->edge[j].capacity < 700) {
             graph->edge[j].routing_fee = graph->edge[j].routing_fee + FEE_CORRECTION;
-//            printf("Warning, low capacity (<100) \n");
+            printf("Warning, low capacity (<100) \n");
 //            print_graph(graph);
             return 1;
            }
@@ -521,6 +521,11 @@ int main(int argc, char *argv[])
     int V,E; 
     int from,to; 
     clock_t start, end;
+
+    time_t mytime = time(NULL);
+    char * time_str = ctime(&mytime);
+    time_str[strlen(time_str)-1] = '\0';
+    printf("Start Time : %s\n", time_str);
  
     sscanf (argv[1],"%d",&V);
     sscanf (argv[2],"%d",&E);
@@ -571,8 +576,9 @@ int main(int argc, char *argv[])
        amt = get_random_number() % AMT_AVG;
       }
 
+      printf(" %d. ",ii);
       cc = cc + send_payment(create_payment(from, to, amt), graph, number_of_forwarded_payments);
-//      print_graph(graph);
+      print_graph(graph);
     }
 
 //     printf("cc: %d \n",cc);
@@ -630,6 +636,10 @@ int main(int argc, char *argv[])
 //    update_routing_fees(graph);
 
 //    print_graph(graph);
+    mytime = time(NULL);
+    time_str = ctime(&mytime);
+    time_str[strlen(time_str)-1] = '\0';
+    printf("End Time : %s\n", time_str);
  
     return 0;
 }
