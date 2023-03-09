@@ -16,7 +16,7 @@
 #include <time.h>
 #include <omp.h>
 
-#define MAX_NUMBER_OF_PAYMENTS 1
+#define MAX_NUMBER_OF_PAYMENTS 100
 #define NUM_SIM 10
 #define AMT_AVG 10
 #define FEE_CORRECTION 0
@@ -372,7 +372,6 @@ void load_topology(const char* file_name, Graph* graph, int cap)
   while (!feof (file))
     {  
       fscanf (file, "%d", &i);      
-
       if(ii % 4 == 0){
        graph->edge[counter].source = i;
       }
@@ -388,9 +387,7 @@ void load_topology(const char* file_name, Graph* graph, int cap)
        graph->edge[counter].variable_fee = i;
        counter = counter + 1;
       }
-
       ii = ii + 1;
-
     }
   fclose (file);        
 }
@@ -550,13 +547,13 @@ int main(int argc, char *argv[])
     clock_t t;
     #pragma omp critical
     {
-    printf("Loading topology... %d %d \n", omp_get_thread_num(), isim);
-    t  = clock();
-    load_topology("ln_topology", graph, 1000);
-    printf("Topology loaded... \n");
-    t = clock() - t;
-    double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
-    printf("topology() took %f seconds to execute \n", time_taken);
+     printf("Loading topology... %d %d \n", omp_get_thread_num(), isim);
+     t  = clock();
+     load_topology("ln_topology", graph, 1000);
+     printf("Topology loaded... \n");
+     t = clock() - t;
+     double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
+     printf("topology() took %f seconds to execute \n", time_taken);
     }
 //    set_routing_fee(graph, 1, 2, 2);
     int cc = 0;
