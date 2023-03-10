@@ -17,7 +17,7 @@
 #include <omp.h>
 
 #define NUMBER_OF_PAYMENTS 10000
-#define NUM_SIM                1
+#define NUM_SIM                3
 #define TR_AMT            900000
 #define INIT_CAP         1000000
 #define FEE_CORRECTION      1000
@@ -398,13 +398,13 @@ void load_topology(const char* file_name, Graph* graph, int cap)
       }
       if(ii % 4 == 2){
        graph->edge[counter].routing_fee = i;
-       graph->edge[counter].base_fee = i;
+       graph->edge[counter].base_fee = 1000;
        graph->edge[counter].capacity = cap;
        graph->edge[counter].routing_revenue = 0;
        graph->edge[counter].number_of_routed_payments = 0;
       }
       if(ii % 4 == 3){
-       graph->edge[counter].variable_fee = i;
+       graph->edge[counter].variable_fee = 1000;
        counter = counter + 1;
       }
       ii = ii + 1;
@@ -484,16 +484,16 @@ int send_payment(struct payment* pm, struct Graph* graph, int* nofp){
  struct path* pth = BellmanFord(graph, pm->from, pm->to, pm->amount);
  t = clock() - t;
  double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
- printf("BellmanFord() took %f seconds to execute \n", time_taken);
+// printf("BellmanFord() took %f seconds to execute \n", time_taken);
 
 
  capacity_critical = 0;
 
- printf("sp len: %d ",pth->len);
+// printf("sp len: %d ",pth->len);
  int routing_revenue = 0;
 
  if(pth->len > 0){
-  printf(" %d ->", pth->nodes[0]);
+  printf("(%d) %d ->",pth->len, pth->nodes[0]);
 
   for(int jj=1; jj < pth->len+1 ; jj++){
    if(jj == pth->len){
@@ -511,7 +511,7 @@ int send_payment(struct payment* pm, struct Graph* graph, int* nofp){
  }
 
  printf(" \n");
- printf("routing_revenue: %d \n",routing_revenue);
+// printf("routing_revenue: %d \n",routing_revenue);
  free(pm);
  free(pth->nodes);
  free(pth);
@@ -571,7 +571,7 @@ int main(int argc, char *argv[])
     }
     int revs = 0;
 // Simulate payments:
-    for(int ii=0; ii < NUMBER_OF_PAYMENTS; ii++){
+    for(int ii=1; ii < NUMBER_OF_PAYMENTS + 1; ii++){
 //      sim_res[isim][ii] = get_channel_capacity(6,8, graph);
 
       from = get_random_number() % V;
@@ -598,17 +598,17 @@ int main(int argc, char *argv[])
       for (int j = 0; j < graph->E; j++)
        {
           if(graph->edge[j].routing_revenue == maxrr){
-           printf("u: %d v: %d routing_revenue: %f number_of_routed_payments: %d \n",graph->edge[j].source, graph->edge[j].destination, (double)maxrr/1000, graph->edge[j].number_of_routed_payments);
+           printf("u: %d v: %d rr: %f r_payments: %d vf %d \n",graph->edge[j].source, graph->edge[j].destination, (double)maxrr/1000, graph->edge[j].number_of_routed_payments, graph->edge[j].variable_fee);
           }
           if(graph->edge[j].number_of_routed_payments > maxnr - 5 ){
-           printf("u: %d v: %d number_of_routed_payments: %d routing_revenue: %f \n",graph->edge[j].source, graph->edge[j].destination, maxnr, (double)graph->edge[j].routing_revenue/1000);
+           printf("u: %d v: %d r_payments: %d rr: %f vf: %d \n",graph->edge[j].source, graph->edge[j].destination, maxnr, (double)graph->edge[j].routing_revenue/1000, graph->edge[j].variable_fee);
           }
        }
 
     }
-      print_graph(graph);
+//      print_graph(graph);
 
-    printf("%d sum_rev: %d \n",isim, revs);
+    printf("%d. sum_rev: %d \n",isim, revs);
 //     printf(" %5.3f \n",(float)(100*cc) / (float)NUMBER_OF_PAYMENTS);
 //     for(int ii=0; ii < V; ii++){
 //      printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
