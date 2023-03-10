@@ -20,7 +20,7 @@
 #define NUM_SIM                1
 #define TR_AMT            900000
 #define INIT_CAP         1000000
-#define FEE_CORRECTION         0
+#define FEE_CORRECTION      1000
 #define CAPACITY_LIMIT       800
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
@@ -419,10 +419,8 @@ int reduce_cap(struct Graph* graph, int source, int destination, int amt ){
           if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
            graph->edge[j].capacity = graph->edge[j].capacity - amt;
 
-           if(graph->edge[j].capacity < 700) {
-            graph->edge[j].base_fee = graph->edge[j].base_fee + FEE_CORRECTION;
-//            printf("Warning, low capacity (<100) \n");
-//            print_graph(graph);
+           if(graph->edge[j].capacity < INIT_CAP/2) {
+            graph->edge[j].variable_fee = graph->edge[j].variable_fee + FEE_CORRECTION;
             return 1;
            }
 
@@ -439,8 +437,8 @@ void increase_cap(struct Graph* graph, int source, int destination, int amt ){
         {
           if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
            graph->edge[j].capacity = graph->edge[j].capacity + amt;
-           if(graph->edge[j].capacity > 1050) {
-           graph->edge[j].base_fee = MAX(graph->edge[j].base_fee - FEE_CORRECTION,0);
+           if(graph->edge[j].capacity > INIT_CAP + INIT_CAP/2) {
+            graph->edge[j].variable_fee = MAX(graph->edge[j].variable_fee - FEE_CORRECTION,0);
            }
            return;
           }
