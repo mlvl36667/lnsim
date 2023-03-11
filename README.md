@@ -1,3 +1,5 @@
-# lnsim20221030
+# lnsim
 
-Usage: for i in {0..36..2}; do python3 run.py 10000 200 $i 32;done
+install: sudo apt install libomp-dev
+
+run: export OMP_NUM_THREADS=10 && g++ -o sim sim.cpp -fopenmp && ./sim [NUM_OF_VERTICES] [NUM_OF_EDGES] 
