@@ -17,11 +17,12 @@
 #include <omp.h>
 
 #define NUMBER_OF_PAYMENTS 10000
-#define NUM_SIM                3
-#define TR_AMT            900000
-#define INIT_CAP         1000000
-#define FEE_CORRECTION      1000
+#define NUM_SIM               10
+#define TR_AMT            900000 /* 0.009 BTC */
+#define INIT_CAP         1000000 /* 0.010 BTC */
+#define FEE_CORRECTION         0
 #define CAPACITY_LIMIT       800
+#define SATOSHI_TO_BTC 100000000 /*   10^8    */
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
@@ -598,17 +599,17 @@ int main(int argc, char *argv[])
       for (int j = 0; j < graph->E; j++)
        {
           if(graph->edge[j].routing_revenue == maxrr){
-           printf("u: %d v: %d rr: %f r_payments: %d vf %d \n",graph->edge[j].source, graph->edge[j].destination, (double)maxrr/1000, graph->edge[j].number_of_routed_payments, graph->edge[j].variable_fee);
+           printf("%d/%d u: %d v: %d rr: %f BTC r_payments: %d vf: %d maxrevenue \n",isim, ii, graph->edge[j].source, graph->edge[j].destination, (double)maxrr/SATOSHI_TO_BTC, graph->edge[j].number_of_routed_payments, graph->edge[j].variable_fee);
           }
-          if(graph->edge[j].number_of_routed_payments > maxnr - 5 ){
-           printf("u: %d v: %d r_payments: %d rr: %f vf: %d \n",graph->edge[j].source, graph->edge[j].destination, maxnr, (double)graph->edge[j].routing_revenue/1000, graph->edge[j].variable_fee);
+          if(graph->edge[j].number_of_routed_payments > maxnr - 2 ){
+           printf("%d/%d u: %d v: %d r_payments: %d rr: %f BTC vf: %d maxnumber \n",isim, ii, graph->edge[j].source, graph->edge[j].destination, maxnr, (double)graph->edge[j].routing_revenue/SATOSHI_TO_BTC, graph->edge[j].variable_fee);
           }
        }
 
     }
 //      print_graph(graph);
 
-    printf("%d. sum_rev: %d \n",isim, revs);
+    printf("%d. sum_rev: %f BTC \n",isim, (double)revs/SATOSHI_TO_BTC);
 //     printf(" %5.3f \n",(float)(100*cc) / (float)NUMBER_OF_PAYMENTS);
 //     for(int ii=0; ii < V; ii++){
 //      printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
