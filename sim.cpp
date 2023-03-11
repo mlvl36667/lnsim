@@ -20,7 +20,7 @@
 #define NUM_SIM               10
 #define TR_AMT            900000 /* 0.009 BTC */
 #define INIT_CAP         1000000 /* 0.010 BTC */
-#define FEE_CORRECTION         0   
+#define FEE_CORRECTION      1000
 //#define CAPACITY_LIMIT       800
 #define SATOSHI_TO_BTC 100000000 /*   10^8    */
 
@@ -605,10 +605,10 @@ int main(int argc, char *argv[])
       for (int j = 0; j < graph->E; j++)
        {
           if(graph->edge[j].routing_revenue == maxrr && graph->edge[j].number_of_routed_payments > 5){
-           printf("%d/%d u: %d v: %d rr: %f BTC r_payments: %d vf: %d maxrevenue \n",isim, ii, graph->edge[j].source, graph->edge[j].destination, (double)maxrr/SATOSHI_TO_BTC, graph->edge[j].number_of_routed_payments, graph->edge[j].variable_fee);
+           printf("%d/%d u: %d v: %d rr: %f BTC r_payments: %d vf: %d maxrevenue \n",omp_get_thread_num(), ii, graph->edge[j].source, graph->edge[j].destination, (double)maxrr/SATOSHI_TO_BTC, graph->edge[j].number_of_routed_payments, graph->edge[j].variable_fee);
           }
           if(graph->edge[j].number_of_routed_payments > maxnr - 2 && graph->edge[j].number_of_routed_payments > 5){
-           printf("%d/%d u: %d v: %d r_payments: %d rr: %f BTC vf: %d maxnumber \n",isim, ii, graph->edge[j].source, graph->edge[j].destination, maxnr, (double)graph->edge[j].routing_revenue/SATOSHI_TO_BTC, graph->edge[j].variable_fee);
+           printf("%d/%d u: %d v: %d r_payments: %d rr: %f BTC vf: %d maxnumber \n",omp_get_thread_num(), ii, graph->edge[j].source, graph->edge[j].destination, maxnr, (double)graph->edge[j].routing_revenue/SATOSHI_TO_BTC, graph->edge[j].variable_fee);
           }
        }
 
