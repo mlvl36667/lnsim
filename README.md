@@ -19,3 +19,9 @@ Run 10 simulations on 10 OpenMP threads:
 ```
 export OMP_NUM_THREADS=10 && g++ -o sim sim.cpp -fopenmp && ./sim [NUM_OF_VERTICES] [NUM_OF_EDGES] 
 ```
+
+## Results
+
+Simulation results are published at:
+
+https://bit.ly/3T7YxI4
