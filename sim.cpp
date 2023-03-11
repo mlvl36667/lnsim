@@ -56,6 +56,12 @@ struct Graph* createGraph(int V, int E)
     graph->V = V;   
     graph->E = E;
     graph->edge = (struct Edge*) malloc( graph->E * sizeof( struct Edge ) );
+    for (int j = 0; j < graph->E; j++)
+    {
+     graph->edge[j].source = INT_MAX;
+     graph->edge[j].destination = INT_MAX;
+    }
+
     return graph;
 }
 struct payment* create_payment(int f, int t, int a)
@@ -79,23 +85,22 @@ void FinalSolution(int dist[], int n)
  
 void findpaths(int tonode, struct d_up* dup, int dcnt, struct path* pth, struct Graph* G){
 
+// printf("now at: %d \n",tonode);
     if(pth->len > G->E){
      printf(" too much recursion in findpaths... \n");
+// printf("dcnt: %d \n",dcnt);
      for(int i=0; i< dcnt; i++){
-      printf("at: %d from: %d \n",dup[i].at, dup[i].from);
+//      printf("at: %d from: %d \n",dup[i].at, dup[i].from);
      }
      exit(1);
      return;
     }
     if(tonode == 0) {
-//       printf("now at: %d \n",tonode);
        pth->nodes[pth->len] = 0;
     return;
     }
     for(int ii = dcnt - 1; ii > -1; ii--){
-// TODO ha ketszer szerepel a node akkor nem fog rendesen mukodni...
      if(tonode == dup[ii].at) {
-//       printf("now at: %d \n",dup[ii].at);
        pth->nodes[pth->len] = dup[ii].at;
        pth->len = pth->len + 1;
        findpaths(dup[ii].from, dup, dcnt, pth, G);
@@ -153,6 +158,7 @@ int map_vertices(struct Graph* graph, struct Graph* new_graph, int from, int to)
  tv = (int*) malloc(sizeof(int)*graph->E);
  int* rev = (int*) malloc(sizeof(int)*graph->E);
  int* pms = (int*) malloc(sizeof(int)*graph->E);
+ int* vfees = (int*) malloc(sizeof(int)*graph->E);
 
  for (int j = 0; j < graph->E; j++){
   int u = graph->edge[j].source;
@@ -162,53 +168,44 @@ int map_vertices(struct Graph* graph, struct Graph* new_graph, int from, int to)
   source_vertices_original[j] = map_vertice(u, from, graph->V);
   target_vertices_original[j] = map_vertice(v, from, graph->V);
   fees[j] = graph->edge[j].base_fee;
+  vfees[j] = graph->edge[j].variable_fee;
   caps[j] = graph->edge[j].capacity;
   rev[j] = graph->edge[j].routing_revenue;
   pms[j] = graph->edge[j].number_of_routed_payments;
  }
-// printArray(source_vertices, graph->E);
  selectionSort(source_vertices, graph->E);
-// printArray(source_vertices, graph->E);
 
  int vcnt = 0;
   for (int j = 0; j < graph->E; j++){
-//   printf("source_vertices: %d \n",source_vertices[j]);
-
-    int ln = 0;
-    for (int jj = 0; jj < graph->E; jj++){
-
-       tv[jj] = 0;
-
-    }
-    for (int jj = 0; jj < graph->E; jj++){
-     if(source_vertices_original[jj] == source_vertices[j]){
-//       printf("original pair: %d \n",target_vertices_original[jj]);
-       tv[ln] = target_vertices_original[jj];
-       ln = ln + 1;
-     }
-    }
-    selectionSort(tv, ln);
-// printf(" %d \n",tv[vcnt]);
- new_graph->edge[j].source = source_vertices[j];
- new_graph->edge[j].destination = tv[vcnt];
-
-    for (int jj = 0; jj < graph->E; jj++){
-     if(source_vertices_original[jj] == new_graph->edge[j].source && new_graph->edge[j].destination == target_vertices_original[jj]){
-      new_graph->edge[j].base_fee = fees[jj];
-      new_graph->edge[j].capacity = caps[jj];
-      new_graph->edge[j].routing_revenue = rev[jj];
-      new_graph->edge[j].number_of_routed_payments = pms[jj];
-     }
-    }
-
-  
-  vcnt = vcnt + 1;
-  if(j < graph->E - 1){
-   if(source_vertices[j] != source_vertices[j+1]){
-    vcnt = 0;
+   int ln = 0;
+   for (int jj = 0; jj < graph->E; jj++){
+      tv[jj] = 0;
    }
+   for (int jj = 0; jj < graph->E; jj++){
+    if(source_vertices_original[jj] == source_vertices[j]){
+      tv[ln] = target_vertices_original[jj];
+      ln = ln + 1;
+    }
+   }
+   selectionSort(tv, ln);
+   new_graph->edge[j].source = source_vertices[j];
+   new_graph->edge[j].destination = tv[vcnt];
 
-  }
+   for (int jj = 0; jj < graph->E; jj++){
+    if(source_vertices_original[jj] == new_graph->edge[j].source && new_graph->edge[j].destination == target_vertices_original[jj]){
+     new_graph->edge[j].base_fee = fees[jj];
+     new_graph->edge[j].variable_fee = vfees[jj];
+     new_graph->edge[j].capacity = caps[jj];
+     new_graph->edge[j].routing_revenue = rev[jj];
+     new_graph->edge[j].number_of_routed_payments = pms[jj];
+    }
+   }
+   vcnt = vcnt + 1;
+   if(j < graph->E - 1){
+    if(source_vertices[j] != source_vertices[j+1]){
+     vcnt = 0;
+    }
+   }
 
   }
 
@@ -216,6 +213,7 @@ int map_vertices(struct Graph* graph, struct Graph* new_graph, int from, int to)
  free(source_vertices_original);
  free(target_vertices_original);
  free(fees);
+ free(vfees);
  free(caps);
  free(tv);
  free(rev);
@@ -284,6 +282,12 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
 //             graph->edge[j].base_fee = 0;
 //            }
             int fee = StoreAmount[u]*((double)graph->edge[j].variable_fee/1000000) + graph->edge[j].base_fee; // This is the dynamic cost of the edge depending on the transaction amount
+            if(fee < 0){
+ printf("StoreAmount[u] %d \n",StoreAmount[u]);
+ printf("graph->edge[j].variable_fee %d \n",graph->edge[j].variable_fee);
+ printf("graph->edge[j].base_fee %d \n",graph->edge[j].base_fee);
+            exit(1);
+            }
 //            printf("%d. trying edge: %d from: %d %d \n",j, v, u, base_fee);
             if(graph->edge[j].capacity > amt){ /* use channels with enough capacity */
              if (StoreDistance[u] + fee < StoreDistance[v] && StoreDistance[u] != INT_MAX){
@@ -296,6 +300,7 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
         }
     }
 
+// printf("dcnt1 %d \n",dcnt);
      struct d_up* dup = (d_up*)malloc(sizeof(d_up)*(dcnt));
      if(dup == NULL){
        printf(" memory error in BellmanFord...\n");
@@ -305,8 +310,8 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
 //      printf("mem allocated (Kb): %lu dcnt: %d \n",sizeof(d_up)*(dcnt+1)/(1024), dcnt);
      }
     for(i=0;i< dcnt;i++){
-     dup[i].at = -1;
-     dup[i].from = -1;
+     dup[i].at = INT_MAX;
+     dup[i].from = INT_MAX;
     }
 
     for (i = 0; i < V; i++)
@@ -333,11 +338,11 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
 //             graph->edge[j].base_fee = 0;
 //            }
             int fee = StoreAmount[u]*((double)graph->edge[j].variable_fee/1000000) + graph->edge[j].base_fee; // This is the dynamic cost of the edge depending on the transaction amount
-//            printf("%d. trying edge: %d from: %d %d \n",j, v, u, base_fee);
             if(graph->edge[j].capacity > amt){ /* use channels with enough capacity */
              if (StoreDistance[u] + fee < StoreDistance[v] && StoreDistance[u] != INT_MAX){
                  StoreDistance[v] = StoreDistance[u] + fee;
                  StoreAmount[v] = StoreAmount[u] - fee; // This is the remaining amount when v is reached from u
+//                 printf("%d. trying edge: %d from: %d %d \n",j, v, u, fee);
 
                  int newelem = 0;
                  for(int ii = 0; ii < dcnt; ii++){
@@ -345,19 +350,18 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
                    dup[ii].from = u;
                    newelem = 1;
                   }
-                  }
-
-                   if(newelem == 0){
-                    dup[dcnt].at = v;
-                    dup[dcnt].from = u;
-                   }
-
-                 dcnt = dcnt + 1;
+                 }
+                 if(newelem == 0){
+                  dup[dcnt].at = v;
+                  dup[dcnt].from = u;
+                  dcnt = dcnt + 1;
+                 }
              }
             }
         }
     }
 
+// printf("dcnt2 %d \n",dcnt);
      struct path* pth = (path*)malloc(sizeof(path) );
      pth->nodes = (int*)malloc(sizeof(int) * graph->E );
      for(i = 0; i < graph->E; i++){
@@ -365,12 +369,7 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
      }
      pth->len = 0;
      findpaths(to, dup, dcnt, pth, graph);
-
-
-
-    free(dup);
- 
- 
+     free(dup);
 //     for (i = 0; i < E; i++)
 //     {
 //         int u = graph->edge[i].source;
@@ -384,7 +383,6 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
 //     }
 //  
 // //    FinalSolution(StoreDistance, V);
- 
     return pth;
 }
  
