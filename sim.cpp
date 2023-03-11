@@ -21,7 +21,7 @@
 #define TR_AMT            900000 /* 0.009 BTC */
 #define INIT_CAP         1000000 /* 0.010 BTC */
 #define FEE_CORRECTION      1000   
-#define CAPACITY_LIMIT       800
+//#define CAPACITY_LIMIT       800
 #define SATOSHI_TO_BTC 100000000 /*   10^8    */
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
