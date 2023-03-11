@@ -25403,4 +25403,4480 @@ topology() took 0.038557 seconds to execute
 (3) 169 -> 128 -> 7 -> 4  
 1262. sending payment from 8 to 82 amount: 900000  
 (3) 13 -> 39 -> 3 -> 169  
-1269. sending payment from 145 to 64 amo
+1269. sending payment from 145 to 64 amount: 900000  
+(2) 154 -> 87 -> 34  
+1265. sending payment from 63 to 72 amount: 900000  
+(2) 168 -> 87 -> 161  
+1264. sending payment from 129 to 12 amount: 900000  
+(2) 90 -> 100 -> 84  
+1278. sending payment from 73 to 23 amount: 900000  
+(2) 3 -> 43 -> 45  
+1274. sending payment from 117 to 35 amount: 900000  
+(2) 84 -> 101 -> 109  
+1261. sending payment from 34 to 122 amount: 900000  
+(2) 8 -> 62 -> 164  
+1261. sending payment from 84 to 36 amount: 900000  
+(1) 160 -> 72  
+1270. sending payment from 26 to 8 amount: 900000  
+(1) 126 -> 169  
+1267. sending payment from 136 to 105 amount: 900000  
+(2) 82 -> 12 -> 8  
+1263. sending payment from 138 to 9 amount: 900000  
+(1) 64 -> 145  
+1270. sending payment from 54 to 148 amount: 900000  
+(2) 72 -> 9 -> 63  
+1266. sending payment from 87 to 43 amount: 900000  
+(2) 12 -> 166 -> 129  
+1265. sending payment from 73 to 135 amount: 900000  
+(2) 23 -> 6 -> 73  
+1279. sending payment from 129 to 87 amount: 900000  
+ 
+1275. sending payment from 139 to 55 amount: 900000  
+(2) 122 -> 59 -> 34  
+1262. sending payment from 8 to 142 amount: 900000  
+(2) 36 -> 155 -> 84  
+1262. sending payment from 20 to 147 amount: 900000  
+(2) 8 -> 37 -> 26  
+1271. sending payment from 155 to 126 amount: 900000  
+(2) 105 -> 9 -> 136  
+1268. sending payment from 38 to 140 amount: 900000  
+(1) 9 -> 138  
+1264. sending payment from 42 to 55 amount: 900000  
+(2) 148 -> 120 -> 54  
+1271. sending payment from 143 to 78 amount: 900000  
+(2) 43 -> 32 -> 87  
+1267. sending payment from 26 to 98 amount: 900000  
+(2) 135 -> 95 -> 73  
+1266. sending payment from 104 to 152 amount: 900000  
+(2) 87 -> 128 -> 129  
+1280. sending payment from 72 to 85 amount: 900000  
+(2) 55 -> 142 -> 139  
+1276. sending payment from 138 to 114 amount: 900000  
+(2) 142 -> 170 -> 8  
+1263. sending payment from 135 to 102 amount: 900000  
+(2) 147 -> 46 -> 20  
+1263. sending payment from 176 to 88 amount: 900000  
+(2) 126 -> 1 -> 155  
+1272. sending payment from 108 to 91 amount: 900000  
+(2) 140 -> 142 -> 38  
+1269. sending payment from 164 to 16 amount: 900000  
+(3) 55 -> 65 -> 57 -> 42  
+1265. sending payment from 101 to 167 amount: 900000  
+(2) 78 -> 58 -> 143  
+1272. sending payment from 166 to 154 amount: 900000  
+(3) 98 -> 59 -> 75 -> 26  
+1268. sending payment from 25 to 115 amount: 900000  
+(2) 152 -> 156 -> 104  
+1267. sending payment from 75 to 62 amount: 900000  
+(2) 85 -> 142 -> 72  
+1281. sending payment from 124 to 158 amount: 900000  
+(2) 114 -> 132 -> 138  
+1277. sending payment from 113 to 11 amount: 900000  
+(2) 102 -> 107 -> 135  
+1264. sending payment from 17 to 143 amount: 900000  
+(2) 88 -> 70 -> 176  
+1264. sending payment from 166 to 95 amount: 900000  
+(2) 91 -> 116 -> 108  
+1273. sending payment from 85 to 88 amount: 900000  
+(2) 16 -> 94 -> 164  
+1270. sending payment from 110 to 139 amount: 900000  
+(3) 167 -> 39 -> 3 -> 101  
+1266. sending payment from 147 to 65 amount: 900000  
+(1) 154 -> 166  
+1273. sending payment from 59 to 70 amount: 900000  
+(2) 115 -> 161 -> 25  
+1269. sending payment from 108 to 52 amount: 900000  
+(2) 62 -> 103 -> 75  
+1268. sending payment from 167 to 43 amount: 900000  
+(2) 158 -> 122 -> 124  
+1282. sending payment from 17 to 38 amount: 900000  
+(2) 11 -> 48 -> 113  
+1278. sending payment from 63 to 121 amount: 900000  
+(2) 143 -> 31 -> 17  
+1265. sending payment from 13 to 171 amount: 900000  
+(1) 95 -> 166  
+1265. sending payment from 23 to 35 amount: 900000  
+(2) 88 -> 94 -> 85  
+1274. sending payment from 170 to 87 amount: 900000  
+(2) 139 -> 130 -> 110  
+1271. sending payment from 143 to 47 amount: 900000  
+(2) 65 -> 6 -> 147  
+1267. sending payment from 98 to 24 amount: 900000  
+(1) 70 -> 59  
+1274. sending payment from 48 to 134 amount: 900000  
+(2) 52 -> 76 -> 108  
+1270. sending payment from 133 to 60 amount: 900000  
+(2) 43 -> 3 -> 167  
+1269. sending payment from 145 to 141 amount: 900000  
+(1) 38 -> 17  
+1283. sending payment from 1 to 82 amount: 900000  
+(3) 121 -> 171 -> 60 -> 63  
+1279. sending payment from 20 to 82 amount: 900000  
+(2) 171 -> 1 -> 13  
+1266. sending payment from 147 to 7 amount: 900000  
+(2) 35 -> 65 -> 23  
+1266. sending payment from 167 to 162 amount: 900000  
+(1) 87 -> 170  
+1275. sending payment from 76 to 81 amount: 900000  
+(2) 47 -> 35 -> 143  
+1272. sending payment from 84 to 50 amount: 900000  
+(2) 24 -> 57 -> 98  
+1268. sending payment from 36 to 39 amount: 900000  
+(1) 134 -> 48  
+1275. sending payment from 125 to 115 amount: 900000  
+(2) 60 -> 6 -> 133  
+1271. sending payment from 32 to 1 amount: 900000  
+(3) 141 -> 100 -> 80 -> 145  
+1270. sending payment from 168 to 152 amount: 900000  
+(2) 82 -> 12 -> 1  
+1284. sending payment from 80 to 93 amount: 900000  
+(2) 82 -> 0 -> 20  
+1280. sending payment from 12 to 156 amount: 900000  
+(2) 7 -> 95 -> 147  
+1267. sending payment from 137 to 9 amount: 900000  
+(2) 162 -> 3 -> 167  
+1267. sending payment from 162 to 70 amount: 900000  
+(2) 81 -> 8 -> 76  
+1276. sending payment from 53 to 98 amount: 900000  
+(2) 50 -> 48 -> 84  
+1273. sending payment from 38 to 21 amount: 900000  
+(2) 39 -> 29 -> 36  
+1269. sending payment from 5 to 47 amount: 900000  
+(2) 115 -> 69 -> 125  
+1276. sending payment from 62 to 97 amount: 900000  
+(1) 1 -> 32  
+1272. sending payment from 61 to 131 amount: 900000  
+(2) 152 -> 18 -> 168  
+1271. sending payment from 148 to 78 amount: 900000  
+(3) 93 -> 142 -> 166 -> 80  
+1285. sending payment from 58 to 162 amount: 900000  
+(2) 156 -> 45 -> 12  
+1281. sending payment from 134 to 41 amount: 900000  
+(1) 9 -> 137  
+1268. sending payment from 70 to 67 amount: 900000  
+(2) 70 -> 165 -> 162  
+1268. sending payment from 46 to 22 amount: 900000  
+(2) 98 -> 57 -> 53  
+1277. sending payment from 33 to 1 amount: 900000  
+(1) 21 -> 38  
+1274. sending payment from 52 to 72 amount: 900000  
+(1) 47 -> 5  
+1270. sending payment from 154 to 73 amount: 900000  
+(1) 97 -> 62  
+1277. sending payment from 20 to 103 amount: 900000  
+(2) 131 -> 95 -> 61  
+1273. sending payment from 89 to 138 amount: 900000  
+(2) 78 -> 152 -> 148  
+1272. sending payment from 22 to 124 amount: 900000  
+(2) 162 -> 159 -> 58  
+1286. sending payment from 46 to 138 amount: 900000  
+(2) 41 -> 126 -> 134  
+1282. sending payment from 138 to 71 amount: 900000  
+(2) 67 -> 155 -> 70  
+1269. sending payment from 117 to 37 amount: 900000  
+(2) 22 -> 43 -> 46  
+1269. sending payment from 2 to 37 amount: 900000  
+(1) 1 -> 33  
+1278. sending payment from 39 to 149 amount: 900000  
+(2) 72 -> 142 -> 52  
+1275. sending payment from 175 to 23 amount: 900000  
+(2) 73 -> 126 -> 154  
+1271. sending payment from 133 to 46 amount: 900000  
+(2) 103 -> 57 -> 20  
+1278. sending payment from 56 to 52 amount: 900000  
+(2) 138 -> 132 -> 89  
+1274. sending payment from 96 to 163 amount: 900000  
+(2) 124 -> 142 -> 22  
+1273. sending payment from 23 to 174 amount: 900000  
+(1) 138 -> 46  
+1287. sending payment from 7 to 176 amount: 900000  
+(2) 71 -> 175 -> 138  
+1283. sending payment from 101 to 82 amount: 900000  
+ 
+1270. sending payment from 50 to 132 amount: 900000  
+(2) 37 -> 39 -> 2  
+1270. sending payment from 19 to 161 amount: 900000  
+(2) 149 -> 85 -> 39  
+1279. sending payment from 79 to 45 amount: 900000  
+(2) 23 -> 53 -> 175  
+1276. sending payment from 96 to 19 amount: 900000  
+(2) 46 -> 107 -> 133  
+1272. sending payment from 150 to 108 amount: 900000  
+(2) 52 -> 132 -> 56  
+1279. sending payment from 39 to 110 amount: 900000  
+(3) 163 -> 35 -> 7 -> 96  
+1275. sending payment from 97 to 145 amount: 900000  
+(2) 174 -> 51 -> 23  
+1274. sending payment from 51 to 158 amount: 900000  
+(2) 176 -> 9 -> 7  
+1288. sending payment from 107 to 130 amount: 900000  
+(2) 82 -> 119 -> 101  
+1284. sending payment from 40 to 82 amount: 900000  
+(2) 132 -> 65 -> 50  
+1271. sending payment from 28 to 67 amount: 900000  
+(2) 161 -> 142 -> 19  
+1271. sending payment from 135 to 53 amount: 900000  
+(2) 45 -> 130 -> 79  
+1280. sending payment from 101 to 40 amount: 900000  
+(3) 19 -> 59 -> 132 -> 96  
+1277. sending payment from 101 to 91 amount: 900000  
+(3) 108 -> 128 -> 39 -> 150  
+1273. sending payment from 134 to 25 amount: 900000  
+(1) 110 -> 39  
+1280. sending payment from 166 to 131 amount: 900000  
+(2) 145 -> 27 -> 97  
+1276. sending payment from 116 to 60 amount: 900000  
+(1) 130 -> 107  
+1289. sending payment from 65 to 50 amount: 900000  
+(2) 158 -> 122 -> 51  
+1275. sending payment from 51 to 60 amount: 900000  
+(2) 82 -> 60 -> 40  
+1285. sending payment from 77 to 161 amount: 900000  
+(2) 67 -> 130 -> 28  
+1272. sending payment from 107 to 84 amount: 900000  
+(2) 53 -> 174 -> 135  
+1272. sending payment from 47 to 157 amount: 900000  
+(2) 40 -> 83 -> 101  
+1281. sending payment from 164 to 64 amount: 900000  
+(2) 91 -> 109 -> 101  
+1278. sending payment from 5 to 80 amount: 900000  
+(2) 25 -> 62 -> 134  
+1274. sending payment from 32 to 126 amount: 900000  
+(1) 131 -> 166  
+1281. sending payment from 87 to 119 amount: 900000  
+(2) 60 -> 107 -> 116  
+1277. sending payment from 130 to 13 amount: 900000  
+(3) 50 -> 107 -> 146 -> 65  
+1290. sending payment from 30 to 155 amount: 900000  
+(2) 60 -> 128 -> 51  
+1276. sending payment from 35 to 25 amount: 900000  
+(2) 161 -> 142 -> 77  
+1286. sending payment from 6 to 176 amount: 900000  
+(1) 84 -> 107  
+1273. sending payment from 66 to 85 amount: 900000  
+(2) 157 -> 127 -> 47  
+1273. sending payment from 32 to 77 amount: 900000  
+(2) 64 -> 87 -> 164  
+1282. sending payment from 41 to 9 amount: 900000  
+(2) 80 -> 44 -> 5  
+1279. sending payment from 29 to 71 amount: 900000  
+(2) 126 -> 48 -> 32  
+1275. sending payment from 174 to 61 amount: 900000  
+(2) 119 -> 134 -> 87  
+1282. sending payment from 87 to 115 amount: 900000  
+(2) 13 -> 6 -> 130  
+1278. sending payment from 13 to 120 amount: 900000  
+(2) 155 -> 138 -> 30  
+1291. sending payment from 112 to 94 amount: 900000  
+(2) 25 -> 49 -> 35  
+1277. sending payment from 170 to 82 amount: 900000  
+(2) 176 -> 147 -> 6  
+1287. sending payment from 61 to 102 amount: 900000  
+(1) 85 -> 66  
+1274. sending payment from 41 to 122 amount: 900000  
+(2) 77 -> 65 -> 32  
+1274. sending payment from 82 to 34 amount: 900000  
+(1) 9 -> 41  
+1283. sending payment from 70 to 140 amount: 900000  
+(2) 71 -> 43 -> 29  
+1280. sending payment from 60 to 1 amount: 900000  
+(2) 61 -> 165 -> 174  
+1276. sending payment from 16 to 115 amount: 900000  
+(2) 115 -> 39 -> 87  
+1283. sending payment from 11 to 88 amount: 900000  
+(3) 120 -> 124 -> 49 -> 13  
+1279. sending payment from 107 to 21 amount: 900000  
+(2) 94 -> 171 -> 112  
+1292. sending payment from 20 to 31 amount: 900000  
+(2) 82 -> 70 -> 170  
+1278. sending payment from 9 to 21 amount: 900000  
+(2) 102 -> 145 -> 61  
+1288. sending payment from 52 to 77 amount: 900000  
+(1) 122 -> 41  
+1275. sending payment from 134 to 86 amount: 900000  
+(2) 34 -> 156 -> 82  
+1275. sending payment from 77 to 131 amount: 900000  
+(1) 140 -> 70  
+1284. sending payment from 77 to 149 amount: 900000  
+(2) 1 -> 137 -> 60  
+1281. sending payment from 59 to 137 amount: 900000  
+(2) 115 -> 65 -> 16  
+1277. sending payment from 113 to 79 amount: 900000  
+(2) 88 -> 142 -> 11  
+1284. sending payment from 86 to 97 amount: 900000  
+(2) 21 -> 122 -> 107  
+1280. sending payment from 177 to 42 amount: 900000  
+(1) 31 -> 20  
+1293. sending payment from 159 to 170 amount: 900000  
+(1) 21 -> 9  
+1279. sending payment from 34 to 93 amount: 900000  
+(3) 77 -> 143 -> 174 -> 52  
+1289. sending payment from 83 to 94 amount: 900000  
+(1) 86 -> 134  
+1276. sending payment from 39 to 177 amount: 900000  
+(2) 131 -> 128 -> 77  
+1276. sending payment from 19 to 157 amount: 900000  
+(2) 149 -> 113 -> 77  
+1285. sending payment from 79 to 3 amount: 900000  
+(1) 137 -> 59  
+1282. sending payment from 56 to 99 amount: 900000  
+(1) 79 -> 113  
+1278. sending payment from 2 to 176 amount: 900000  
+(2) 97 -> 137 -> 86  
+1285. sending payment from 98 to 167 amount: 900000  
+(2) 42 -> 157 -> 177  
+1281. sending payment from 131 to 155 amount: 900000  
+(2) 170 -> 60 -> 159  
+1294. sending payment from 86 to 108 amount: 900000  
+(2) 93 -> 97 -> 34  
+1280. sending payment from 170 to 82 amount: 900000  
+(1) 94 -> 83  
+1290. sending payment from 142 to 173 amount: 900000  
+(2) 177 -> 87 -> 39  
+1277. sending payment from 31 to 19 amount: 900000  
+(2) 157 -> 66 -> 19  
+1277. sending payment from 62 to 2 amount: 900000  
+(2) 3 -> 173 -> 79  
+1286. sending payment from 19 to 119 amount: 900000  
+(2) 99 -> 128 -> 56  
+1283. sending payment from 46 to 148 amount: 900000  
+(2) 176 -> 44 -> 2  
+1279. sending payment from 103 to 145 amount: 900000  
+(4) 167 -> 39 -> 10 -> 101 -> 98  
+1286. sending payment from 14 to 117 amount: 900000  
+(1) 155 -> 131  
+1282. sending payment from 144 to 32 amount: 900000  
+(2) 108 -> 104 -> 86  
+1295. sending payment from 75 to 171 amount: 900000  
+(2) 82 -> 156 -> 170  
+1281. sending payment from 152 to 117 amount: 900000  
+(1) 173 -> 142  
+1291. sending payment from 142 to 155 amount: 900000  
+(1) 19 -> 31  
+1278. sending payment from 43 to 42 amount: 900000  
+(1) 2 -> 62  No such edge: 2 62 
+ 
+1278. sending payment from 12 to 53 amount: 900000  
+(2) 119 -> 142 -> 19  
+1287. sending payment from 25 to 8 amount: 900000  
+(2) 148 -> 128 -> 46  
+1284. sending payment from 48 to 111 amount: 900000  
+(2) 145 -> 172 -> 103  
+1280. sending payment from 112 to 135 amount: 900000  
+(3) 117 -> 39 -> 46 -> 14  
+1287. sending payment from 81 to 39 amount: 900000  
+(2) 32 -> 31 -> 144  
+1283. sending payment from 114 to 63 amount: 900000  
+(2) 171 -> 107 -> 75  
+1296. sending payment from 88 to 102 amount: 900000  
+(3) 117 -> 171 -> 136 -> 152  
+1282. sending payment from 150 to 159 amount: 900000  
+(2) 155 -> 72 -> 142  
+1292. sending payment from 53 to 4 amount: 900000  
+(2) 42 -> 15 -> 43  
+1279. sending payment from 153 to 168 amount: 900000  
+(1) 53 -> 12  
+1279. sending payment from 133 to 22 amount: 900000  
+(2) 8 -> 49 -> 25  
+1288. sending payment from 128 to 22 amount: 900000  
+(2) 111 -> 124 -> 48  
+1285. sending payment from 176 to 155 amount: 900000  
+(2) 135 -> 172 -> 112  
+1281. sending payment from 137 to 174 amount: 900000  
+(1) 39 -> 81  
+1288. sending payment from 44 to 129 amount: 900000  
+(2) 63 -> 128 -> 114  
+1284. sending payment from 2 to 35 amount: 900000  
+(2) 102 -> 69 -> 88  
+1297. sending payment from 152 to 125 amount: 900000  
+(2) 159 -> 162 -> 150  
+1283. sending payment from 23 to 163 amount: 900000  
+(2) 4 -> 142 -> 53  
+1293. sending payment from 158 to 79 amount: 900000  
+(3) 168 -> 66 -> 110 -> 153  
+1280. sending payment from 35 to 72 amount: 900000  
+(2) 22 -> 175 -> 133  
+1280. sending payment from 98 to 136 amount: 900000  
+(2) 22 -> 8 -> 128  
+1289. sending payment from 112 to 45 amount: 900000  
+(3) 155 -> 45 -> 85 -> 176  
+1286. sending payment from 76 to 7 amount: 900000  
+(1) 174 -> 137  
+1282. sending payment from 85 to 41 amount: 900000  
+(1) 129 -> 44  
+1289. sending payment from 74 to 68 amount: 900000  
+(2) 35 -> 97 -> 2  
+1285. sending payment from 10 to 39 amount: 900000  
+(2) 125 -> 79 -> 152  
+1298. sending payment from 113 to 149 amount: 900000  
+(2) 163 -> 59 -> 23  
+1284. sending payment from 117 to 106 amount: 900000  
+(1) 79 -> 158  
+1294. sending payment from 25 to 122 amount: 900000  
+(2) 72 -> 7 -> 35  
+1281. sending payment from 31 to 27 amount: 900000  
+(2) 136 -> 128 -> 98  
+1281. sending payment from 60 to 28 amount: 900000  
+(2) 45 -> 142 -> 112  
+1290. sending payment from 138 to 73 amount: 900000  
+(2) 7 -> 61 -> 76  
+1287. sending payment from 51 to 76 amount: 900000  
+(1) 41 -> 85  
+1283. sending payment from 137 to 85 amount: 900000  
+(2) 68 -> 69 -> 74  
+1290. sending payment from 68 to 8 amount: 900000  
+(2) 39 -> 37 -> 10  
+1286. sending payment from 135 to 100 amount: 900000  
+(1) 149 -> 113  
+1299. sending payment from 53 to 96 amount: 900000  
+(3) 106 -> 40 -> 39 -> 117  
+1285. sending payment from 118 to 116 amount: 900000  
+(2) 122 -> 116 -> 25  
+1295. sending payment from 139 to 160 amount: 900000  
+(1) 27 -> 31  
+1282. sending payment from 94 to 167 amount: 900000  
+(2) 28 -> 62 -> 60  
+1282. sending payment from 21 to 107 amount: 900000  
+(2) 73 -> 126 -> 138  
+1291. sending payment from 67 to 155 amount: 900000  
+(2) 76 -> 9 -> 51  
+1288. sending payment from 143 to 101 amount: 900000  
+(1) 85 -> 137  
+1284. sending payment from 59 to 176 amount: 900000  
+(1) 8 -> 68  
+1291. sending payment from 37 to 48 amount: 900000  
+(2) 100 -> 130 -> 135  
+1287. sending payment from 21 to 155 amount: 900000  
+(2) 96 -> 65 -> 53  
+1300. sending payment from 51 to 41 amount: 900000  
+(1) 116 -> 118  
+1286. sending payment from 121 to 109 amount: 900000  
+(1) 160 -> 139  
+1296. sending payment from 51 to 26 amount: 900000  
+(2) 167 -> 39 -> 94  
+1283. sending payment from 85 to 98 amount: 900000  
+(2) 107 -> 9 -> 21  
+1283. sending payment from 107 to 92 amount: 900000  
+(2) 155 -> 84 -> 67  
+1292. sending payment from 151 to 51 amount: 900000  
+(2) 101 -> 151 -> 143  
+1289. sending payment from 171 to 3 amount: 900000  
+(2) 176 -> 85 -> 59  
+1285. sending payment from 167 to 120 amount: 900000  
+(2) 48 -> 142 -> 37  
+1292. sending payment from 38 to 120 amount: 900000  
+(2) 155 -> 1 -> 21  
+1288. sending payment from 23 to 133 amount: 900000  
+(1) 41 -> 51  
+1301. sending payment from 93 to 132 amount: 900000  
+(3) 109 -> 1 -> 132 -> 121  
+1287. sending payment from 176 to 9 amount: 900000  
+(1) 26 -> 51  
+1297. sending payment from 41 to 139 amount: 900000  
+(2) 98 -> 109 -> 85  
+1284. sending payment from 70 to 139 amount: 900000  
+(2) 92 -> 125 -> 107  
+1284. sending payment from 168 to 43 amount: 900000  
+(2) 51 -> 122 -> 151  
+1293. sending payment from 135 to 169 amount: 900000  
+(2) 3 -> 101 -> 171  
+1290. sending payment from 69 to 156 amount: 900000  
+(3) 120 -> 104 -> 97 -> 167  
+1286. sending payment from 105 to 9 amount: 900000  
+(2) 120 -> 53 -> 38  
+1293. sending payment from 59 to 48 amount: 900000  
+(2) 133 -> 59 -> 23  
+1289. sending payment from 40 to 164 amount: 900000  
+(2) 132 -> 142 -> 93  
+1302. sending payment from 145 to 9 amount: 900000  
+(1) 9 -> 176  
+1288. sending payment from 69 to 87 amount: 900000  
+(1) 139 -> 41  
+1298. sending payment from 124 to 103 amount: 900000  
+(2) 139 -> 160 -> 70  
+1285. sending payment from 23 to 131 amount: 900000  
+(2) 43 -> 48 -> 168  
+1285. sending payment from 118 to 83 amount: 900000  
+ 
+1294. sending payment from 36 to 40 amount: 900000  
+(2) 156 -> 166 -> 69  
+1291. sending payment from 83 to 146 amount: 900000  
+(1) 9 -> 105  
+1287. sending payment from 125 to 140 amount: 900000  
+(1) 48 -> 59  
+1294. sending payment from 135 to 105 amount: 900000  
+(2) 164 -> 165 -> 40  
+1290. sending payment from 115 to 177 amount: 900000  
+(2) 9 -> 157 -> 145  
+1303. sending payment from 28 to 164 amount: 900000  
+(1) 87 -> 69  
+1289. sending payment from 54 to 19 amount: 900000  
+(1) 103 -> 124  
+1299. sending payment from 111 to 10 amount: 900000  
+(2) 131 -> 87 -> 23  
+1286. sending payment from 166 to 25 amount: 900000  
+(2) 83 -> 174 -> 118  
+1286. sending payment from 73 to 82 amount: 900000  
+(2) 40 -> 44 -> 36  
+1295. sending payment from 160 to 106 amount: 900000  
+(2) 146 -> 142 -> 83  
+1292. sending payment from 87 to 86 amount: 900000  
+(2) 140 -> 174 -> 125  
+1288. sending payment from 104 to 14 amount: 900000  
+(2) 105 -> 126 -> 135  
+1295. sending payment from 173 to 110 amount: 900000  
+(3) 177 -> 136 -> 69 -> 115  
+1291. sending payment from 161 to 160 amount: 900000  
+(2) 164 -> 53 -> 28  
+1304. sending payment from 38 to 83 amount: 900000  
+(3) 19 -> 59 -> 103 -> 54  
+1290. sending payment from 62 to 73 amount: 900000  
+(2) 10 -> 168 -> 111  
+1300. sending payment from 107 to 97 amount: 900000  
+(2) 25 -> 69 -> 166  
+1287. sending payment from 39 to 130 amount: 900000  
+(2) 82 -> 103 -> 73  
+1287. sending payment from 177 to 137 amount: 900000  
+(2) 106 -> 83 -> 160  
+1296. sending payment from 25 to 91 amount: 900000  
+(2) 86 -> 107 -> 87  
+1293. sending payment from 87 to 84 amount: 900000  
+(2) 14 -> 166 -> 104  
+1289. sending payment from 118 to 31 amount: 900000  
+(2) 110 -> 79 -> 173  
+1296. sending payment from 114 to 164 amount: 900000  
+(2) 160 -> 174 -> 161  
+1292. sending payment from 43 to 102 amount: 900000  
+(2) 83 -> 94 -> 38  
+1305. sending payment from 1 to 151 amount: 900000  
+(2) 73 -> 95 -> 62  
+1291. sending payment from 101 to 141 amount: 900000  
+(2) 97 -> 174 -> 107  
+1301. sending payment from 167 to 113 amount: 900000  
+(2) 130 -> 44 -> 39  
+1288. sending payment from 167 to 164 amount: 900000  
+(2) 137 -> 139 -> 177  
+1288. sending payment from 8 to 27 amount: 900000  
+(2) 91 -> 57 -> 25  
+1297. sending payment from 146 to 43 amount: 900000  
+(2) 84 -> 107 -> 87  
+1294. sending payment from 8 to 154 amount: 900000  
+(2) 31 -> 128 -> 118  
+1290. sending payment from 113 to 70 amount: 900000  
+(1) 164 -> 114  
+1297. sending payment from 59 to 16 amount: 900000  
+(2) 102 -> 83 -> 43  
+1293. sending payment from 17 to 54 amount: 900000  
+(2) 151 -> 63 -> 1  
+1306. sending payment from 135 to 84 amount: 900000  
+(2) 141 -> 100 -> 101  
+1292. sending payment from 76 to 50 amount: 900000  
+(3) 113 -> 39 -> 3 -> 167  
+1302. sending payment from 112 to 12 amount: 900000  
+(3) 164 -> 53 -> 39 -> 167  
+1289. sending payment from 2 to 8 amount: 900000  
+(2) 27 -> 49 -> 8  
+1289. sending payment from 127 to 93 amount: 900000  
+(2) 43 -> 71 -> 146  
+1298. sending payment from 84 to 61 amount: 900000  
+(1) 154 -> 8  
+1295. sending payment from 18 to 110 amount: 900000  
+(1) 70 -> 113  
+1291. sending payment from 17 to 160 amount: 900000  
+(2) 16 -> 37 -> 59  
+1298. sending payment from 161 to 158 amount: 900000  
+(2) 54 -> 142 -> 17  
+1294. sending payment from 160 to 134 amount: 900000  
+(2) 84 -> 40 -> 135  
+1307. sending payment from 68 to 18 amount: 900000  
+(2) 50 -> 100 -> 76  
+1293. sending payment from 95 to 175 amount: 900000  
+(3) 12 -> 4 -> 146 -> 112  
+1303. sending payment from 96 to 53 amount: 900000  
+(2) 8 -> 114 -> 2  
+1290. sending payment from 157 to 93 amount: 900000  
+ 
+1290. sending payment from 155 to 41 amount: 900000  
+(2) 61 -> 6 -> 84  
+1299. sending payment from 48 to 140 amount: 900000  
+(2) 110 -> 9 -> 18  
+1296. sending payment from 75 to 175 amount: 900000  
+(2) 160 -> 62 -> 17  
+1292. sending payment from 121 to 58 amount: 900000  
+(2) 158 -> 132 -> 161  
+1299. sending payment from 127 to 65 amount: 900000  
+(1) 134 -> 160  
+1295. sending payment from 121 to 92 amount: 900000  
+(1) 18 -> 68  
+1308. sending payment from 14 to 22 amount: 900000  
+(1) 175 -> 95  
+1294. sending payment from 4 to 161 amount: 900000  
+(2) 53 -> 39 -> 96  
+1304. sending payment from 113 to 30 amount: 900000  
+(2) 93 -> 142 -> 157  
+1291. sending payment from 36 to 105 amount: 900000  
+(2) 41 -> 69 -> 155  
+1291. sending payment from 32 to 35 amount: 900000  
+(2) 140 -> 170 -> 48  
+1300. sending payment from 157 to 1 amount: 900000  
+(2) 175 -> 6 -> 75  
+1297. sending payment from 164 to 52 amount: 900000  
+(2) 58 -> 132 -> 121  
+1293. sending payment from 94 to 128 amount: 900000  
+(2) 65 -> 142 -> 127  
+1300. sending payment from 52 to 102 amount: 900000  
+(2) 92 -> 57 -> 121  
+1296. sending payment from 90 to 39 amount: 900000  
+(1) 22 -> 14  
+1309. sending payment from 100 to 131 amount: 900000  
+(2) 161 -> 31 -> 4  
+1295. sending payment from 20 to 36 amount: 900000  
+(3) 30 -> 53 -> 39 -> 113  
+1305. sending payment from 12 to 4 amount: 900000  
+(2) 105 -> 168 -> 36  
+1292. sending payment from 30 to 94 amount: 900000  
+(2) 35 -> 138 -> 32  
+1292. sending payment from 11 to 136 amount: 900000  
+(2) 1 -> 145 -> 157  
+1301. sending payment from 111 to 94 amount: 900000  
+(2) 52 -> 55 -> 164  
+1298. sending payment from 133 to 124 amount: 900000  
+(2) 128 -> 62 -> 94  
+1294. sending payment from 92 to 84 amount: 900000  
+(2) 102 -> 147 -> 52  
+1301. sending payment from 110 to 169 amount: 900000  
+(1) 39 -> 90  
+1297. sending payment from 35 to 119 amount: 900000  
+(2) 131 -> 128 -> 100  
+1310. sending payment from 101 to 44 amount: 900000  
+(2) 36 -> 43 -> 20  
+1296. sending payment from 24 to 133 amount: 900000  
+(2) 4 -> 65 -> 12  
+1306. sending payment from 46 to 148 amount: 900000  
+(2) 94 -> 5 -> 30  
+1293. sending payment from 146 to 68 amount: 900000  
+(2) 136 -> 46 -> 11  
+1293. sending payment from 62 to 81 amount: 900000  
+(1) 94 -> 111  
+1302. sending payment from 57 to 114 amount: 900000  
+(2) 124 -> 148 -> 133  
+1299. sending payment from 7 to 43 amount: 900000  
+(2) 84 -> 130 -> 92  
+1295. sending payment from 132 to 150 amount: 900000  
+(2) 169 -> 39 -> 110  
+1302. sending payment from 31 to 171 amount: 900000  
+(2) 119 -> 128 -> 35  
+1298. sending payment from 117 to 33 amount: 900000  
+(2) 44 -> 79 -> 101  
+1311. sending payment from 28 to 127 amount: 900000  
+(2) 133 -> 166 -> 24  
+1297. sending payment from 111 to 154 amount: 900000  
+(2) 148 -> 128 -> 46  
+1307. sending payment from 78 to 127 amount: 900000  
+(2) 68 -> 44 -> 146  
+1294. sending payment from 127 to 11 amount: 900000  
+(2) 81 -> 27 -> 62  
+1294. sending payment from 43 to 22 amount: 900000  
+(1) 114 -> 57  
+1303. sending payment from 76 to 17 amount: 900000  
+(2) 43 -> 36 -> 7  
+1300. sending payment from 112 to 131 amount: 900000  
+(2) 150 -> 128 -> 132  
+1296. sending payment from 89 to 15 amount: 900000  
+(1) 171 -> 31  
+1303. sending payment from 146 to 157 amount: 900000  
+(3) 33 -> 46 -> 171 -> 117  
+1299. sending payment from 31 to 1 amount: 900000  
+(1) 127 -> 28  
+1312. sending payment from 33 to 124 amount: 900000  
+(3) 154 -> 170 -> 175 -> 111  
+1298. sending payment from 126 to 66 amount: 900000  
+(2) 127 -> 132 -> 78  
+1308. sending payment from 33 to 61 amount: 900000  
+(2) 11 -> 48 -> 127  
+1295. sending payment from 129 to 54 amount: 900000  
+(1) 22 -> 43  
+1295. sending payment from 148 to 54 amount: 900000  
+(1) 17 -> 76  
+1304. sending payment from 161 to 104 amount: 900000  
+(2) 131 -> 142 -> 112  
+1301. sending payment from 84 to 17 amount: 900000  
+(2) 15 -> 8 -> 89  
+1297. sending payment from 92 to 74 amount: 900000  
+(2) 157 -> 165 -> 146  
+1304. sending payment from 100 to 54 amount: 900000  
+(2) 1 -> 95 -> 31  
+1300. sending payment from 151 to 69 amount: 900000  
+(3) 124 -> 116 -> 58 -> 33  
+1313. sending payment from 19 to 69 amount: 900000  
+(1) 66 -> 126  
+1299. sending payment from 169 to 142 amount: 900000  
+(2) 61 -> 130 -> 33  
+1309. sending payment from 51 to 104 amount: 900000  
+(2) 54 -> 69 -> 129  
+1296. sending payment from 128 to 129 amount: 900000  
+(2) 54 -> 164 -> 148  
+1296. sending payment from 6 to 99 amount: 900000  
+(2) 104 -> 6 -> 161  
+1305. sending payment from 30 to 26 amount: 900000  
+(2) 17 -> 107 -> 84  
+1302. sending payment from 24 to 53 amount: 900000  
+(2) 74 -> 110 -> 92  
+1298. sending payment from 125 to 116 amount: 900000  
+(2) 54 -> 103 -> 100  
+1305. sending payment from 99 to 110 amount: 900000  
+(1) 69 -> 151  
+1301. sending payment from 156 to 148 amount: 900000  
+(2) 69 -> 66 -> 19  
+1314. sending payment from 0 to 50 amount: 900000  
+(1) 50 -> 0  
+1315. sending payment from 5 to 11 amount: 900000  
+(2) 142 -> 39 -> 169  
+1300. sending payment from 39 to 5 amount: 900000  
+(2) 104 -> 95 -> 51  
+1310. sending payment from 93 to 49 amount: 900000  
+(1) 129 -> 128  
+1297. sending payment from 53 to 46 amount: 900000  
+(1) 99 -> 6  
+1297. sending payment from 113 to 150 amount: 900000  
+(2) 26 -> 53 -> 30  
+1306. sending payment from 9 to 43 amount: 900000  
+(1) 53 -> 24  
+1303. sending payment from 48 to 74 amount: 900000  
+(2) 116 -> 6 -> 125  
+1299. sending payment from 81 to 136 amount: 900000  
+(2) 110 -> 6 -> 99  
+1306. sending payment from 67 to 83 amount: 900000  
+(1) 148 -> 156  
+1302. sending payment from 177 to 132 amount: 900000  
+(2) 11 -> 100 -> 5  
+1316. sending payment from 11 to 108 amount: 900000  
+(2) 5 -> 47 -> 39  
+1301. sending payment from 30 to 166 amount: 900000  
+(2) 49 -> 142 -> 93  
+1311. sending payment from 93 to 166 amount: 900000  
+(2) 46 -> 175 -> 53  
+1298. sending payment from 163 to 73 amount: 900000  
+(2) 150 -> 128 -> 113  
+1298. sending payment from 34 to 119 amount: 900000  
+(1) 43 -> 9  
+1307. sending payment from 150 to 60 amount: 900000  
+(1) 74 -> 48  
+1304. sending payment from 35 to 175 amount: 900000  
+(3) 136 -> 175 -> 57 -> 81  
+1300. sending payment from 143 to 116 amount: 900000  
+(2) 83 -> 160 -> 67  
+1307. sending payment from 127 to 70 amount: 900000  
+(2) 132 -> 144 -> 177  
+1303. sending payment from 65 to 31 amount: 900000  
+(2) 108 -> 100 -> 11  
+1317. sending payment from 109 to 62 amount: 900000  
+(2) 166 -> 57 -> 30  
+1302. sending payment from 99 to 59 amount: 900000  
+(3) 166 -> 174 -> 97 -> 93  
+1312. sending payment from 137 to 15 amount: 900000  
+(2) 73 -> 9 -> 163  
+1299. sending payment from 18 to 16 amount: 900000  
+(2) 119 -> 166 -> 34  
+1299. sending payment from 135 to 22 amount: 900000  
+(2) 60 -> 97 -> 150  
+1308. sending payment from 42 to 135 amount: 900000  
+(1) 175 -> 35  
+1305. sending payment from 73 to 5 amount: 900000  
+(2) 116 -> 58 -> 143  
+1301. sending payment from 68 to 43 amount: 900000  
+(1) 70 -> 127  
+1308. sending payment from 78 to 91 amount: 900000  
+(1) 31 -> 65  
+1304. sending payment from 162 to 35 amount: 900000  
+(1) 62 -> 109  
+1318. sending payment from 139 to 176 amount: 900000  
+(2) 59 -> 119 -> 99  
+1303. sending payment from 88 to 75 amount: 900000  
+(2) 15 -> 59 -> 137  
+1313. sending payment from 32 to 30 amount: 900000  
+(1) 16 -> 18  
+1300. sending payment from 173 to 161 amount: 900000  
+(2) 135 -> 85 -> 42  
+1309. sending payment from 66 to 113 amount: 900000  
+(2) 22 -> 40 -> 135  
+1300. sending payment from 111 to 70 amount: 900000  
+(2) 5 -> 60 -> 73  
+1306. sending payment from 175 to 88 amount: 900000  
+(1) 43 -> 68  
+1302. sending payment from 153 to 89 amount: 900000  
+(1) 91 -> 78  
+1309. sending payment from 42 to 87 amount: 900000  
+(2) 35 -> 114 -> 162  
+1305. sending payment from 99 to 85 amount: 900000  
+(2) 176 -> 156 -> 139  
+1319. sending payment from 4 to 171 amount: 900000  
+(2) 75 -> 107 -> 88  
+1304. sending payment from 17 to 90 amount: 900000  
+(2) 30 -> 38 -> 32  
+1314. sending payment from 119 to 110 amount: 900000  
+(2) 161 -> 174 -> 173  
+1301. sending payment from 77 to 162 amount: 900000  
+(1) 113 -> 66  
+1310. sending payment from 76 to 63 amount: 900000  
+(2) 70 -> 142 -> 111  
+1301. sending payment from 113 to 73 amount: 900000  
+(2) 88 -> 156 -> 175  
+1307. sending payment from 143 to 135 amount: 900000  
+(3) 89 -> 132 -> 166 -> 153  
+1303. sending payment from 169 to 108 amount: 900000  
+(2) 87 -> 44 -> 42  
+1310. sending payment from 24 to 164 amount: 900000  
+(1) 85 -> 99  
+1306. sending payment from 101 to 48 amount: 900000  
+(2) 171 -> 85 -> 4  
+1320. sending payment from 107 to 110 amount: 900000  
+(2) 90 -> 57 -> 17  
+1305. sending payment from 23 to 52 amount: 900000  
+(2) 110 -> 62 -> 119  
+1315. sending payment from 176 to 140 amount: 900000  
+(2) 162 -> 161 -> 77  
+1302. sending payment from 132 to 141 amount: 900000  
+(2) 63 -> 94 -> 76  
+1311. sending payment from 23 to 9 amount: 900000  
+(2) 73 -> 9 -> 113  
+1302. sending payment from 0 to 31 amount: 900000  
+(2) 31 -> 6 -> 0  
+1303. sending payment from 135 to 26 amount: 900000  
+(2) 135 -> 35 -> 143  
+1308. sending payment from 40 to 149 amount: 900000  
+(2) 108 -> 128 -> 169  
+1304. sending payment from 31 to 143 amount: 900000  
+(2) 164 -> 53 -> 24  
+1311. sending payment from 149 to 28 amount: 900000  
+(2) 48 -> 126 -> 101  
+1307. sending payment from 67 to 27 amount: 900000  
+(2) 110 -> 17 -> 107  
+1321. sending payment from 137 to 30 amount: 900000  
+(2) 52 -> 49 -> 23  
+1306. sending payment from 146 to 174 amount: 900000  
+(2) 140 -> 9 -> 176  
+1316. sending payment from 46 to 126 amount: 900000  
+(1) 141 -> 132  
+1303. sending payment from 166 to 117 amount: 900000  
+(2) 9 -> 12 -> 23  
+1312. sending payment from 19 to 70 amount: 900000  
+(3) 26 -> 165 -> 95 -> 135  
+1304. sending payment from 85 to 106 amount: 900000  
+(2) 149 -> 163 -> 40  
+1309. sending payment from 159 to 31 amount: 900000  
+(1) 143 -> 31  
+1305. sending payment from 14 to 12 amount: 900000  
+(2) 28 -> 128 -> 149  
+1312. sending payment from 70 to 86 amount: 900000  
+(2) 27 -> 145 -> 67  
+1308. sending payment from 101 to 147 amount: 900000  
+(2) 30 -> 1 -> 137  
+1322. sending payment from 109 to 49 amount: 900000  
+(2) 174 -> 1 -> 146  
+1307. sending payment from 174 to 72 amount: 900000  
+(2) 126 -> 14 -> 46  
+1317. sending payment from 49 to 125 amount: 900000  
+(2) 117 -> 171 -> 166  
+1304. sending payment from 52 to 118 amount: 900000  
+(2) 70 -> 142 -> 19  
+1313. sending payment from 17 to 148 amount: 900000  
+(2) 106 -> 86 -> 85  
+1305. sending payment from 127 to 119 amount: 900000  
+(2) 31 -> 128 -> 159  
+1310. sending payment from 114 to 101 amount: 900000  
+(2) 12 -> 51 -> 14  
+1306. sending payment from 124 to 134 amount: 900000  
+(1) 86 -> 70  
+1313. sending payment from 79 to 63 amount: 900000  
+(2) 147 -> 69 -> 101  
+1309. sending payment from 166 to 115 amount: 900000  
+(3) 49 -> 146 -> 137 -> 109  
+1323. sending payment from 83 to 85 amount: 900000  
+(2) 72 -> 1 -> 174  
+1308. sending payment from 21 to 72 amount: 900000  
+(3) 125 -> 126 -> 166 -> 49  
+1318. sending payment from 59 to 33 amount: 900000  
+(2) 118 -> 170 -> 52  
+1305. sending payment from 123 to 22 amount: 900000  
+(3) 148 -> 154 -> 4 -> 17  
+1314. sending payment from 47 to 123 amount: 900000  
+(2) 119 -> 101 -> 127  
+1306. sending payment from 72 to 124 amount: 900000  
+(2) 101 -> 109 -> 114  
+1311. sending payment from 31 to 125 amount: 900000  
+(2) 134 -> 148 -> 124  
+1307. sending payment from 147 to 62 amount: 900000  
+(1) 63 -> 79  
+1314. sending payment from 46 to 39 amount: 900000  
+(2) 115 -> 114 -> 166  
+1310. sending payment from 130 to 70 amount: 900000  
+(2) 85 -> 142 -> 83  
+1324. sending payment from 43 to 96 amount: 900000  
+(2) 72 -> 31 -> 21  
+1309. sending payment from 145 to 164 amount: 900000  
+(2) 33 -> 131 -> 59  
+1319. sending payment from 105 to 60 amount: 900000  
+(2) 22 -> 57 -> 123  
+1306. sending payment from 134 to 98 amount: 900000  
+(2) 123 -> 166 -> 47  
+1315. sending payment from 7 to 107 amount: 900000  
+(3) 124 -> 132 -> 161 -> 72  
+1307. sending payment from 13 to 108 amount: 900000  
+(1) 125 -> 31  
+1312. sending payment from 17 to 89 amount: 900000  
+(1) 62 -> 147  
+1308. sending payment from 78 to 121 amount: 900000  
+(2) 39 -> 71 -> 46  
+1315. sending payment from 50 to 171 amount: 900000  
+(1) 70 -> 130  
+1311. sending payment from 38 to 80 amount: 900000  
+(3) 96 -> 78 -> 83 -> 43  
+1325. sending payment from 19 to 14 amount: 900000  
+(1) 164 -> 145  
+1310. sending payment from 161 to 121 amount: 900000  
+(2) 60 -> 63 -> 105  
+1320. sending payment from 66 to 21 amount: 900000  
+(2) 107 -> 69 -> 7  
+1316. sending payment from 126 to 51 amount: 900000  
+(2) 98 -> 62 -> 134  
+1307. sending payment from 147 to 156 amount: 900000  
+(2) 108 -> 142 -> 13  
+1308. sending payment from 15 to 47 amount: 900000  
+(2) 89 -> 58 -> 17  
+1313. sending payment from 8 to 56 amount: 900000  
+(3) 121 -> 137 -> 174 -> 78  
+1309. sending payment from 170 to 82 amount: 900000  
+(2) 171 -> 107 -> 50  
+1316. sending payment from 154 to 127 amount: 900000  
+(2) 80 -> 6 -> 38  
+1312. sending payment from 170 to 75 amount: 900000  
+(2) 14 -> 31 -> 19  
+1326. sending payment from 34 to 24 amount: 900000  
+(2) 121 -> 57 -> 161  
+1311. sending payment from 128 to 46 amount: 900000  
+(2) 21 -> 175 -> 66  
+1321. sending payment from 95 to 145 amount: 900000  
+(2) 51 -> 122 -> 126  
+1317. sending payment from 163 to 116 amount: 900000  
+(2) 156 -> 171 -> 147  
+1308. sending payment from 176 to 141 amount: 900000  
+(2) 47 -> 142 -> 15  
+1309. sending payment from 4 to 145 amount: 900000  
+(1) 56 -> 8  
+1314. sending payment from 160 to 30 amount: 900000  
+(2) 82 -> 140 -> 170  
+1310. sending payment from 80 to 156 amount: 900000  
+(1) 127 -> 154  
+1317. sending payment from 151 to 150 amount: 900000  
+(2) 75 -> 62 -> 170  
+1313. sending payment from 85 to 81 amount: 900000  
+(3) 24 -> 109 -> 97 -> 34  
+1327. sending payment from 62 to 32 amount: 900000  
+(1) 46 -> 128  
+1312. sending payment from 145 to 86 amount: 900000  
+(2) 145 -> 79 -> 95  
+1322. sending payment from 176 to 8 amount: 900000  
+(1) 116 -> 163  
+1318. sending payment from 23 to 81 amount: 900000  
+(2) 141 -> 115 -> 176  
+1309. sending payment from 126 to 2 amount: 900000  
+(2) 145 -> 144 -> 4  
+1310. sending payment from 59 to 29 amount: 900000  
+(2) 30 -> 174 -> 160  
+1315. sending payment from 80 to 96 amount: 900000  
+(2) 156 -> 64 -> 80  
+1311. sending payment from 103 to 75 amount: 900000  
+(2) 150 -> 0 -> 151  
+1318. sending payment from 72 to 104 amount: 900000  
+(2) 81 -> 8 -> 85  
+1314. sending payment from 136 to 132 amount: 900000  
+(1) 32 -> 62  
+1328. sending payment from 17 to 71 amount: 900000  
+(2) 86 -> 166 -> 145  
+1313. sending payment from 151 to 99 amount: 900000  
+(2) 8 -> 70 -> 176  
+1323. sending payment from 27 to 127 amount: 900000  
+(2) 81 -> 37 -> 23  
+1319. sending payment from 56 to 169 amount: 900000  
+(1) 2 -> 126  
+1310. sending payment from 18 to 99 amount: 900000  
+(1) 29 -> 59  
+1311. sending payment from 80 to 171 amount: 900000  
+(3) 96 -> 65 -> 6 -> 80  
+1316. sending payment from 8 to 14 amount: 900000  
+(1) 75 -> 103  
+1312. sending payment from 99 to 164 amount: 900000  
+(2) 104 -> 165 -> 72  
+1319. sending payment from 84 to 13 amount: 900000  
+(2) 132 -> 148 -> 136  
+1315. sending payment from 150 to 0 amount: 900000  
+(2) 71 -> 58 -> 17  
+1329. sending payment from 174 to 60 amount: 900000  
+(2) 99 -> 107 -> 151  
+1314. sending payment from 20 to 175 amount: 900000  
+(2) 127 -> 100 -> 27  
+1324. sending payment from 151 to 114 amount: 900000  
+ 
+1320. sending payment from 28 to 132 amount: 900000  
+(2) 99 -> 107 -> 18  
+1311. sending payment from 93 to 142 amount: 900000  
+(2) 171 -> 6 -> 80  
+1312. sending payment from 33 to 66 amount: 900000  
+(2) 14 -> 76 -> 8  
+1317. sending payment from 17 to 153 amount: 900000  
+(1) 164 -> 99  
+1313. sending payment from 118 to 143 amount: 900000  
+(2) 13 -> 1 -> 84  
+1320. sending payment from 83 to 135 amount: 900000  
+(1) 0 -> 150  
+1316. sending payment from 147 to 56 amount: 900000  
+(1) 60 -> 174  
+1330. sending payment from 138 to 173 amount: 900000  
+(2) 114 -> 6 -> 151  
+1325. sending payment from 137 to 171 amount: 900000  
+(2) 175 -> 57 -> 20  
+1315. sending payment from 147 to 50 amount: 900000  
+(2) 132 -> 138 -> 28  
+1321. sending payment from 172 to 111 amount: 900000  
+(1) 142 -> 93  
+1312. sending payment from 85 to 137 amount: 900000  
+(2) 66 -> 130 -> 33  
+1313. sending payment from 91 to 100 amount: 900000  
+(2) 153 -> 107 -> 17  
+1318. sending payment from 174 to 124 amount: 900000  
+(2) 143 -> 166 -> 118  
+1314. sending payment from 158 to 141 amount: 900000  
+(2) 135 -> 174 -> 83  
+1321. sending payment from 67 to 55 amount: 900000  
+(2) 56 -> 166 -> 147  
+1317. sending payment from 55 to 70 amount: 900000  
+(2) 173 -> 99 -> 138  
+1331. sending payment from 35 to 151 amount: 900000  
+(2) 171 -> 69 -> 137  
+1326. sending payment from 175 to 85 amount: 900000  
+(2) 50 -> 46 -> 147  
+1316. sending payment from 170 to 34 amount: 900000  
+(1) 111 -> 172  
+1322. sending payment from 37 to 39 amount: 900000  
+(2) 137 -> 174 -> 85  
+1313. sending payment from 105 to 4 amount: 900000  
+(1) 100 -> 91  
+1314. sending payment from 133 to 118 amount: 900000  
+(2) 124 -> 127 -> 174  
+1319. sending payment from 141 to 77 amount: 900000  
+(2) 141 -> 146 -> 158  
+1315. sending payment from 42 to 123 amount: 900000  
+(2) 55 -> 107 -> 67  
+1322. sending payment from 47 to 77 amount: 900000  
+(2) 70 -> 175 -> 55  
+1318. sending payment from 103 to 11 amount: 900000  
+(2) 151 -> 129 -> 35  
+1332. sending payment from 66 to 120 amount: 900000  
+(2) 34 -> 128 -> 170  
+1317. sending payment from 173 to 113 amount: 900000  
+(1) 85 -> 175  
+1327. sending payment from 134 to 78 amount: 900000  
+(2) 39 -> 74 -> 37  
+1323. sending payment from 22 to 69 amount: 900000  
+(2) 4 -> 168 -> 105  
+1314. sending payment from 162 to 66 amount: 900000  
+(2) 118 -> 113 -> 133  
+1315. sending payment from 70 to 148 amount: 900000  
+(2) 77 -> 128 -> 141  
+1320. sending payment from 136 to 20 amount: 900000  
+(2) 123 -> 69 -> 42  
+1316. sending payment from 29 to 158 amount: 900000  
+(3) 77 -> 161 -> 174 -> 47  
+1323. sending payment from 16 to 156 amount: 900000  
+(1) 11 -> 103  
+1319. sending payment from 169 to 172 amount: 900000  
+(2) 120 -> 113 -> 66  
+1333. sending payment from 76 to 31 amount: 900000  
+(2) 113 -> 116 -> 173  
+1318. sending payment from 47 to 82 amount: 900000  
+(2) 78 -> 9 -> 134  
+1328. sending payment from 8 to 103 amount: 900000  
+(2) 69 -> 128 -> 22  
+1324. sending payment from 69 to 113 amount: 900000  
+(2) 66 -> 39 -> 162  
+1315. sending payment from 84 to 45 amount: 900000  
+(2) 148 -> 123 -> 70  
+1316. sending payment from 107 to 48 amount: 900000  
+(3) 20 -> 37 -> 107 -> 136  
+1321. sending payment from 116 to 33 amount: 900000  
+(3) 158 -> 83 -> 1 -> 29  
+1317. sending payment from 81 to 171 amount: 900000  
+(2) 156 -> 4 -> 16  
+1324. sending payment from 129 to 2 amount: 900000  
+(2) 172 -> 128 -> 169  
+1320. sending payment from 154 to 162 amount: 900000  
+(2) 31 -> 142 -> 76  
+1334. sending payment from 147 to 15 amount: 900000  
+(2) 82 -> 0 -> 47  
+1319. sending payment from 118 to 115 amount: 900000  
+(2) 103 -> 57 -> 8  
+1329. sending payment from 164 to 23 amount: 900000  
+(1) 113 -> 69  
+1325. sending payment from 161 to 29 amount: 900000  
+(2) 45 -> 128 -> 84  
+1316. sending payment from 69 to 132 amount: 900000  
+(1) 48 -> 107  
+1317. sending payment from 27 to 16 amount: 900000  
+(2) 33 -> 131 -> 116  
+1322. sending payment from 28 to 34 amount: 900000  
+(2) 171 -> 114 -> 81  
+1318. sending payment from 166 to 22 amount: 900000  
+(2) 2 -> 44 -> 129  
+1325. sending payment from 114 to 66 amount: 900000  
+(2) 162 -> 114 -> 154  
+1321. sending payment from 20 to 94 amount: 900000  
+(2) 15 -> 57 -> 147  
+1335. sending payment from 169 to 90 amount: 900000  
+(2) 115 -> 128 -> 118  
+1320. sending payment from 120 to 83 amount: 900000  
+(2) 23 -> 57 -> 164  
+1330. sending payment from 0 to 14 amount: 900000  
+(1) 14 -> 0  
+1331. sending payment from 96 to 169 amount: 900000  
+(2) 29 -> 0 -> 161  
+1326. sending payment from 136 to 94 amount: 900000  
+(1) 132 -> 69  
+1317. sending payment from 70 to 141 amount: 900000  
+(2) 16 -> 49 -> 27  
+1318. sending payment from 139 to 1 amount: 900000  
+(2) 34 -> 51 -> 28  
+1323. sending payment from 58 to 53 amount: 900000  
+(2) 22 -> 48 -> 166  
+1319. sending payment from 31 to 146 amount: 900000  
+(2) 66 -> 6 -> 114  
+1326. sending payment from 83 to 81 amount: 900000  
+(2) 94 -> 37 -> 20  
+1322. sending payment from 47 to 64 amount: 900000  
+(2) 90 -> 128 -> 169  
+1336. sending payment from 39 to 147 amount: 900000  
+(2) 83 -> 67 -> 120  
+1321. sending payment from 22 to 93 amount: 900000  
+(3) 169 -> 141 -> 7 -> 96  
+1332. sending payment from 27 to 87 amount: 900000  
+(2) 94 -> 9 -> 136  
+1327. sending payment from 33 to 77 amount: 900000  
+(2) 141 -> 100 -> 70  
+1318. sending payment from 71 to 24 amount: 900000  
+(2) 53 -> 17 -> 58  
+1324. sending payment from 70 to 146 amount: 900000  
+(1) 1 -> 139  
+1319. sending payment from 54 to 85 amount: 900000  
+(1) 146 -> 31  
+1320. sending payment from 158 to 161 amount: 900000  
+(2) 81 -> 6 -> 83  
+1327. sending payment from 95 to 106 amount: 900000  
+(2) 64 -> 35 -> 47  
+1323. sending payment from 103 to 114 amount: 900000  
+(1) 147 -> 39  
+1337. sending payment from 39 to 164 amount: 900000  
+(3) 93 -> 90 -> 65 -> 22  
+1322. sending payment from 108 to 43 amount: 900000  
+(3) 87 -> 6 -> 109 -> 27  
+1333. sending payment from 6 to 9 amount: 900000  
+(3) 77 -> 142 -> 70 -> 33  
+1328. sending payment from 123 to 40 amount: 900000  
+(2) 24 -> 43 -> 71  
+1319. sending payment from 111 to 142 amount: 900000  
+(1) 146 -> 70  
+1325. sending payment from 72 to 0 amount: 900000  
+(2) 85 -> 103 -> 54  
+1320. sending payment from 73 to 59 amount: 900000  
+(2) 161 -> 6 -> 158  
+1321. sending payment from 165 to 169 amount: 900000  
+(2) 106 -> 40 -> 95  
+1328. sending payment from 163 to 105 amount: 900000  
+(1) 114 -> 103  
+1324. sending payment from 42 to 60 amount: 900000  
+(2) 164 -> 54 -> 39  
+1338. sending payment from 114 to 64 amount: 900000  
+(2) 43 -> 47 -> 108  
+1323. sending payment from 25 to 44 amount: 900000  
+(2) 9 -> 87 -> 6  
+1334. sending payment from 79 to 85 amount: 900000  
+(2) 40 -> 110 -> 123  
+1329. sending payment from 174 to 115 amount: 900000  
+(1) 142 -> 111  
+1320. sending payment from 35 to 119 amount: 900000  
+(2) 0 -> 62 -> 72  
+1326. sending payment from 50 to 136 amount: 900000  
+(2) 59 -> 79 -> 73  
+1321. sending payment from 129 to 19 amount: 900000  
+(2) 169 -> 141 -> 165  
+1322. sending payment from 85 to 98 amount: 900000  
+(2) 105 -> 48 -> 163  
+1329. sending payment from 46 to 120 amount: 900000  
+(2) 60 -> 100 -> 42  
+1325. sending payment from 112 to 57 amount: 900000  
+(2) 64 -> 144 -> 114  
+1339. sending payment from 176 to 80 amount: 900000  
+(2) 44 -> 116 -> 25  
+1324. sending payment from 76 to 72 amount: 900000  
+(2) 85 -> 155 -> 79  
+1335. sending payment from 39 to 147 amount: 900000  
+(2) 115 -> 143 -> 174  
+1330. sending payment from 123 to 122 amount: 900000  
+(2) 119 -> 70 -> 35  
+1321. sending payment from 56 to 159 amount: 900000  
+(2) 136 -> 1 -> 50  
+1327. sending payment from 82 to 63 amount: 900000  
+(2) 19 -> 48 -> 129  
+1322. sending payment from 122 to 92 amount: 900000  
+(2) 98 -> 59 -> 85  
+1323. sending payment from 95 to 69 amount: 900000  
+(2) 120 -> 113 -> 46  
+1330. sending payment from 125 to 174 amount: 900000  
+(2) 57 -> 116 -> 112  
+1326. sending payment from 80 to 128 amount: 900000  
+(3) 80 -> 116 -> 156 -> 176  
+1340. sending payment from 11 to 126 amount: 900000  
+(2) 72 -> 143 -> 76  
+1325. sending payment from 33 to 80 amount: 900000  
+(1) 147 -> 39  
+1336. sending payment from 111 to 91 amount: 900000  
+(1) 122 -> 123  
+1331. sending payment from 119 to 85 amount: 900000  
+(2) 159 -> 128 -> 56  
+1322. sending payment from 0 to 16 amount: 900000  
+(2) 16 -> 22 -> 0  
+1323. sending payment from 4 to 102 amount: 900000  
+(2) 63 -> 62 -> 82  
+1328. sending payment from 165 to 161 amount: 900000  
+(2) 92 -> 146 -> 122  
+1323. sending payment from 116 to 10 amount: 900000  
+(1) 69 -> 95  
+1324. sending payment from 75 to 151 amount: 900000  
+(1) 174 -> 125  
+1331. sending payment from 129 to 2 amount: 900000  
+(1) 128 -> 80  
+1327. sending payment from 79 to 81 amount: 900000  
+(2) 126 -> 2 -> 11  
+1341. sending payment from 145 to 25 amount: 900000  
+(3) 80 -> 128 -> 46 -> 33  
+1326. sending payment from 168 to 158 amount: 900000  
+(2) 91 -> 142 -> 111  
+1337. sending payment from 70 to 110 amount: 900000  
+(1) 85 -> 119  
+1332. sending payment from 73 to 146 amount: 900000  
+(2) 102 -> 175 -> 4  
+1324. sending payment from 52 to 87 amount: 900000  
+(2) 161 -> 162 -> 165  
+1329. sending payment from 33 to 172 amount: 900000  
+(2) 10 -> 127 -> 116  
+1324. sending payment from 75 to 67 amount: 900000  
+(2) 151 -> 6 -> 75  
+1325. sending payment from 143 to 48 amount: 900000  
+(2) 2 -> 9 -> 129  
+1332. sending payment from 169 to 14 amount: 900000  
+(2) 81 -> 114 -> 79  
+1328. sending payment from 124 to 70 amount: 900000  
+(2) 25 -> 154 -> 145  
+1342. sending payment from 3 to 26 amount: 900000  
+(2) 158 -> 107 -> 168  
+1327. sending payment from 90 to 176 amount: 900000  
+(2) 110 -> 142 -> 70  
+1338. sending payment from 60 to 145 amount: 900000  
+(2) 146 -> 95 -> 73  
+1333. sending payment from 59 to 112 amount: 900000  
+(1) 87 -> 52  
+1325. sending payment from 85 to 127 amount: 900000  
+(2) 172 -> 116 -> 33  
+1330. sending payment from 124 to 100 amount: 900000  
+(2) 67 -> 147 -> 75  
+1325. sending payment from 148 to 19 amount: 900000  
+(2) 48 -> 126 -> 143  
+1326. sending payment from 117 to 45 amount: 900000  
+(2) 14 -> 126 -> 169  
+1333. sending payment from 129 to 56 amount: 900000  
+(1) 70 -> 124  
+1329. sending payment from 174 to 35 amount: 900000  
+(2) 26 -> 43 -> 3  
+1343. sending payment from 129 to 155 amount: 900000  
+(2) 176 -> 57 -> 90  
+1328. sending payment from 122 to 76 amount: 900000  
+(2) 145 -> 107 -> 60  
+1339. sending payment from 62 to 107 amount: 900000  
+(2) 112 -> 63 -> 59  
+1334. sending payment from 137 to 144 amount: 900000  
+(1) 127 -> 85  
+1326. sending payment from 6 to 153 amount: 900000  
+(2) 100 -> 105 -> 124  
+1331. sending payment from 91 to 165 amount: 900000  
+(2) 19 -> 142 -> 148  
+1326. sending payment from 73 to 110 amount: 900000  
+(2) 45 -> 171 -> 117  
+1327. sending payment from 124 to 116 amount: 900000  
+(2) 56 -> 44 -> 129  
+1334. sending payment from 71 to 140 amount: 900000  
+(1) 35 -> 174  
+1330. sending payment from 3 to 1 amount: 900000  
+(2) 155 -> 142 -> 129  
+1344. sending payment from 158 to 15 amount: 900000  
+(2) 76 -> 21 -> 122  
+1329. sending payment from 145 to 22 amount: 900000  
+(1) 107 -> 62  
+1340. sending payment from 126 to 175 amount: 900000  
+(1) 144 -> 137  
+1335. sending payment from 132 to 27 amount: 900000  
+(1) 153 -> 6  
+1327. sending payment from 174 to 51 amount: 900000  
+(2) 165 -> 7 -> 91  
+1332. sending payment from 137 to 157 amount: 900000  
+(2) 110 -> 111 -> 73  
+1327. sending payment from 64 to 156 amount: 900000  
+(2) 116 -> 144 -> 124  
+1328. sending payment from 7 to 24 amount: 900000  
+(2) 140 -> 139 -> 71  
+1335. sending payment from 82 to 62 amount: 900000  
+(2) 1 -> 72 -> 3  
+1331. sending payment from 130 to 23 amount: 900000  
+(2) 15 -> 9 -> 158  
+1345. sending payment from 6 to 116 amount: 900000  
+(2) 22 -> 1 -> 145  
+1330. sending payment from 13 to 114 amount: 900000  
+(1) 175 -> 126  
+1341. sending payment from 55 to 19 amount: 900000  
+(2) 27 -> 4 -> 132  
+1336. sending payment from 4 to 84 amount: 900000  
+(1) 51 -> 174  
+1328. sending payment from 105 to 155 amount: 900000  
+(2) 157 -> 170 -> 137  
+1333. sending payment from 129 to 17 amount: 900000  
+(1) 156 -> 64  
+1328. sending payment from 13 to 158 amount: 900000  
+(2) 24 -> 22 -> 7  
+1329. sending payment from 99 to 34 amount: 900000  
+(1) 62 -> 82  
+1336. sending payment from 114 to 98 amount: 900000  
+(2) 23 -> 37 -> 130  
+1332. sending payment from 129 to 31 amount: 900000  
+(1) 116 -> 6  
+1346. sending payment from 119 to 129 amount: 900000  
+(2) 114 -> 38 -> 13  
+1331. sending payment from 107 to 82 amount: 900000  
+(2) 19 -> 43 -> 55  
+1342. sending payment from 25 to 67 amount: 900000  
+(2) 84 -> 132 -> 4  
+1337. sending payment from 48 to 150 amount: 900000  
+(2) 155 -> 142 -> 105  
+1329. sending payment from 139 to 33 amount: 900000  
+(2) 17 -> 53 -> 129  
+1334. sending payment from 89 to 59 amount: 900000  
+(3) 158 -> 107 -> 48 -> 13  
+1329. sending payment from 177 to 34 amount: 900000  
+(3) 34 -> 140 -> 105 -> 99  
+1330. sending payment from 29 to 104 amount: 900000  
+(2) 98 -> 116 -> 114  
+1337. sending payment from 62 to 139 amount: 900000  
+(2) 31 -> 99 -> 129  
+1333. sending payment from 102 to 0 amount: 900000  
+(2) 129 -> 130 -> 119  
+1347. sending payment from 1 to 58 amount: 900000  
+(2) 82 -> 165 -> 107  
+1332. sending payment from 95 to 103 amount: 900000  
+(2) 67 -> 62 -> 25  
+1343. sending payment from 93 to 53 amount: 900000  
+(2) 150 -> 128 -> 48  
+1338. sending payment from 165 to 5 amount: 900000  
+(2) 33 -> 131 -> 139  
+1330. sending payment from 125 to 155 amount: 900000  
+(2) 59 -> 57 -> 89  
+1335. sending payment from 166 to 61 amount: 900000  
+(2) 34 -> 87 -> 177  
+1330. sending payment from 158 to 35 amount: 900000  
+(2) 104 -> 59 -> 29  
+1331. sending payment from 64 to 126 amount: 900000  
+(1) 139 -> 62  No such edge: 139 62 
+ 
+1338. sending payment from 21 to 113 amount: 900000  
+(3) 0 -> 6 -> 139 -> 102  
+1334. sending payment from 145 to 160 amount: 900000  
+(2) 58 -> 68 -> 1  
+1348. sending payment from 34 to 50 amount: 900000  
+(1) 103 -> 95  
+1333. sending payment from 170 to 60 amount: 900000  
+(3) 53 -> 174 -> 97 -> 93  
+1344. sending payment from 38 to 57 amount: 900000  
+(1) 5 -> 165  
+1339. sending payment from 160 to 164 amount: 900000  
+(2) 155 -> 74 -> 125  
+1331. sending payment from 22 to 153 amount: 900000  
+(2) 61 -> 44 -> 166  
+1336. sending payment from 7 to 92 amount: 900000  
+(2) 35 -> 142 -> 158  
+1331. sending payment from 46 to 97 amount: 900000  
+(1) 126 -> 64  
+1332. sending payment from 44 to 7 amount: 900000  
+(2) 113 -> 174 -> 21  
+1339. sending payment from 131 to 88 amount: 900000  
+(2) 160 -> 157 -> 145  
+1335. sending payment from 68 to 37 amount: 900000  
+(2) 50 -> 87 -> 34  
+1349. sending payment from 159 to 39 amount: 900000  
+(1) 60 -> 170  
+1334. sending payment from 5 to 97 amount: 900000  
+(2) 57 -> 13 -> 38  
+1345. sending payment from 93 to 42 amount: 900000  
+(1) 164 -> 160  
+1340. sending payment from 34 to 71 amount: 900000  
+(3) 153 -> 166 -> 128 -> 22  
+1332. sending payment from 62 to 32 amount: 900000  
+(2) 92 -> 39 -> 7  
+1337. sending payment from 9 to 48 amount: 900000  
+(2) 97 -> 61 -> 46  
+1332. sending payment from 12 to 121 amount: 900000  
+(2) 7 -> 39 -> 44  
+1333. sending payment from 112 to 177 amount: 900000  
+(1) 88 -> 131  
+1340. sending payment from 90 to 24 amount: 900000  
+(2) 39 -> 7 -> 159  
+1350. sending payment from 88 to 70 amount: 900000  
+(2) 37 -> 8 -> 68  
+1336. sending payment from 107 to 146 amount: 900000  
+(2) 97 -> 175 -> 5  
+1335. sending payment from 68 to 64 amount: 900000  
+(2) 42 -> 92 -> 93  
+1346. sending payment from 44 to 95 amount: 900000  
+(3) 71 -> 139 -> 72 -> 34  
+1341. sending payment from 154 to 112 amount: 900000  
+(1) 32 -> 62  
+1333. sending payment from 149 to 25 amount: 900000  
+(2) 48 -> 64 -> 9  
+1338. sending payment from 107 to 20 amount: 900000  
+(3) 121 -> 137 -> 107 -> 12  
+1333. sending payment from 75 to 34 amount: 900000  
+(3) 177 -> 144 -> 124 -> 112  
+1334. sending payment from 52 to 171 amount: 900000  
+(2) 24 -> 39 -> 90  
+1341. sending payment from 16 to 174 amount: 900000  
+(1) 70 -> 88  
+1351. sending payment from 72 to 8 amount: 900000  
+(1) 146 -> 107  
+1337. sending payment from 119 to 163 amount: 900000  
+(2) 64 -> 95 -> 68  
+1336. sending payment from 133 to 151 amount: 900000  
+(1) 95 -> 44  
+1347. sending payment from 111 to 146 amount: 900000  
+(1) 112 -> 154  
+1342. sending payment from 126 to 123 amount: 900000  
+(2) 25 -> 128 -> 149  
+1334. sending payment from 37 to 69 amount: 900000  
+(2) 20 -> 37 -> 107  
+1339. sending payment from 91 to 104 amount: 900000  
+(2) 34 -> 59 -> 75  
+1334. sending payment from 129 to 131 amount: 900000  
+(2) 171 -> 127 -> 52  
+1335. sending payment from 79 to 157 amount: 900000  
+(2) 174 -> 62 -> 16  
+1342. sending payment from 31 to 18 amount: 900000  
+(2) 8 -> 10 -> 72  
+1352. sending payment from 25 to 72 amount: 900000  
+(2) 163 -> 128 -> 119  
+1338. sending payment from 99 to 177 amount: 900000  
+(2) 151 -> 157 -> 133  
+1337. sending payment from 84 to 85 amount: 900000  
+(3) 146 -> 113 -> 40 -> 111  
+1348. sending payment from 151 to 163 amount: 900000  
+(2) 123 -> 128 -> 126  
+1343. sending payment from 84 to 15 amount: 900000  
+(1) 69 -> 37  
+1335. sending payment from 26 to 10 amount: 900000  
+(2) 104 -> 142 -> 91  
+1340. sending payment from 118 to 12 amount: 900000  
+(2) 131 -> 132 -> 129  
+1335. sending payment from 164 to 75 amount: 900000  
+(2) 157 -> 152 -> 79  
+1336. sending payment from 54 to 170 amount: 900000  
+(2) 18 -> 128 -> 31  
+1343. sending payment from 91 to 90 amount: 900000  
+(2) 72 -> 1 -> 25  
+1353. sending payment from 34 to 114 amount: 900000  
+(3) 177 -> 157 -> 113 -> 99  
+1339. sending payment from 13 to 50 amount: 900000  
+(1) 85 -> 84  
+1338. sending payment from 149 to 18 amount: 900000  
+(1) 163 -> 151  
+1349. sending payment from 82 to 146 amount: 900000  
+(2) 15 -> 1 -> 84  
+1344. sending payment from 32 to 120 amount: 900000  
+(1) 10 -> 26  
+1336. sending payment from 124 to 13 amount: 900000  
+(2) 12 -> 87 -> 118  
+1341. sending payment from 74 to 73 amount: 900000  
+(2) 75 -> 147 -> 164  
+1336. sending payment from 3 to 159 amount: 900000  
+(1) 170 -> 54  
+1337. sending payment from 73 to 150 amount: 900000  
+(2) 90 -> 7 -> 91  
+1344. sending payment from 117 to 119 amount: 900000  
+(2) 114 -> 132 -> 34  
+1354. sending payment from 149 to 105 amount: 900000  
+(1) 50 -> 13  
+1340. sending payment from 68 to 172 amount: 900000  
+(2) 18 -> 166 -> 149  
+1339. sending payment from 89 to 65 amount: 900000  
+(3) 146 -> 112 -> 116 -> 82  
+1350. sending payment from 151 to 123 amount: 900000  
+(3) 120 -> 133 -> 87 -> 32  
+1345. sending payment from 160 to 174 amount: 900000  
+(2) 13 -> 48 -> 124  
+1337. sending payment from 19 to 162 amount: 900000  
+(2) 73 -> 95 -> 74  
+1342. sending payment from 7 to 150 amount: 900000  
+(1) 159 -> 3  
+1337. sending payment from 37 to 154 amount: 900000  
+(2) 150 -> 126 -> 73  
+1338. sending payment from 68 to 92 amount: 900000  
+(3) 119 -> 31 -> 171 -> 117  
+1345. sending payment from 103 to 30 amount: 900000  
+(2) 105 -> 124 -> 149  
+1355. sending payment from 18 to 19 amount: 900000  
+(2) 172 -> 87 -> 68  
+1341. sending payment from 166 to 167 amount: 900000  
+(3) 65 -> 3 -> 39 -> 89  
+1340. sending payment from 45 to 168 amount: 900000  
+(2) 123 -> 6 -> 151  
+1351. sending payment from 11 to 146 amount: 900000  
+(2) 174 -> 165 -> 160  
+1346. sending payment from 77 to 22 amount: 900000  
+(3) 162 -> 0 -> 62 -> 19  
+1338. sending payment from 76 to 24 amount: 900000  
+(1) 150 -> 7  
+1343. sending payment from 172 to 0 amount: 900000  
+(2) 154 -> 6 -> 37  
+1338. sending payment from 43 to 72 amount: 900000  
+(2) 92 -> 147 -> 68  
+1339. sending payment from 123 to 140 amount: 900000  
+(3) 30 -> 43 -> 45 -> 103  
+1346. sending payment from 72 to 79 amount: 900000  
+(1) 19 -> 18  
+1356. sending payment from 8 to 18 amount: 900000  
+(3) 167 -> 126 -> 62 -> 166  
+1342. sending payment from 139 to 53 amount: 900000  
+(2) 146 -> 48 -> 11  
+1352. sending payment from 72 to 12 amount: 900000  
+(1) 168 -> 45  
+1341. sending payment from 75 to 11 amount: 900000  
+(2) 22 -> 128 -> 77  
+1347. sending payment from 96 to 153 amount: 900000  
+(1) 24 -> 76  
+1339. sending payment from 31 to 29 amount: 900000  
+(2) 0 -> 7 -> 172  
+1344. sending payment from 84 to 34 amount: 900000  
+(1) 72 -> 43  
+1339. sending payment from 46 to 113 amount: 900000  
+(2) 140 -> 156 -> 123  
+1340. sending payment from 3 to 139 amount: 900000  
+(2) 79 -> 142 -> 72  
+1347. sending payment from 103 to 123 amount: 900000  
+(2) 18 -> 154 -> 8  
+1357. sending payment from 31 to 61 amount: 900000  
+(2) 53 -> 127 -> 139  
+1343. sending payment from 145 to 52 amount: 900000  
+(1) 12 -> 72  
+1353. sending payment from 48 to 121 amount: 900000  
+(1) 11 -> 75  
+1342. sending payment from 33 to 115 amount: 900000  
+(4) 153 -> 107 -> 103 -> 100 -> 96  
+1348. sending payment from 167 to 61 amount: 900000  
+(2) 29 -> 39 -> 31  
+1340. sending payment from 55 to 70 amount: 900000  
+(2) 34 -> 107 -> 84  
+1345. sending payment from 131 to 133 amount: 900000  
+(2) 113 -> 39 -> 46  
+1340. sending payment from 176 to 113 amount: 900000  
+(2) 139 -> 34 -> 3  
+1341. sending payment from 43 to 114 amount: 900000  
+(1) 123 -> 103  
+1348. sending payment from 88 to 10 amount: 900000  
+(2) 61 -> 8 -> 31  
+1358. sending payment from 56 to 123 amount: 900000  
+(2) 52 -> 62 -> 145  
+1344. sending payment from 130 to 48 amount: 900000  
+(2) 121 -> 142 -> 48  
+1354. sending payment from 54 to 122 amount: 900000  
+(2) 115 -> 46 -> 33  
+1343. sending payment from 133 to 8 amount: 900000  
+(2) 61 -> 97 -> 167  
+1349. sending payment from 127 to 143 amount: 900000  
+(2) 70 -> 87 -> 55  
+1341. sending payment from 132 to 15 amount: 900000  
+(2) 133 -> 166 -> 131  
+1346. sending payment from 95 to 115 amount: 900000  
+(1) 113 -> 176  
+1341. sending payment from 120 to 129 amount: 900000  
+(2) 114 -> 9 -> 43  
+1342. sending payment from 62 to 65 amount: 900000  
+(2) 10 -> 142 -> 88  
+1349. sending payment from 33 to 73 amount: 900000  
+(2) 123 -> 142 -> 56  
+1359. sending payment from 150 to 174 amount: 900000  
+(1) 48 -> 130  
+1345. sending payment from 130 to 1 amount: 900000  
+(2) 122 -> 164 -> 54  
+1355. sending payment from 92 to 145 amount: 900000  
+(2) 8 -> 49 -> 133  
+1344. sending payment from 119 to 59 amount: 900000  
+(1) 143 -> 127  
+1350. sending payment from 86 to 127 amount: 900000  
+(2) 15 -> 9 -> 132  
+1342. sending payment from 11 to 166 amount: 900000  
+(2) 115 -> 126 -> 95  
+1347. sending payment from 140 to 37 amount: 900000  
+(2) 129 -> 124 -> 120  
+1342. sending payment from 116 to 13 amount: 900000  
+(2) 65 -> 14 -> 62  
+1343. sending payment from 19 to 130 amount: 900000  
+(3) 73 -> 103 -> 1 -> 33  
+1350. sending payment from 123 to 49 amount: 900000  
+(2) 174 -> 38 -> 150  
+1360. sending payment from 143 to 94 amount: 900000  
+(1) 1 -> 130  
+1346. sending payment from 149 to 6 amount: 900000  
+(2) 145 -> 57 -> 92  
+1356. sending payment from 168 to 80 amount: 900000  
+(2) 59 -> 83 -> 119  
+1345. sending payment from 92 to 64 amount: 900000  
+(2) 127 -> 51 -> 86  
+1351. sending payment from 73 to 107 amount: 900000  
+(2) 166 -> 62 -> 11  
+1343. sending payment from 43 to 75 amount: 900000  
+(2) 37 -> 62 -> 140  
+1348. sending payment from 123 to 60 amount: 900000  
+(2) 13 -> 37 -> 116  
+1343. sending payment from 21 to 176 amount: 900000  
+(2) 130 -> 142 -> 19  
+1344. sending payment from 39 to 30 amount: 900000  
+(2) 49 -> 142 -> 123  
+1351. sending payment from 151 to 24 amount: 900000  
+(2) 94 -> 9 -> 143  
+1361. sending payment from 136 to 70 amount: 900000  
+(2) 6 -> 99 -> 149  
+1347. sending payment from 169 to 145 amount: 900000  
+(2) 80 -> 166 -> 168  
+1357. sending payment from 19 to 99 amount: 900000  
+(2) 64 -> 1 -> 92  
+1346. sending payment from 5 to 74 amount: 900000  
+(2) 107 -> 60 -> 73  
+1352. sending payment from 144 to 169 amount: 900000  
+(1) 75 -> 43  
+1344. sending payment from 42 to 157 amount: 900000  
+(1) 60 -> 123  
+1349. sending payment from 71 to 45 amount: 900000  
+(2) 176 -> 9 -> 21  
+1344. sending payment from 19 to 56 amount: 900000  
+(2) 30 -> 38 -> 39  
+1345. sending payment from 150 to 161 amount: 900000  
+(2) 24 -> 57 -> 151  
+1352. sending payment from 135 to 56 amount: 900000  
+(2) 70 -> 166 -> 136  
+1362. sending payment from 74 to 69 amount: 900000  
+(3) 145 -> 160 -> 126 -> 169  
+1348. sending payment from 149 to 116 amount: 900000  
+(2) 99 -> 62 -> 19  
+1358. sending payment from 154 to 3 amount: 900000  
+(2) 74 -> 161 -> 5  
+1347. sending payment from 47 to 163 amount: 900000  
+ 
+1353. sending payment from 168 to 71 amount: 900000  
+(1) 157 -> 42  
+1345. sending payment from 135 to 111 amount: 900000  
+(2) 45 -> 43 -> 71  
+1350. sending payment from 18 to 124 amount: 900000  
+(2) 56 -> 48 -> 19  
+1345. sending payment from 166 to 25 amount: 900000  
+(3) 161 -> 77 -> 39 -> 150  
+1346. sending payment from 6 to 2 amount: 900000  
+(2) 56 -> 40 -> 135  
+1353. sending payment from 95 to 67 amount: 900000  
+(2) 69 -> 79 -> 74  
+1363. sending payment from 53 to 98 amount: 900000  
+(1) 116 -> 149  
+1349. sending payment from 80 to 48 amount: 900000  
+(2) 3 -> 124 -> 154  
+1359. sending payment from 120 to 131 amount: 900000  
+(2) 163 -> 128 -> 47  
+1348. sending payment from 151 to 112 amount: 900000  
+(1) 71 -> 168  
+1354. sending payment from 140 to 106 amount: 900000  
+(2) 111 -> 166 -> 135  
+1346. sending payment from 24 to 64 amount: 900000  
+(2) 124 -> 122 -> 18  
+1351. sending payment from 14 to 91 amount: 900000  
+(2) 25 -> 6 -> 166  
+1346. sending payment from 158 to 66 amount: 900000  
+(1) 2 -> 6  No such edge: 2 6 
+ 
+1347. sending payment from 18 to 162 amount: 900000  
+(2) 67 -> 130 -> 95  
+1354. sending payment from 146 to 5 amount: 900000  
+(2) 98 -> 127 -> 53  
+1364. sending payment from 56 to 42 amount: 900000  
+(2) 48 -> 107 -> 80  
+1350. sending payment from 63 to 151 amount: 900000  
+(2) 131 -> 146 -> 120  
+1360. sending payment from 109 to 4 amount: 900000  
+(1) 112 -> 151  
+1349. sending payment from 141 to 53 amount: 900000  
+(3) 106 -> 8 -> 9 -> 140  
+1355. sending payment from 91 to 74 amount: 900000  
+(2) 64 -> 48 -> 24  
+1347. sending payment from 165 to 32 amount: 900000  
+(2) 91 -> 142 -> 14  
+1352. sending payment from 148 to 38 amount: 900000  
+(2) 66 -> 157 -> 158  
+1347. sending payment from 21 to 73 amount: 900000  
+(3) 162 -> 146 -> 128 -> 18  
+1348. sending payment from 59 to 27 amount: 900000  
+(1) 5 -> 146  
+1355. sending payment from 171 to 163 amount: 900000  
+(2) 42 -> 57 -> 56  
+1365. sending payment from 168 to 83 amount: 900000  
+(1) 151 -> 63  
+1351. sending payment from 56 to 95 amount: 900000  
+(2) 4 -> 6 -> 109  
+1361. sending payment from 29 to 44 amount: 900000  
+(2) 53 -> 128 -> 141  
+1350. sending payment from 69 to 130 amount: 900000  
+(1) 74 -> 91  
+1356. sending payment from 66 to 138 amount: 900000  
+(2) 32 -> 31 -> 165  
+1348. sending payment from 13 to 141 amount: 900000  
+(2) 38 -> 142 -> 148  
+1353. sending payment from 141 to 157 amount: 900000  
+(3) 73 -> 6 -> 0 -> 21  
+1348. sending payment from 39 to 163 amount: 900000  
+(1) 163 -> 171  
+1356. sending payment from 61 to 162 amount: 900000  
+(2) 27 -> 37 -> 59  
+1349. sending payment from 119 to 95 amount: 900000  
+(2) 83 -> 101 -> 168  
+1366. sending payment from 152 to 58 amount: 900000  
+(2) 95 -> 142 -> 56  
+1352. sending payment from 59 to 124 amount: 900000  
+(2) 44 -> 48 -> 29  
+1362. sending payment from 17 to 60 amount: 900000  
+(1) 130 -> 69  
+1351. sending payment from 68 to 143 amount: 900000  
+(2) 138 -> 62 -> 66  
+1357. sending payment from 73 to 131 amount: 900000  
+(3) 141 -> 100 -> 48 -> 13  
+1349. sending payment from 68 to 170 amount: 900000  
+(2) 157 -> 165 -> 141  
+1354. sending payment from 119 to 92 amount: 900000  
+(2) 162 -> 97 -> 61  
+1357. sending payment from 139 to 99 amount: 900000  
+(2) 163 -> 113 -> 39  
+1349. sending payment from 167 to 77 amount: 900000  
+(1) 95 -> 119  
+1350. sending payment from 72 to 103 amount: 900000  
+(2) 58 -> 72 -> 152  
+1367. sending payment from 102 to 139 amount: 900000  
+(1) 124 -> 59  
+1353. sending payment from 113 to 18 amount: 900000  
+(2) 60 -> 11 -> 17  
+1363. sending payment from 130 to 139 amount: 900000  
+(2) 143 -> 130 -> 68  
+1352. sending payment from 105 to 75 amount: 900000  
+(2) 131 -> 103 -> 73  
+1358. sending payment from 51 to 136 amount: 900000  
+(2) 170 -> 57 -> 68  
+1350. sending payment from 61 to 54 amount: 900000  
+(2) 92 -> 83 -> 119  
+1355. sending payment from 121 to 118 amount: 900000  
+(1) 99 -> 139  
+1358. sending payment from 6 to 140 amount: 900000  
+(2) 103 -> 165 -> 72  
+1351. sending payment from 52 to 44 amount: 900000  
+(3) 77 -> 100 -> 39 -> 167  
+1350. sending payment from 86 to 164 amount: 900000  
+(1) 139 -> 102  
+1368. sending payment from 63 to 157 amount: 900000  
+(2) 18 -> 85 -> 113  
+1354. sending payment from 16 to 115 amount: 900000  
+(1) 139 -> 130  
+1364. sending payment from 30 to 69 amount: 900000  
+(2) 75 -> 62 -> 105  
+1353. sending payment from 161 to 171 amount: 900000  
+(2) 136 -> 128 -> 51  
+1359. sending payment from 110 to 93 amount: 900000  
+(2) 54 -> 120 -> 61  
+1351. sending payment from 127 to 56 amount: 900000  
+(2) 118 -> 142 -> 121  
+1356. sending payment from 5 to 112 amount: 900000  
+(1) 140 -> 6  
+1359. sending payment from 9 to 59 amount: 900000  
+(2) 44 -> 131 -> 52  
+1352. sending payment from 158 to 76 amount: 900000  
+(2) 164 -> 107 -> 86  
+1351. sending payment from 26 to 152 amount: 900000  
+(2) 157 -> 9 -> 63  
+1369. sending payment from 148 to 17 amount: 900000  
+(3) 115 -> 114 -> 63 -> 16  
+1355. sending payment from 82 to 74 amount: 900000  
+(2) 171 -> 9 -> 161  
+1354. sending payment from 77 to 119 amount: 900000  
+(2) 69 -> 138 -> 30  
+1365. sending payment from 42 to 133 amount: 900000  
+(2) 93 -> 142 -> 110  
+1360. sending payment from 98 to 160 amount: 900000  
+(2) 56 -> 142 -> 127  
+1352. sending payment from 75 to 101 amount: 900000  
+(3) 112 -> 102 -> 147 -> 5  
+1357. sending payment from 8 to 47 amount: 900000  
+(1) 59 -> 9  
+1360. sending payment from 53 to 75 amount: 900000  
+(2) 76 -> 142 -> 158  
+1353. sending payment from 153 to 11 amount: 900000  
+(2) 152 -> 126 -> 26  
+1352. sending payment from 161 to 88 amount: 900000  
+(2) 17 -> 138 -> 148  
+1370. sending payment from 171 to 76 amount: 900000  
+(2) 74 -> 69 -> 82  
+1356. sending payment from 98 to 82 amount: 900000  
+(2) 119 -> 113 -> 77  
+1355. sending payment from 53 to 41 amount: 900000  
+(2) 133 -> 103 -> 42  
+1366. sending payment from 135 to 171 amount: 900000  
+(2) 160 -> 128 -> 98  
+1361. sending payment from 92 to 25 amount: 900000  
+(2) 101 -> 103 -> 75  
+1353. sending payment from 94 to 72 amount: 900000  
+(2) 47 -> 125 -> 8  
+1358. sending payment from 152 to 105 amount: 900000  
+(1) 75 -> 53  
+1361. sending payment from 169 to 105 amount: 900000  
+(3) 11 -> 58 -> 143 -> 153  
+1354. sending payment from 95 to 99 amount: 900000  
+(3) 88 -> 3 -> 162 -> 161  
+1353. sending payment from 119 to 38 amount: 900000  
+(2) 76 -> 94 -> 171  
+1371. sending payment from 39 to 99 amount: 900000  
+(2) 82 -> 57 -> 98  
+1357. sending payment from 113 to 105 amount: 900000  
+(1) 41 -> 53  
+1356. sending payment from 172 to 106 amount: 900000  
+(2) 171 -> 166 -> 135  
+1367. sending payment from 151 to 109 amount: 900000  
+(2) 25 -> 1 -> 92  
+1362. sending payment from 6 to 30 amount: 900000  
+(2) 72 -> 7 -> 94  
+1354. sending payment from 64 to 66 amount: 900000  
+(2) 105 -> 79 -> 152  
+1359. sending payment from 113 to 162 amount: 900000  
+(2) 105 -> 128 -> 169  
+1362. sending payment from 48 to 10 amount: 900000  
+(1) 99 -> 95  
+1355. sending payment from 77 to 35 amount: 900000  
+(2) 38 -> 166 -> 119  
+1354. sending payment from 18 to 12 amount: 900000  
+(2) 99 -> 100 -> 39  
+1372. sending payment from 37 to 59 amount: 900000  
+(1) 105 -> 113  
+1358. sending payment from 45 to 43 amount: 900000  
+(3) 106 -> 74 -> 85 -> 172  
+1357. sending payment from 167 to 54 amount: 900000  
+(2) 109 -> 85 -> 151  
+1368. sending payment from 159 to 141 amount: 900000  
+(2) 30 -> 37 -> 6  
+1363. sending payment from 120 to 10 amount: 900000  
+(1) 66 -> 64  
+1355. sending payment from 130 to 171 amount: 900000  
+(2) 162 -> 39 -> 113  
+1360. sending payment from 24 to 71 amount: 900000  
+(2) 10 -> 94 -> 48  
+1363. sending payment from 88 to 8 amount: 900000  
+(2) 35 -> 65 -> 77  
+1356. sending payment from 51 to 137 amount: 900000  
+(2) 12 -> 87 -> 18  
+1355. sending payment from 133 to 78 amount: 900000  
+(1) 59 -> 37  
+1373. sending payment from 132 to 130 amount: 900000  
+(1) 43 -> 45  
+1359. sending payment from 134 to 33 amount: 900000  
+(3) 54 -> 103 -> 126 -> 167  
+1358. sending payment from 161 to 172 amount: 900000  
+(1) 141 -> 159  
+1369. sending payment from 164 to 48 amount: 900000  
+(2) 10 -> 53 -> 120  
+1364. sending payment from 145 to 133 amount: 900000  
+(1) 171 -> 130  
+1356. sending payment from 86 to 130 amount: 900000  
+(2) 8 -> 6 -> 88  
+1364. sending payment from 139 to 59 amount: 900000  
+(2) 71 -> 39 -> 24  
+1361. sending payment from 129 to 75 amount: 900000  
+(2) 137 -> 134 -> 51  
+1357. sending payment from 103 to 90 amount: 900000  
+(3) 78 -> 57 -> 113 -> 133  
+1356. sending payment from 145 to 104 amount: 900000  
+(1) 130 -> 132  
+1374. sending payment from 145 to 167 amount: 900000  
+(2) 33 -> 147 -> 134  
+1360. sending payment from 93 to 89 amount: 900000  
+(2) 172 -> 87 -> 161  
+1359. sending payment from 86 to 34 amount: 900000  
+(1) 48 -> 164  
+1370. sending payment from 18 to 20 amount: 900000  
+(1) 133 -> 145  
+1365. sending payment from 135 to 164 amount: 900000  
+(1) 59 -> 139  
+1365. sending payment from 34 to 81 amount: 900000  
+(2) 130 -> 134 -> 86  
+1357. sending payment from 67 to 101 amount: 900000  
+(2) 75 -> 95 -> 129  
+1362. sending payment from 0 to 90 amount: 900000  
+(2) 90 -> 161 -> 0  
+1363. sending payment from 144 to 138 amount: 900000  
+(2) 90 -> 114 -> 103  
+1358. sending payment from 153 to 38 amount: 900000  
+(2) 104 -> 163 -> 145  
+1357. sending payment from 82 to 160 amount: 900000  
+(3) 167 -> 3 -> 124 -> 145  
+1375. sending payment from 80 to 26 amount: 900000  
+(3) 89 -> 57 -> 92 -> 93  
+1361. sending payment from 172 to 93 amount: 900000  
+(2) 34 -> 51 -> 86  
+1360. sending payment from 110 to 112 amount: 900000  
+(3) 20 -> 46 -> 87 -> 18  
+1371. sending payment from 27 to 99 amount: 900000  
+(2) 164 -> 85 -> 135  
+1366. sending payment from 3 to 131 amount: 900000  
+(3) 81 -> 146 -> 100 -> 34  
+1366. sending payment from 109 to 71 amount: 900000  
+(2) 101 -> 130 -> 67  
+1358. sending payment from 129 to 120 amount: 900000  
+(3) 38 -> 9 -> 107 -> 153  
+1359. sending payment from 119 to 124 amount: 900000  
+(1) 138 -> 144  
+1364. sending payment from 105 to 65 amount: 900000  
+(2) 160 -> 156 -> 82  
+1358. sending payment from 85 to 115 amount: 900000  
+(4) 26 -> 4 -> 79 -> 152 -> 80  
+1376. sending payment from 96 to 85 amount: 900000  
+(2) 93 -> 142 -> 172  
+1362. sending payment from 8 to 98 amount: 900000  
+(2) 99 -> 100 -> 27  
+1372. sending payment from 83 to 9 amount: 900000  
+(2) 112 -> 113 -> 110  
+1361. sending payment from 172 to 92 amount: 900000  
+(3) 131 -> 143 -> 115 -> 3  
+1367. sending payment from 8 to 46 amount: 900000  
+(2) 71 -> 31 -> 109  
+1367. sending payment from 45 to 123 amount: 900000  
+(2) 120 -> 142 -> 129  
+1359. sending payment from 73 to 136 amount: 900000  
+(2) 124 -> 105 -> 119  
+1360. sending payment from 111 to 137 amount: 900000  
+(2) 65 -> 69 -> 105  
+1365. sending payment from 104 to 132 amount: 900000  
+(2) 115 -> 69 -> 85  
+1359. sending payment from 159 to 71 amount: 900000  
+(2) 85 -> 100 -> 96  
+1377. sending payment from 136 to 139 amount: 900000  
+(2) 98 -> 127 -> 8  
+1363. sending payment from 115 to 9 amount: 900000  
+(1) 9 -> 83  
+1373. sending payment from 159 to 14 amount: 900000  
+(2) 92 -> 85 -> 172  
+1362. sending payment from 62 to 12 amount: 900000  
+(2) 46 -> 49 -> 8  
+1368. sending payment from 83 to 100 amount: 900000  
+(2) 123 -> 130 -> 45  
+1368. sending payment from 2 to 67 amount: 900000  
+(2) 136 -> 9 -> 73  
+1360. sending payment from 142 to 156 amount: 900000  
+(1) 137 -> 111  
+1361. sending payment from 84 to 45 amount: 900000  
+(2) 132 -> 59 -> 104  
+1366. sending payment from 13 to 142 amount: 900000  
+(2) 71 -> 58 -> 159  
+1360. sending payment from 162 to 27 amount: 900000  
+(1) 139 -> 136  
+1378. sending payment from 13 to 117 amount: 900000  
+(2) 9 -> 69 -> 115  
+1364. sending payment from 124 to 6 amount: 900000  
+(2) 12 -> 26 -> 62  
+1363. sending payment from 115 to 69 amount: 900000  
+(3) 14 -> 46 -> 128 -> 159  
+1374. sending payment from 174 to 45 amount: 900000  
+(1) 100 -> 83  
+1369. sending payment from 24 to 88 amount: 900000  
+(1) 67 -> 2  
+1369. sending payment from 30 to 139 amount: 900000  
+(1) 156 -> 142  
+1361. sending payment from 103 to 49 amount: 900000  
+(2) 45 -> 132 -> 84  
+1362. sending payment from 53 to 151 amount: 900000  
+(2) 142 -> 72 -> 13  
+1367. sending payment from 51 to 16 amount: 900000  
+(2) 27 -> 150 -> 162  
+1361. sending payment from 77 to 3 amount: 900000  
+(2) 117 -> 39 -> 13  
+1379. sending payment from 55 to 175 amount: 900000  
+(1) 6 -> 124  
+1365. sending payment from 73 to 55 amount: 900000  
+(1) 69 -> 115  
+1364. sending payment from 108 to 15 amount: 900000  
+(2) 45 -> 39 -> 174  
+1375. sending payment from 96 to 69 amount: 900000  
+(3) 88 -> 142 -> 39 -> 24  
+1370. sending payment from 105 to 9 amount: 900000  
+(2) 139 -> 57 -> 30  
+1370. sending payment from 106 to 158 amount: 900000  
+(2) 49 -> 100 -> 103  
+1362. sending payment from 16 to 80 amount: 900000  
+(2) 151 -> 9 -> 53  
+1363. sending payment from 141 to 35 amount: 900000  
+(1) 16 -> 51  
+1368. sending payment from 137 to 89 amount: 900000  
+(3) 3 -> 71 -> 39 -> 77  
+1362. sending payment from 33 to 79 amount: 900000  
+(1) 175 -> 55  
+1380. sending payment from 109 to 142 amount: 900000  
+(2) 55 -> 6 -> 73  
+1366. sending payment from 116 to 45 amount: 900000  
+(2) 15 -> 1 -> 108  
+1365. sending payment from 75 to 108 amount: 900000  
+(2) 69 -> 78 -> 96  
+1376. sending payment from 173 to 93 amount: 900000  
+(1) 9 -> 105  
+1371. sending payment from 172 to 90 amount: 900000  
+(2) 158 -> 58 -> 106  
+1371. sending payment from 37 to 164 amount: 900000  
+(3) 80 -> 145 -> 57 -> 16  
+1363. sending payment from 120 to 79 amount: 900000  
+(2) 35 -> 114 -> 141  
+1364. sending payment from 39 to 65 amount: 900000  
+(2) 89 -> 74 -> 137  
+1369. sending payment from 111 to 116 amount: 900000  
+(2) 79 -> 125 -> 33  
+1363. sending payment from 55 to 16 amount: 900000  
+(1) 142 -> 109  
+1381. sending payment from 167 to 38 amount: 900000  
+(2) 45 -> 142 -> 116  
+1367. sending payment from 119 to 90 amount: 900000  
+(1) 108 -> 75  
+1366. sending payment from 94 to 6 amount: 900000  
+(2) 93 -> 142 -> 173  
+1377. sending payment from 58 to 139 amount: 900000  
+(2) 90 -> 128 -> 172  
+1372. sending payment from 80 to 105 amount: 900000  
+(2) 164 -> 69 -> 37  
+1372. sending payment from 172 to 89 amount: 900000  
+(2) 79 -> 156 -> 120  
+1364. sending payment from 70 to 171 amount: 900000  
+(1) 65 -> 39  
+1365. sending payment from 95 to 86 amount: 900000  
+(2) 116 -> 57 -> 111  
+1370. sending payment from 109 to 40 amount: 900000  
+(2) 16 -> 48 -> 55  
+1364. sending payment from 48 to 107 amount: 900000  
+(3) 38 -> 150 -> 3 -> 167  
+1382. sending payment from 22 to 120 amount: 900000  
+(2) 90 -> 128 -> 119  
+1368. sending payment from 153 to 42 amount: 900000  
+(1) 6 -> 94  
+1367. sending payment from 28 to 71 amount: 900000  
+(2) 139 -> 158 -> 58  
+1378. sending payment from 76 to 43 amount: 900000  
+(2) 105 -> 107 -> 80  
+1373. sending payment from 20 to 88 amount: 900000  
+(2) 89 -> 142 -> 172  
+1373. sending payment from 48 to 73 amount: 900000  
+(1) 171 -> 70  
+(2) 86 -> 166 ->1365. sending payment from 54 to 50 amount: 900000  
+ 95  
+1366. sending payment from 9 to 31 amount: 900000  
+(1) 40 -> 109  
+1371. sending payment from 138 to 162 amount: 900000  
+(1) 107 -> 48  
+1365. sending payment from 29 to 167 amount: 900000  
+(2) 120 -> 53 -> 22  
+1383. sending payment from 161 to 7 amount: 900000  
+(2) 42 -> 143 -> 153  
+1369. sending payment from 168 to 118 amount: 900000  
+(2) 71 -> 130 -> 28  
+1368. sending payment from 166 to 28 amount: 900000  
+(1) 43 -> 76  
+1379. sending payment from 34 to 71 amount: 900000  
+(2) 88 -> 57 -> 20  
+1374. sending payment from 171 to 151 amount: 900000  
+(2) 73 -> 6 -> 48  
+1374. sending payment from 87 to 61 amount: 900000  
+(2) 31 -> 119 -> 9  
+1367. sending payment from 98 to 1 amount: 900000  
+(2) 50 -> 142 -> 54  
+1366. sending payment from 56 to 100 amount: 900000  
+(3) 162 -> 97 -> 70 -> 138  
+1372. sending payment from 75 to 65 amount: 900000  
+(3) 167 -> 97 -> 59 -> 29  
+1366. sending payment from 70 to 56 amount: 900000  
+(1) 7 -> 161  
+1384. sending payment from 169 to 101 amount: 900000  
+(1) 118 -> 168  
+1370. sending payment from 53 to 31 amount: 900000  
+(2) 28 -> 127 -> 166  
+1369. sending payment from 107 to 141 amount: 900000  
+(2) 71 -> 130 -> 34  
+1380. sending payment from 74 to 140 amount: 900000  
+(2) 151 -> 154 -> 171  
+1375. sending payment from 28 to 164 amount: 900000  
+(2) 61 -> 39 -> 87  
+1375. sending payment from 32 to 87 amount: 900000  
+(1) 100 -> 56  
+1367. sending payment from 44 to 85 amount: 900000  
+(2) 65 -> 12 -> 75  
+1373. sending payment from 129 to 106 amount: 900000  
+(2) 1 -> 166 -> 98  
+1368. sending payment from 99 to 105 amount: 900000  
+(2) 56 -> 132 -> 70  
+1367. sending payment from 155 to 170 amount: 900000  
+(2) 101 -> 126 -> 169  
+1385. sending payment from 116 to 81 amount: 900000  
+(1) 31 -> 53  
+1371. sending payment from 24 to 161 amount: 900000  
+(2) 141 -> 29 -> 107  
+1370. sending payment from 138 to 8 amount: 900000  
+(2) 140 -> 6 -> 74  
+1381. sending payment from 63 to 171 amount: 900000  
+(2) 164 -> 138 -> 28  
+1376. sending payment from 91 to 162 amount: 900000  
+(1) 87 -> 32  
+1376. sending payment from 127 to 166 amount: 900000  
+(1) 85 -> 44  
+1368. sending payment from 153 to 85 amount: 900000  
+(2) 106 -> 142 -> 129  
+1374. sending payment from 147 to 142 amount: 900000  
+(1) 105 -> 99  
+1369. sending payment from 66 to 46 amount: 900000  
+(2) 170 -> 84 -> 155  
+1368. sending payment from 175 to 76 amount: 900000  
+(2) 81 -> 6 -> 116  
+1386. sending payment from 130 to 9 amount: 900000  
+(2) 161 -> 1 -> 24  
+1372. sending payment from 127 to 172 amount: 900000  
+(2) 8 -> 142 -> 138  
+1371. sending payment from 20 to 85 amount: 900000  
+(2) 171 -> 79 -> 63  
+1382. sending payment from 164 to 133 amount: 900000  
+(2) 162 -> 39 -> 91  
+1377. sending payment from 8 to 162 amount: 900000  
+(1) 166 -> 127  
+1377. sending payment from 136 to 55 amount: 900000  
+(2) 85 -> 166 -> 153  
+1369. sending payment from 50 to 120 amount: 900000  
+(2) 46 -> 142 -> 66  
+1370. sending payment from 66 to 32 amount: 900000  
+(1) 142 -> 147  
+1375. sending payment from 68 to 130 amount: 900000  
+(2) 76 -> 46 -> 175  
+1369. sending payment from 26 to 113 amount: 900000  
+(2) 9 -> 171 -> 130  
+1387. sending payment from 35 to 147 amount: 900000  
+(1) 172 -> 127  
+1373. sending payment from 79 to 95 amount: 900000  
+(2) 85 -> 43 -> 20  
+1372. sending payment from 22 to 169 amount: 900000  
+(1) 133 -> 164  
+1383. sending payment from 136 to 118 amount: 900000  
+(2) 162 -> 7 -> 8  
+1378. sending payment from 34 to 26 amount: 900000  
+(2) 55 -> 130 -> 136  
+1378. sending payment from 145 to 75 amount: 900000  
+(2) 32 -> 62 -> 66  
+1371. sending payment from 44 to 45 amount: 900000  
+(2) 120 -> 53 -> 50  
+1370. sending payment from 115 to 1 amount: 900000  
+(2) 130 -> 69 -> 68  
+1376. sending payment from 19 to 83 amount: 900000  
+(2) 113 -> 126 -> 26  
+1370. sending payment from 61 to 130 amount: 900000  
+(1) 147 -> 35  
+1388. sending payment from 101 to 25 amount: 900000  
+(1) 95 -> 79  
+1374. sending payment from 125 to 155 amount: 900000  
+(2) 169 -> 126 -> 22  
+1373. sending payment from 140 to 38 amount: 900000  
+(2) 118 -> 1 -> 136  
+1384. sending payment from 36 to 123 amount: 900000  
+(2) 26 -> 51 -> 34  
+1379. sending payment from 7 to 90 amount: 900000  
+(2) 75 -> 107 -> 145  
+1379. sending payment from 35 to 156 amount: 900000  
+(2) 45 -> 57 -> 44  
+1372. sending payment from 133 to 83 amount: 900000  
+(2) 83 -> 62 -> 19  
+1377. sending payment from 62 to 4 amount: 900000  
+(2) 1 -> 69 -> 115  
+1371. sending payment from 120 to 1 amount: 900000  
+(1) 130 -> 61  
+1371. sending payment from 165 to 158 amount: 900000  
+(2) 25 -> 94 -> 101  
+1389. sending payment from 100 to 174 amount: 900000  
+(2) 155 -> 79 -> 125  
+1375. sending payment from 115 to 24 amount: 900000  
+(2) 38 -> 6 -> 140  
+1374. sending payment from 176 to 69 amount: 900000  
+(2) 123 -> 168 -> 36  
+1385. sending payment from 115 to 34 amount: 900000  
+(1) 90 -> 7  
+1380. sending payment from 101 to 166 amount: 900000  
+(2) 156 -> 157 -> 35  
+1380. sending payment from 92 to 50 amount: 900000  
+(3) 83 -> 1 -> 164 -> 133  
+1373. sending payment from 34 to 176 amount: 900000  
+(2) 4 -> 33 -> 62  
+1378. sending payment from 169 to 131 amount: 900000  
+(2) 1 -> 53 -> 120  
+1372. sending payment from 175 to 149 amount: 900000  
+(2) 158 -> 9 -> 165  
+1372. sending payment from 170 to 115 amount: 900000  
+(2) 174 -> 105 -> 100  
+1390. sending payment from 39 to 98 amount: 900000  
+(2) 24 -> 65 -> 115  
+1376. sending payment from 150 to 101 amount: 900000  
+(2) 69 -> 85 -> 176  
+1375. sending payment from 123 to 94 amount: 900000  
+(2) 34 -> 130 -> 115  
+1386. sending payment from 3 to 56 amount: 900000  
+(2) 166 -> 94 -> 101  
+1381. sending payment from 11 to 51 amount: 900000  
+(2) 50 -> 31 -> 92  
+1381. sending payment from 172 to 148 amount: 900000  
+(3) 176 -> 171 -> 139 -> 34  
+1374. sending payment from 108 to 36 amount: 900000  
+(3) 131 -> 95 -> 39 -> 169  
+1379. sending payment from 135 to 104 amount: 900000  
+(1) 149 -> 175  
+1373. sending payment from 4 to 33 amount: 900000  
+(2) 115 -> 126 -> 170  
+1373. sending payment from 146 to 70 amount: 900000  
+(2) 98 -> 62 -> 39  
+1391. sending payment from 159 to 117 amount: 900000  
+(2) 101 -> 3 -> 150  
+1377. sending payment from 39 to 24 amount: 900000  
+(2) 94 -> 70 -> 123  
+1376. sending payment from 12 to 151 amount: 900000  
+(2) 56 -> 57 -> 3  
+1387. sending payment from 167 to 35 amount: 900000  
+(1) 51 -> 11  
+1382. sending payment from 16 to 106 amount: 900000  
+(2) 148 -> 116 -> 172  
+1382. sending payment from 28 to 65 amount: 900000  
+(3) 36 -> 39 -> 156 -> 108  
+1375. sending payment from 62 to 58 amount: 900000  
+(1) 104 -> 135  
+1380. sending payment from 48 to 133 amount: 900000  
+(1) 33 -> 4  
+1374. sending payment from 25 to 2 amount: 900000  
+(1) 70 -> 146  
+1374. sending payment from 112 to 49 amount: 900000  
+(3) 117 -> 155 -> 0 -> 159  
+1392. sending payment from 149 to 111 amount: 900000  
+(2) 24 -> 138 -> 39  
+1378. sending payment from 174 to 149 amount: 900000  
+ 
+1388. sending payment from 81 to 28 amount: 900000  
+(2) 151 -> 166 -> 12  
+1377. sending payment from 146 to 111 amount: 900000  
+(2) 106 -> 8 -> 16  
+1383. sending payment from 86 to 29 amount: 900000  
+(1) 65 -> 28  
+1383. sending payment from 140 to 38 amount: 900000  
+(1) 58 -> 62  
+1376. sending payment from 59 to 93 amount: 900000  
+(2) 133 -> 137 -> 48  
+1381. sending payment from 3 to 147 amount: 900000  
+(2) 2 -> 31 -> No such edge: 2 31 
+ 25  
+1375. sending payment from 11 to 156 amount: 900000  
+(2) 49 -> 100 -> 112  
+1375. sending payment from 87 to 67 amount: 900000  
+(2) 111 -> 142 -> 149  
+1393. sending payment from 10 to 33 amount: 900000  
+(2) 149 -> 148 -> 174  
+1379. sending payment from 18 to 104 amount: 900000  
+(2) 28 -> 37 -> 81  
+1389. sending payment from 113 to 34 amount: 900000  
+(2) 111 -> 142 -> 146  
+1378. sending payment from 149 to 69 amount: 900000  
+(2) 29 -> 51 -> 86  
+1384. sending payment from 133 to 158 amount: 900000  
+(2) 38 -> 6 -> 140  
+1384. sending payment from 173 to 51 amount: 900000  
+(2) 93 -> 97 -> 59  
+1377. sending payment from 56 to 143 amount: 900000  
+(3) 147 -> 142 -> 124 -> 3  
+1382. sending payment from 61 to 125 amount: 900000  
+(2) 156 -> 64 -> 11  
+1376. sending payment from 71 to 156 amount: 900000  
+(2) 67 -> 103 -> 87  
+1376. sending payment from 115 to 175 amount: 900000  
+(2) 33 -> 4 -> 10  
+1394. sending payment from 146 to 149 amount: 900000  
+(2) 104 -> 47 -> 18  
+1380. sending payment from 6 to 173 amount: 900000  
+(2) 34 -> 130 -> 113  
+1390. sending payment from 106 to 123 amount: 900000  
+(2) 69 -> 125 -> 149  
+1379. sending payment from 144 to 130 amount: 900000  
+(2) 158 -> 157 -> 133  
+1385. sending payment from 156 to 131 amount: 900000  
+(2) 51 -> 174 -> 173  
+1385. sending payment from 7 to 70 amount: 900000  
+(1) 143 -> 56  
+1378. sending payment from 83 to 6 amount: 900000  
+(2) 125 -> 44 -> 61  
+1383. sending payment from 83 to 75 amount: 900000  
+(2) 156 -> 139 -> 71  
+1377. sending payment from 87 to 84 amount: 900000  
+(2) 175 -> 126 -> 115  
+1377. sending payment from 101 to 142 amount: 900000  
+(2) 149 -> 85 -> 146  
+1395. sending payment from 165 to 72 amount: 900000  
+(2) 173 -> 1 -> 6  
+1381. sending payment from 33 to 52 amount: 900000  
+(2) 123 -> 142 -> 106  
+1391. sending payment from 129 to 171 amount: 900000  
+(2) 130 -> 37 -> 144  
+1380. sending payment from 163 to 45 amount: 900000  
+(1) 131 -> 156  
+1386. sending payment from 122 to 8 amount: 900000  
+(2) 70 -> 37 -> 7  
+1386. sending payment from 24 to 42 amount: 900000  
+(1) 6 -> 83  
+1379. sending payment from 83 to 12 amount: 900000  
+(2) 75 -> 62 -> 83  
+1384. sending payment from 6 to 52 amount: 900000  
+(2) 84 -> 132 -> 87  
+1378. sending payment from 102 to 5 amount: 900000  
+(2) 142 -> 119 -> 101  
+1378. sending payment from 138 to 62 amount: 900000  
+(1) 72 -> 165  
+1396. sending payment from 72 to 146 amount: 900000  
+(2) 52 -> 46 -> 33  
+1382. sending payment from 57 to 102 amount: 900000  
+(2) 171 -> 6 -> 129  
+1392. sending payment from 131 to 24 amount: 900000  
+(2) 45 -> 57 -> 163  
+1381. sending payment from 168 to 70 amount: 900000  
+(1) 8 -> 122  
+1387. sending payment from 53 to 130 amount: 900000  
+(2) 42 -> 57 -> 24  
+1387. sending payment from 87 to 156 amount: 900000  
+(2) 12 -> 94 -> 83  
+1380. sending payment from 86 to 84 amount: 900000  
+(2) 52 -> 37 -> 6  
+1385. sending payment from 165 to 171 amount: 900000  
+(2) 5 -> 175 -> 102  
+1379. sending payment from 15 to 19 amount: 900000  
+(1) 62 -> 138  
+1379. sending payment from 134 to 63 amount: 900000  
+(1) 146 -> 72  
+1397. sending payment from 49 to 101 amount: 900000  
+(1) 102 -> 57  
+1383. sending payment from 95 to 104 amount: 900000  
+(2) 24 -> 59 -> 131  
+1393. sending payment from 37 to 53 amount: 900000  
+(1) 70 -> 168  
+1382. sending payment from 43 to 91 amount: 900000  
+(1) 130 -> 53  
+1388. sending payment from 66 to 104 amount: 900000  
+(3) 156 -> 39 -> 44 -> 87  
+1388. sending payment from 87 to 177 amount: 900000  
+(2) 84 -> 130 -> 86  
+1381. sending payment from 151 to 140 amount: 900000  
+(1) 171 -> 165  
+1386. sending payment from 34 to 133 amount: 900000  
+(2) 19 -> 142 -> 15  
+1380. sending payment from 32 to 88 amount: 900000  
+(1) 63 -> 134  
+1380. sending payment from 72 to 174 amount: 900000  
+(2) 101 -> 168 -> 49  
+1398. sending payment from 33 to 158 amount: 900000  
+(1) 104 -> 95  
+1384. sending payment from 72 to 170 amount: 900000  
+(2) 91 -> 0 -> 43  
+1383. sending payment from 92 to 7 amount: 900000  
+(2) 53 -> 49 -> 37  
+1394. sending payment from 162 to 56 amount: 900000  
+(2) 104 -> 128 -> 66  
+1389. sending payment from 162 to 4 amount: 900000  
+(2) 177 -> 173 -> 87  
+1389. sending payment from 156 to 63 amount: 900000  
+(1) 140 -> 151  
+1382. sending payment from 83 to 81 amount: 900000  
+(2) 133 -> 166 -> 34  
+1387. sending payment from 35 to 39 amount: 900000  
+(2) 88 -> 57 -> 32  
+1381. sending payment from 52 to 123 amount: 900000  
+(2) 174 -> 161 -> 72  
+1381. sending payment from 11 to 42 amount: 900000  
+(3) 158 -> 9 -> 58 -> 33  
+1399. sending payment from 94 to 164 amount: 900000  
+(2) 170 -> 62 -> 72  
+1385. sending payment from 114 to 72 amount: 900000  
+(1) 7 -> 92  
+1384. sending payment from 176 to 152 amount: 900000  
+(2) 56 -> 146 -> 162  
+1395. sending payment from 77 to 156 amount: 900000  
+(2) 4 -> 146 -> 162  
+1390. sending payment from 171 to 149 amount: 900000  
+(2) 63 -> 160 -> 156  
+1390. sending payment from 54 to 21 amount: 900000  
+(2) 81 -> 92 -> 83  
+1383. sending payment from 148 to 79 amount: 900000  
+(1) 39 -> 35  
+1388. sending payment from 66 to 152 amount: 900000  
+(2) 123 -> 127 -> 52  
+1382. sending payment from 112 to 157 amount: 900000  
+(2) 42 -> 58 -> 11  
+1382. sending payment from 7 to 149 amount: 900000  
+(1) 164 -> 94  
+1400. sending payment from 157 to 129 amount: 900000  
+(2) 72 -> 6 -> 114  
+1386. sending payment from 117 to 64 amount: 900000  
+(2) 152 -> 85 -> 176  
+1385. sending payment from 133 to 33 amount: 900000  
+(2) 156 -> 128 -> 77  
+1396. sending payment from 101 to 60 amount: 900000  
+(1) 149 -> 171  
+1391. sending payment from 168 to 80 amount: 900000  
+(3) 21 -> 125 -> 31 -> 54  
+1391. sending payment from 30 to 25 amount: 900000  
+(2) 79 -> 102 -> 148  
+1384. sending payment from 146 to 71 amount: 900000  
+(2) 152 -> 142 -> 66  
+1389. sending payment from 50 to 125 amount: 900000  
+(2) 157 -> 142 -> 112  
+1383. sending payment from 34 to 145 amount: 900000  
+(3) 149 -> 107 -> 69 -> 7  
+1383. sending payment from 112 to 69 amount: 900000  
+(2) 129 -> 166 -> 157  
+1401. sending payment from 28 to 166 amount: 900000  
+(3) 64 -> 55 -> 155 -> 117  
+1387. sending payment from 107 to 159 amount: 900000  
+(2) 60 -> 126 -> 101  
+1397. sending payment from 146 to 67 amount: 900000  
+(2) 33 -> 130 -> 133  
+1386. sending payment from 123 to 16 amount: 900000  
+(2) 80 -> 6 -> 168  
+1392. sending payment from 143 to 159 amount: 900000  
+(2) 25 -> 53 -> 30  
+1392. sending payment from 78 to 158 amount: 900000  
+(1) 71 -> 146  
+1385. sending payment from 161 to 67 amount: 900000  
+(2) 125 -> 59 -> 50  
+1390. sending payment from 141 to 175 amount: 900000  
+(2) 145 -> 107 -> 34  
+1384. sending payment from 23 to 19 amount: 900000  
+(2) 69 -> 172 -> 112  
+1384. sending payment from 23 to 56 amount: 900000  
+(2) 166 -> 38 -> 28  
+1402. sending payment from 12 to 110 amount: 900000  
+(3) 159 -> 7 -> 172 -> 107  
+1388. sending payment from 56 to 94 amount: 900000  
+(2) 67 -> 154 -> 146  
+1398. sending payment from 87 to 70 amount: 900000  
+(2) 16 -> 57 -> 123  
+1387. sending payment from 134 to 177 amount: 900000  
+(1) 159 -> 143  
+1393. sending payment from 121 to 122 amount: 900000  
+(2) 158 -> 146 -> 78  
+1393. sending payment from 57 to 137 amount: 900000  
+(2) 67 -> 2 -> 161  
+1386. sending payment from 29 to 68 amount: 900000  
+(2) 175 -> 130 -> 141  
+1391. sending payment from 25 to 78 amount: 900000  
+(1) 19 -> 23  
+1385. sending payment from 101 to 168 amount: 900000  
+(2) 56 -> 57 -> 23  
+1385. sending payment from 98 to 11 amount: 900000  
+(2) 110 -> 51 -> 12  
+1403. sending payment from 67 to 52 amount: 900000  
+(1) 94 -> 56  
+1389. sending payment from 60 to 6 amount: 900000  
+(2) 177 -> 142 -> 134  
+1388. sending payment from 95 to 53 amount: 900000  
+(1) 70 -> 87  
+1399. sending payment from 44 to 164 amount: 900000  
+(2) 122 -> 146 -> 121  
+1394. sending payment from 20 to 79 amount: 900000  
+(1) 137 -> 57  
+1394. sending payment from 14 to 134 amount: 900000  
+(2) 68 -> 52 -> 29  
+1387. sending payment from 169 to 121 amount: 900000  
+(2) 78 -> 94 -> 25  
+1392. sending payment from 46 to 79 amount: 900000  
+(1) 168 -> 101  
+1386. sending payment from 29 to 106 amount: 900000  
+(2) 11 -> 103 -> 98  
+1386. sending payment from 26 to 174 amount: 900000  
+(2) 52 -> 0 -> 67  
+1404. sending payment from 87 to 71 amount: 900000  
+(1) 6 -> 60  
+1390. sending payment from 42 to 12 amount: 900000  
+(1) 164 -> 44  
+1400. sending payment from 125 to 10 amount: 900000  
+(2) 53 -> 9 -> 95  
+1389. sending payment from 55 to 31 amount: 900000  
+(2) 79 -> 38 -> 20  
+1395. sending payment from 150 to 87 amount: 900000  
+(2) 134 -> 113 -> 14  
+1395. sending payment from 40 to 8 amount: 900000  
+(4) 121 -> 168 -> 114 -> 150 -> 169  
+1388. sending payment from 21 to 31 amount: 900000  
+(1) 79 -> 46  
+1393. sending payment from 99 to 9 amount: 900000  
+(3) 106 -> 58 -> 46 -> 29  
+1387. sending payment from 4 to 17 amount: 900000  
+(2) 174 -> 165 -> 26  
+1387. sending payment from 49 to 165 amount: 900000  
+(2) 71 -> 130 -> 87  
+1405. sending payment from 10 to 9 amount: 900000  
+(3) 12 -> 107 -> 103 -> 42  
+1391. sending payment from 114 to 72 amount: 900000  
+(2) 10 -> 37 -> 125  
+1401. sending payment from 18 to 122 amount: 900000  
+(2) 31 -> 85 -> 55  
+1390. sending payment from 33 to 20 amount: 900000  
+(2) 87 -> 126 -> 150  
+1396. sending payment from 103 to 108 amount: 900000  
+(2) 8 -> 44 -> 40  
+1396. sending payment from 123 to 139 amount: 900000  
+(1) 31 -> 21  
+1389. sending payment from 8 to 126 amount: 900000  
+(1) 9 -> 99  
+1394. sending payment from 77 to 141 amount: 900000  
+(1) 17 -> 4  
+1388. sending payment from 119 to 150 amount: 900000  
+(2) 165 -> 59 -> 49  
+1388. sending payment from 87 to 78 amount: 900000  
+(1) 9 -> 10  
+1406. sending payment from 9 to 108 amount: 900000  
+(2) 72 -> 6 -> 114  
+1392. sending payment from 97 to 37 amount: 900000  
+(1) 122 -> 18  
+1402. sending payment from 112 to 9 amount: 900000  
+(2) 20 -> 1 -> 33  
+1391. sending payment from 78 to 3 amount: 900000  
+(2) 108 -> 76 -> 103  
+1397. sending payment from 6 to 36 amount: 900000  
+(1) 139 -> 123  
+1397. sending payment from 76 to 162 amount: 900000  
+(2) 126 -> 66 -> 8  
+1390. sending payment from 99 to 98 amount: 900000  
+(2) 141 -> 165 -> 77  
+1395. sending payment from 4 to 132 amount: 900000  
+(2) 150 -> 128 -> 119  
+1389. sending payment from 159 to 124 amount: 900000  
+(2) 78 -> 69 -> 87  
+1389. sending payment from 161 to 125 amount: 900000  
+(1) 108 -> 9  
+1407. sending payment from 37 to 131 amount: 900000  
+(2) 37 -> 27 -> 97  
+1393. sending payment from 154 to 83 amount: 900000  
+(3) 3 -> 71 -> 103 -> 78  
+1392. sending payment from 71 to 102 amount: 900000  
+(2) 9 -> 151 -> 112  
+1403. sending payment from 118 to 58 amount: 900000  
+(2) 36 -> 168 -> 6  
+1398. sending payment from 55 to 128 amount: 900000  
+(2) 162 -> 39 -> 76  
+1398. sending payment from 67 to 70 amount: 900000  
+(2) 98 -> 35 -> 99  
+1391. sending payment from 108 to 90 amount: 900000  
+(1) 132 -> 4  
+1396. sending payment from 29 to 93 amount: 900000  
+(2) 124 -> 3 -> 159  
+1390. sending payment from 172 to 1 amount: 900000  
+(2) 131 -> 116 -> 37  
+1408. sending payment from 33 to 74 amount: 900000  
+(2) 125 -> 87 -> 161  
+1390. sending payment from 121 to 12 amount: 900000  
+(2) 83 -> 41 -> 154  
+1394. sending payment from 62 to 126 amount: 900000  
+(2) 102 -> 128 -> 71  
+1393. sending payment from 68 to 121 amount: 900000  
+(3) 58 -> 68 -> 95 -> 118  
+1404. sending payment from 135 to 63 amount: 900000  
+(1) 128 -> 55  
+1399. sending payment from 153 to 126 amount: 900000  
+(2) 70 -> 98 -> 67  
+1399. sending payment from 87 to 81 amount: 900000  
+(3) 90 -> 116 -> 156 -> 108  
+1392. sending payment from 124 to 11 amount: 900000  
+(2) 93 -> 5 -> 29  
+1397. sending payment from 11 to 54 amount: 900000  
+(2) 1 -> 49 -> 172  
+1391. sending payment from 23 to 36 amount: 900000  
+(2) 74 -> 62 -> 33  
+1409. sending payment from 57 to 153 amount: 900000  
+(3) 12 -> 32 -> 142 -> 121  
+1391. sending payment from 76 to 86 amount: 900000  
+(1) 126 -> 62  
+1395. sending payment from 40 to 41 amount: 900000  
+(2) 121 -> 57 -> 68  
+1394. sending payment from 67 to 87 amount: 900000  
+(2) 63 -> 35 -> 135  
+1405. sending payment from 131 to 75 amount: 900000  
+(2) 126 -> 6 -> 153  
+1400. sending payment from 46 to 90 amount: 900000  
+(2) 81 -> 161 -> 87  
+1400. sending payment from 123 to 146 amount: 900000  
+(2) 11 -> 142 -> 124  
+1393. sending payment from 126 to 138 amount: 900000  
+(3) 54 -> 106 -> 8 -> 11  
+1398. sending payment from 150 to 38 amount: 900000  
+(2) 36 -> 43 -> 23  
+1392. sending payment from 85 to 64 amount: 900000  
+(2) 153 -> 143 -> 57  
+1410. sending payment from 49 to 155 amount: 900000  
+(2) 86 -> 62 -> 76  
+1392. sending payment from 162 to 158 amount: 900000  
+(1) 41 -> 40  
+1396. sending payment from 137 to 76 amount: 900000  
+(2) 87 -> 103 -> 67  
+(2) 75 -> 59 ->1395. sending payment from 120 to 82 amount: 900000  
+ 131  
+1406. sending payment from 121 to 59 amount: 900000  
+(2) 90 -> 58 -> 46  
+1401. sending payment from 136 to 142 amount: 900000  
+(2) 146 -> 154 -> 123  
+1401. sending payment from 136 to 61 amount: 900000  
+(1) 138 -> 126  
+1394. sending payment from 13 to 154 amount: 900000  
+(1) 38 -> 150  
+1399. sending payment from 54 to 7 amount: 900000  
+(1) 64 -> 85  
+1393. sending payment from 132 to 113 amount: 900000  
+(2) 155 -> 70 -> 49  
+1411. sending payment from 10 to 126 amount: 900000  
+(2) 158 -> 146 -> 162  
+1393. sending payment from 35 to 139 amount: 900000  
+(2) 76 -> 138 -> 137  
+1397. sending payment from 108 to 134 amount: 900000  
+(3) 82 -> 116 -> 113 -> 120  
+1396. sending payment from 12 to 104 amount: 900000  
+(2) 59 -> 147 -> 121  
+1407. sending payment from 138 to 172 amount: 900000  
+(2) 142 -> 166 -> 136  
+1402. sending payment from 99 to 25 amount: 900000  
+(2) 61 -> 46 -> 136  
+1402. sending payment from 47 to 60 amount: 900000  
+(2) 154 -> 57 -> 13  
+1395. sending payment from 116 to 124 amount: 900000  
+(2) 7 -> 87 -> 54  
+1400. sending payment from 125 to 158 amount: 900000  
+(2) 113 -> 6 -> 132  
+1394. sending payment from 161 to 22 amount: 900000  
+(2) 126 -> 168 -> 10  
+1412. sending payment from 76 to 60 amount: 900000  
+(2) 139 -> 144 -> 35  
+1394. sending payment from 15 to 101 amount: 900000  
+(2) 134 -> 130 -> 108  
+1398. sending payment from 21 to 131 amount: 900000  
+(2) 104 -> 166 -> 12  
+1397. sending payment from 29 to 69 amount: 900000  
+(2) 172 -> 175 -> 138  
+1408. sending payment from 24 to 72 amount: 900000  
+(2) 25 -> 163 -> 99  
+1403. sending payment from 59 to 124 amount: 900000  
+(2) 60 -> 41 -> 47  
+1403. sending payment from 83 to 132 amount: 900000  
+(1) 124 -> 116  
+1396. sending payment from 59 to 112 amount: 900000  
+(2) 158 -> 9 -> 125  
+1401. sending payment from 68 to 141 amount: 900000  
+(3) 60 -> 138 -> 142 -> 76  
+1413. sending payment from 78 to 136 amount: 900000  
+(2) 22 -> 31 -> 161  
+1395. sending payment from 138 to 97 amount: 900000  
+(2) 101 -> 126 -> 15  
+1395. sending payment from 123 to 39 amount: 900000  
+(2) 131 -> 9 -> 21  
+1399. sending payment from 16 to 157 amount: 900000  
+(2) 69 -> 37 -> 29  
+1398. sending payment from 135 to 14 amount: 900000  
+(2) 72 -> 1 -> 24  
+1409. sending payment from 118 to 145 amount: 900000  
+(1) 124 -> 59  
+1404. sending payment from 37 to 102 amount: 900000  
+(1) 132 -> 83  
+1404. sending payment from 25 to 122 amount: 900000  
+(2) 112 -> 63 -> 59  
+1397. sending payment from 147 to 139 amount: 900000  
+(3) 141 -> 165 -> 6 -> 68  
+1402. sending payment from 19 to 155 amount: 900000  
+(2) 136 -> 175 -> 78  
+1414. sending payment from 100 to 103 amount: 900000  
+(2) 97 -> 9 -> 138  
+1396. sending payment from 71 to 90 amount: 900000  
+(2) 39 -> 156 -> 123  
+1396. sending payment from 32 to 174 amount: 900000  
+(2) 157 -> 1 -> 16  
+1400. sending payment from 120 to 21 amount: 900000  
+(2) 145 -> 102 -> 118  
+1410. sending payment from 49 to 156 amount: 900000  
+(3) 14 -> 37 -> 144 -> 135  
+1399. sending payment from 96 to 41 amount: 900000  
+(2) 102 -> 59 -> 37  
+1405. sending payment from 166 to 12 amount: 900000  
+(2) 122 -> 175 -> 25  
+1405. sending payment from 41 to 17 amount: 900000  
+(1) 139 -> 147  
+1398. sending payment from 148 to 6 amount: 900000  
+(2) 155 -> 66 -> 19  
+1403. sending payment from 4 to 9 amount: 900000  
+(1) 103 -> 100  
+1415. sending payment from 26 to 140 amount: 900000  
+(2) 90 -> 100 -> 71  
+1397. sending payment from 16 to 44 amount: 900000  
+(2) 174 -> 53 -> 32  
+1397. sending payment from 92 to 5 amount: 900000  
+(2) 21 -> 53 -> 120  
+1401. sending payment from 30 to 58 amount: 900000  
+(2) 41 -> 100 -> 96  
+1400. sending payment from 24 to 173 amount: 900000  
+(2) 156 -> 59 -> 49  
+1411. sending payment from 0 to 77 amount: 900000  
+(2) 77 -> 161 -> 0  
+1412. sending payment from 66 to 30 amount: 900000  
+(1) 12 -> 166  
+1406. sending payment from 19 to 132 amount: 900000  
+(2) 17 -> 107 -> 41  
+1406. sending payment from 81 to 98 amount: 900000  
+(2) 6 -> 116 -> 148  
+1399. sending payment from 24 to 136 amount: 900000  
+(1) 9 -> 4  
+1404. sending payment from 101 to 8 amount: 900000  
+(3) 140 -> 174 -> 51 -> 26  
+1416. sending payment from 104 to 9 amount: 900000  
+(2) 44 -> 62 -> 16  
+1398. sending payment from 126 to 115 amount: 900000  
+(2) 5 -> 146 -> 92  
+1398. sending payment from 70 to 46 amount: 900000  
+(2) 58 -> 11 -> 30  
+1402. sending payment from 88 to 162 amount: 900000  
+(3) 173 -> 142 -> 166 -> 24  
+1401. sending payment from 71 to 77 amount: 900000  
+(2) 30 -> 11 -> 66  
+1413. sending payment from 154 to 54 amount: 900000  
+(2) 132 -> 59 -> 19  
+1407. sending payment from 49 to 47 amount: 900000  
+(3) 98 -> 103 -> 161 -> 81  
+1407. sending payment from 168 to 73 amount: 900000  
+(2) 136 -> 37 -> 24  
+1400. sending payment from 68 to 172 amount: 900000  
+(2) 8 -> 171 -> 101  
+1405. sending payment from 104 to 169 amount: 900000  
+(1) 9 -> 104  
+1417. sending payment from 85 to 21 amount: 900000  
+(1) 115 -> 126  
+1399. sending payment from 16 to 165 amount: 900000  
+(2) 46 -> 142 -> 70  
+1399. sending payment from 169 to 95 amount: 900000  
+(3) 162 -> 114 -> 125 -> 88  
+1403. sending payment from 89 to 119 amount: 900000  
+(2) 77 -> 161 -> 71  
+1402. sending payment from 128 to 33 amount: 900000  
+(2) 54 -> 164 -> 154  
+1414. sending payment from 145 to 87 amount: 900000  
+(2) 47 -> 142 -> 49  
+1408. sending payment from 100 to 61 amount: 900000  
+(2) 73 -> 6 -> 168  
+1408. sending payment from 134 to 2 amount: 900000  
+(2) 172 -> 107 -> 68  
+1401. sending payment from 22 to 154 amount: 900000  
+(3) 169 -> 128 -> 105 -> 104  
+1406. sending payment from 6 to 28 amount: 900000  
+(2) 21 -> 114 -> 85  
+1418. sending payment from 42 to 70 amount: 900000  
+(2) 165 -> 18 -> 16  
+1400. sending payment from 166 to 32 amount: 900000  
+(2) 95 -> 128 -> 169  
+1400. sending payment from 5 to 174 amount: 900000  
+(3) 119 -> 78 -> 58 -> 89  
+1404. sending payment from 85 to 114 amount: 900000  
+(2) 33 -> 62 -> 128  
+1403. sending payment from 30 to 115 amount: 900000  
+(2) 87 -> 172 -> 145  
+1415. sending payment from 77 to 10 amount: 900000  
+(2) 61 -> 76 -> 100  
+1409. sending payment from 121 to 173 amount: 900000  
+(1) 2 -> 134  
+1409. sending payment from 147 to 4 amount: 900000  
+(2) 154 -> 126 -> 22  
+1402. sending payment from 89 to 86 amount: 900000  
+(2) 28 -> 40 -> 6  
+1407. sending payment from 106 to 130 amount: 900000  
+(2) 70 -> 97 -> 42  
+1419. sending payment from 143 to 66 amount: 900000  
+(2) 32 -> 46 -> 166  
+1401. sending payment from 30 to 167 amount: 900000  
+(1) 174 -> 5  
+1401. sending payment from 116 to 65 amount: 900000  
+(1) 114 -> 85  
+1405. sending payment from 114 to 12 amount: 900000  
+(2) 115 -> 65 -> 30  
+1404. sending payment from 24 to 19 amount: 900000  
+(2) 10 -> 39 -> 77  
+1416. sending payment from 155 to 92 amount: 900000  
+(2) 173 -> 137 -> 121  
+1410. sending payment from 67 to 164 amount: 900000  
+(1) 4 -> 147  
+1410. sending payment from 14 to 148 amount: 900000  
+(2) 86 -> 132 -> 89  
+1403. sending payment from 63 to 54 amount: 900000  
+(2) 130 -> 41 -> 106  
+1408. sending payment from 60 to 86 amount: 900000  
+(1) 66 -> 143  
+1420. sending payment from 46 to 58 amount: 900000  
+(3) 167 -> 39 -> 57 -> 30  
+1402. sending payment from 125 to 31 amount: 900000  
+(2) 65 -> 90 -> 116  
+1402. sending payment from 53 to 106 amount: 900000  
+(2) 12 -> 8 -> 114  
+1406. sending payment from 149 to 24 amount: 900000  
+(2) 19 -> 37 -> 24  
+1405. sending payment from 50 to 29 amount: 900000  
+(2) 92 -> 1 -> 155  
+1417. sending payment from 54 to 65 amount: 900000  
+(2) 164 -> 156 -> 67  
+1411. sending payment from 107 to 31 amount: 900000  
+(2) 148 -> 166 -> 14  
+1411. sending payment from 153 to 119 amount: 900000  
+(2) 54 -> 170 -> 63  
+1404. sending payment from 47 to 155 amount: 900000  
+(2) 86 -> 137 -> 60  
+1409. sending payment from 55 to 72 amount: 900000  
+(1) 58 -> 46  
+1421. sending payment from 79 to 7 amount: 900000  
+(2) 31 -> 74 -> 125  
+1403. sending payment from 35 to 117 amount: 900000  
+(2) 106 -> 41 -> 53  
+1403. sending payment from 120 to 131 amount: 900000  
+(2) 24 -> 142 -> 149  
+1407. sending payment from 175 to 124 amount: 900000  
+(2) 29 -> 11 -> 50  
+1406. sending payment from 43 to 100 amount: 900000  
+(2) 65 -> 39 -> 54  
+1418. sending payment from 5 to 25 amount: 900000  
+(2) 31 -> 132 -> 107  
+1412. sending payment from 4 to 173 amount: 900000  
+(3) 119 -> 142 -> 134 -> 153  
+1412. sending payment from 13 to 134 amount: 900000  
+(2) 155 -> 0 -> 47  
+1405. sending payment from 138 to 144 amount: 900000  
+(2) 72 -> 56 -> 55  
+1410. sending payment from 108 to 91 amount: 900000  
+(1) 7 -> 79  
+1422. sending payment from 39 to 95 amount: 900000  
+(2) 117 -> 39 -> 35  
+1404. sending payment from 84 to 56 amount: 900000  
+(2) 131 -> 140 -> 120  
+1404. sending payment from 155 to 115 amount: 900000  
+(1) 124 -> 175  
+1408. sending payment from 153 to 168 amount: 900000  
+(2) 100 -> 0 -> 43  
+1407. sending payment from 89 to 95 amount: 900000  
+(2) 25 -> 175 -> 5  
+1419. sending payment from 58 to 112 amount: 900000  
+(2) 173 -> 163 -> 4  
+1413. sending payment from 129 to 160 amount: 900000  
+(2) 134 -> 6 -> 13  
+1413. sending payment from 101 to 176 amount: 900000  
+(2) 144 -> 137 -> 138  
+1406. sending payment from 93 to 38 amount: 900000  
+(2) 91 -> 146 -> 108  
+1411. sending payment from 76 to 128 amount: 900000  
+(1) 95 -> 39  
+1423. sending payment from 142 to 147 amount: 900000  
+(2) 56 -> 128 -> 84  
+1405. sending payment from 91 to 124 amount: 900000  
+(3) 115 -> 124 -> 103 -> 155  
+1405. sending payment from 12 to 91 amount: 900000  
+(2) 168 -> 143 -> 153  
+1409. sending payment from 18 to 168 amount: 900000  
+(2) 95 -> 165 -> 89  
+1408. sending payment from 122 to 166 amount: 900000  
+(2) 112 -> 90 -> 58  
+1420. sending payment from 14 to 47 amount: 900000  
+(1) 160 -> 129  
+1414. sending payment from 78 to 112 amount: 900000  
+(2) 176 -> 126 -> 101  
+1414. sending payment from 91 to 110 amount: 900000  
+(2) 38 -> 142 -> 93  
+1407. sending payment from 122 to 144 amount: 900000  
+(1) 128 -> 76  
+1412. sending payment from 141 to 93 amount: 900000  
+(2) 147 -> 151 -> 142  
+1424. sending payment from 124 to 137 amount: 900000  
+(2) 124 -> 116 -> 91  
+1406. sending payment from 140 to 15 amount: 900000  
+(2) 91 -> 116 -> 12  
+1406. sending payment from 3 to 132 amount: 900000  
+(1) 168 -> 18  
+1410. sending payment from 20 to 114 amount: 900000  
+(1) 166 -> 122  
+1409. sending payment from 66 to 78 amount: 900000  
+(2) 47 -> 142 -> 14  
+1421. sending payment from 23 to 62 amount: 900000  
+(2) 112 -> 9 -> 78  
+1415. sending payment from 62 to 59 amount: 900000  
+(2) 110 -> 142 -> 91  
+1415. sending payment from 74 to 148 amount: 900000  
+(2) 144 -> 146 -> 122  
+1408. sending payment from 15 to 161 amount: 900000  
+(2) 93 -> 97 -> 141  
+1413. sending payment from 53 to 25 amount: 900000  
+(2) 137 -> 57 -> 124  
+1425. sending payment from 61 to 153 amount: 900000  
+(2) 15 -> 138 -> 140  
+1407. sending payment from 103 to 173 amount: 900000  
+(2) 132 -> 65 -> 3  
+1407. sending payment from 150 to 80 amount: 900000  
+(2) 114 -> 57 -> 20  
+1411. sending payment from 174 to 157 amount: 900000  
+(2) 78 -> 175 -> 66  
+1410. sending payment from 23 to 13 amount: 900000  
+(1) 62 -> 23  
+1422. sending payment from 13 to 31 amount: 900000  
+(1) 59 -> 62  
+1416. sending payment from 15 to 27 amount: 900000  
+(2) 148 -> 155 -> 74  
+1416. sending payment from 97 to 62 amount: 900000  
+(3) 161 -> 87 -> 62 -> 15  
+1409. sending payment from 102 to 51 amount: 900000  
+(1) 25 -> 53  
+1414. sending payment from 53 to 126 amount: 900000  
+(3) 153 -> 107 -> 146 -> 61  
+1426. sending payment from 45 to 160 amount: 900000  
+(2) 173 -> 137 -> 103  
+1408. sending payment from 86 to 138 amount: 900000  
+(3) 80 -> 154 -> 114 -> 150  
+1408. sending payment from 17 to 124 amount: 900000  
+(2) 157 -> 160 -> 174  
+1412. sending payment from 120 to 69 amount: 900000  
+(2) 13 -> 49 -> 23  
+1411. sending payment from 171 to 93 amount: 900000  
+(1) 31 -> 13  
+1423. sending payment from 132 to 173 amount: 900000  
+(2) 27 -> 53 -> 15  
+1417. sending payment from 177 to 143 amount: 900000  
+(1) 62 -> 97  
+1417. sending payment from 113 to 106 amount: 900000  
+(2) 51 -> 175 -> 102  
+1410. sending payment from 29 to 102 amount: 900000  
+(2) 126 -> 127 -> 53  
+1415. sending payment from 120 to 175 amount: 900000  
+(2) 160 -> 132 -> 45  
+1427. sending payment from 51 to 79 amount: 900000  
+(1) 138 -> 86  
+1409. sending payment from 111 to 109 amount: 900000  
+(2) 124 -> 4 -> 17  
+1409. sending payment from 70 to 33 amount: 900000  
+(2) 69 -> 54 -> 120  
+1413. sending payment from 118 to 58 amount: 900000  
+(3) 93 -> 142 -> 46 -> 171  
+1412. sending payment from 104 to 84 amount: 900000  
+(2) 173 -> 116 -> 132  
+1424. sending payment from 38 to 40 amount: 900000  
+(2) 143 -> 142 -> 177  
+1418. sending payment from 137 to 30 amount: 900000  
+(2) 106 -> 142 -> 113  
+1418. sending payment from 8 to 70 amount: 900000  
+(2) 102 -> 57 -> 29  
+1411. sending payment from 44 to 77 amount: 900000  
+(2) 175 -> 140 -> 120  
+1416. sending payment from 134 to 75 amount: 900000  
+(2) 79 -> 9 -> 51  
+1428. sending payment from 59 to 21 amount: 900000  
+(2) 109 -> 142 -> 111  
+1410. sending payment from 70 to 61 amount: 900000  
+(1) 33 -> 70  
+1410. sending payment from 1 to 167 amount: 900000  
+(2) 58 -> 116 -> 118  
+1414. sending payment from 29 to 97 amount: 900000  
+(2) 40 -> 74 -> 38  
+1425. sending payment from 167 to 88 amount: 900000  
+(1) 84 -> 104  
+1413. sending payment from 87 to 65 amount: 900000  
+(3) 30 -> 53 -> 142 -> 137  
+1419. sending payment from 161 to 113 amount: 900000  
+(1) 70 -> 8  
+1419. sending payment from 134 to 88 amount: 900000  
+(2) 77 -> 69 -> 44  
+1412. sending payment from 106 to 154 amount: 900000  
+(2) 75 -> 87 -> 134  
+1417. sending payment from 141 to 139 amount: 900000  
+(1) 21 -> 59  
+1429. sending payment from 167 to 104 amount: 900000  
+(2) 61 -> 109 -> 70  
+1411. sending payment from 123 to 47 amount: 900000  
+(2) 167 -> 126 -> 1  
+1411. sending payment from 143 to 141 amount: 900000  
+(2) 97 -> 9 -> 29  
+1415. sending payment from 161 to 93 amount: 900000  
+ 
+1426. sending payment from 68 to 110 amount: 900000  
+(2) 65 -> 6 -> 87  
+1414. sending payment from 161 to 92 amount: 900000  
+(2) 113 -> 95 -> 161  
+1420. sending payment from 104 to 111 amount: 900000  
+(1) 88 -> 134  
+1420. sending payment from 51 to 59 amount: 900000  
+(2) 154 -> 142 -> 106  
+1413. sending payment from 146 to 36 amount: 900000  
+ 
+1430. sending payment from 150 to 168 amount: 900000  
+(2) 139 -> 69 -> 141  
+1418. sending payment from 72 to 15 amount: 900000  
+(2) 47 -> 130 -> 123  
+1412. sending payment from 15 to 151 amount: 900000  
+(2) 141 -> 159 -> 143  
+1412. sending payment from 110 to 108 amount: 900000  
+(2) 93 -> 90 -> 161  
+1416. sending payment from 117 to 49 amount: 900000  
+(2) 110 -> 130 -> 68  
+1427. sending payment from 60 to 98 amount: 900000  
+(1) 92 -> 161  
+1415. sending payment from 38 to 36 amount: 900000  
+(2) 111 -> 166 -> 104  
+1421. sending payment from 77 to 141 amount: 900000  
+(2) 59 -> 168 -> 51  
+1421. sending payment from 35 to 22 amount: 900000  
+(1) 36 -> 146  
+1414. sending payment from 163 to 17 amount: 900000  
+(2) 168 -> 126 -> 150  
+1431. sending payment from 22 to 3 amount: 900000  
+(2) 15 -> 10 -> 72  
+1419. sending payment from 151 to 104 amount: 900000  
+(2) 151 -> 142 -> 15  
+1413. sending payment from 70 to 26 amount: 900000  
+(2) 108 -> 123 -> 110  
+1413. sending payment from 11 to 97 amount: 900000  
+(4) 49 -> 166 -> 139 -> 155 -> 117  
+1417. sending payment from 35 to 134 amount: 900000  
+(2) 98 -> 118 -> 60  
+1428. sending payment from 20 to 24 amount: 900000  
+(3) 36 -> 146 -> 77 -> 38  
+1416. sending payment from 150 to 170 amount: 900000  
+(2) 141 -> 165 -> 77  
+1422. sending payment from 160 to 70 amount: 900000  
+(3) 22 -> 37 -> 144 -> 35  
+1422. sending payment from 15 to 176 amount: 900000  
+(2) 17 -> 142 -> 163  
+1415. sending payment from 94 to 35 amount: 900000  
+(2) 3 -> 43 -> 22  
+1432. sending payment from 145 to 73 amount: 900000  
+(2) 104 -> 174 -> 151  
+1420. sending payment from 77 to 126 amount: 900000  
+(2) 26 -> 87 -> 70  
+1414. sending payment from 108 to 107 amount: 900000  
+(2) 97 -> 2 -> 11  
+1414. sending payment from 123 to 44 amount: 900000  
+(2) 134 -> 128 -> 35  
+1418. sending payment from 25 to 145 amount: 900000  
+(2) 24 -> 65 -> 20  
+1429. sending payment from 40 to 97 amount: 900000  
+(3) 170 -> 175 -> 39 -> 150  
+1417. sending payment from 163 to 141 amount: 900000  
+(1) 70 -> 160  
+1423. sending payment from 13 to 144 amount: 900000  
+(3) 176 -> 35 -> 138 -> 15  
+1423. sending payment from 91 to 138 amount: 900000  
+(2) 35 -> 85 -> 94  
+1416. sending payment from 165 to 140 amount: 900000  
+(3) 73 -> 79 -> 107 -> 145  
+1433. sending payment from 87 to 81 amount: 900000  
+(2) 126 -> 95 -> 77  
+1421. sending payment from 96 to 168 amount: 900000  
+(2) 107 -> 142 -> 108  
+1415. sending payment from 52 to 106 amount: 900000  
+(1) 44 -> 123  
+1415. sending payment from 62 to 144 amount: 900000  
+(2) 145 -> 62 -> 25  
+1419. sending payment from 39 to 24 amount: 900000  
+(1) 97 -> 40  
+1430. sending payment from 143 to 68 amount: 900000  
+(2) 141 -> 114 -> 163  
+1418. sending payment from 90 to 96 amount: 900000  
+(2) 144 -> 142 -> 13  
+1424. sending payment from 36 to 28 amount: 900000  
+(2) 138 -> 69 -> 91  
+1424. sending payment from 96 to 95 amount: 900000  
+(2) 140 -> 142 -> 165  
+1417. sending payment from 154 to 46 amount: 900000  
+(2) 81 -> 161 -> 87  
+1434. sending payment from 98 to 65 amount: 900000  
+(2) 168 -> 74 -> 96  
+1422. sending payment from 63 to 80 amount: 900000  
+(3) 106 -> 161 -> 55 -> 52  
+1416. sending payment from 6 to 152 amount: 900000  
+(1) 144 -> 62  
+1416. sending payment from 105 to 67 amount: 900000  
+(2) 24 -> 31 -> 39  
+1420. sending payment from 117 to 71 amount: 900000  
+(2) 68 -> 57 -> 143  
+1431. sending payment from 72 to 63 amount: 900000  
+(2) 96 -> 100 -> 90  
+1419. sending payment from 152 to 71 amount: 900000  
+(2) 28 -> 43 -> 36  
+1425. sending payment from 156 to 70 amount: 900000  
+(2) 95 -> 132 -> 96  
+1425. sending payment from 107 to 77 amount: 900000  
+(2) 46 -> 85 -> 154  
+1418. sending payment from 103 to 105 amount: 900000  
+(2) 65 -> 57 -> 98  
+1435. sending payment from 52 to 112 amount: 900000  
+(2) 80 -> 173 -> 63  
+1423. sending payment from 21 to 75 amount: 900000  
+(2) 152 -> 99 -> 6  
+1417. sending payment from 20 to 6 amount: 900000  
+(2) 67 -> 130 -> 105  
+1417. sending payment from 88 to 134 amount: 900000  
+ 
+1421. sending payment from 84 to 70 amount: 900000  
+(2) 63 -> 147 -> 72  
+1432. sending payment from 70 to 138 amount: 900000  
+(2) 71 -> 142 -> 152  
+1420. sending payment from 165 to 66 amount: 900000  
+(2) 70 -> 59 -> 156  
+1426. sending payment from 132 to 157 amount: 900000  
+(2) 77 -> 146 -> 107  
+1426. sending payment from 88 to 51 amount: 900000  
+(2) 105 -> 114 -> 103  
+1419. sending payment from 142 to 145 amount: 900000  
+(2) 112 -> 116 -> 52  
+1436. sending payment from 84 to 99 amount: 900000  
+(2) 75 -> 53 -> 21  
+1424. sending payment from 99 to 11 amount: 900000  
+(2) 6 -> 62 -> 20  
+1418. sending payment from 140 to 100 amount: 900000  
+(1) 134 -> 88  
+1418. sending payment from 94 to 54 amount: 900000  
+(1) 70 -> 84  
+1422. sending payment from 174 to 177 amount: 900000  
+(1) 138 -> 70  
+1433. sending payment from 57 to 61 amount: 900000  
+(2) 66 -> 128 -> 165  
+1421. sending payment from 26 to 170 amount: 900000  
+(2) 157 -> 57 -> 132  
+1427. sending payment from 87 to 41 amount: 900000  
+(2) 51 -> 110 -> 88  
+1427. sending payment from 45 to 95 amount: 900000  
+(2) 145 -> 166 -> 142  
+1420. sending payment from 110 to 14 amount: 900000  
+(1) 99 -> 84  
+1437. sending payment from 143 to 113 amount: 900000  
+(2) 11 -> 31 -> 99  
+1425. sending payment from 150 to 75 amount: 900000  
+(2) 100 -> 125 -> 140  
+1419. sending payment from 54 to 144 amount: 900000  
+(2) 54 -> 142 -> 94  
+1419. sending payment from 19 to 93 amount: 900000  
+(2) 177 -> 165 -> 174  
+1423. sending payment from 64 to 97 amount: 900000  
+(2) 61 -> 76 -> 57  
+1434. sending payment from 65 to 54 amount: 900000  
+(2) 170 -> 165 -> 26  
+1422. sending payment from 18 to 67 amount: 900000  
+(1) 41 -> 87  
+1428. sending payment from 75 to 16 amount: 900000  
+(2) 95 -> 130 -> 45  
+1428. sending payment from 109 to 165 amount: 900000  
+(2) 14 -> 142 -> 110  
+1421. sending payment from 92 to 55 amount: 900000  
+(1) 113 -> 143  
+1438. sending payment from 149 to 45 amount: 900000  
+(3) 75 -> 87 -> 7 -> 150  
+1426. sending payment from 30 to 5 amount: 900000  
+(3) 144 -> 113 -> 120 -> 54  
+1420. sending payment from 67 to 141 amount: 900000  
+ 
+1420. sending payment from 18 to 9 amount: 900000  
+(2) 97 -> 66 -> 64  
+1424. sending payment from 55 to 97 amount: 900000  
+(2) 54 -> 69 -> 65  
+1435. sending payment from 96 to 141 amount: 900000  
+(2) 67 -> 147 -> 18  
+1423. sending payment from 49 to 162 amount: 900000  
+(2) 16 -> 53 -> 75  
+1429. sending payment from 82 to 108 amount: 900000  
+(2) 165 -> 174 -> 109  
+1429. sending payment from 150 to 119 amount: 900000  
+(2) 55 -> 43 -> 92  
+1422. sending payment from 53 to 79 amount: 900000  
+(2) 45 -> 142 -> 149  
+1439. sending payment from 58 to 150 amount: 900000  
+(1) 5 -> 30  
+1427. sending payment from 42 to 19 amount: 900000  
+(2) 141 -> 128 -> 67  
+1421. sending payment from 82 to 20 amount: 900000  
+(2) 9 -> 79 -> 18  
+1421. sending payment from 62 to 24 amount: 900000  
+(2) 97 -> 175 -> 55  
+1425. sending payment from 175 to 29 amount: 900000  
+(2) 141 -> 7 -> 96  
+1436. sending payment from 37 to 115 amount: 900000  
+(2) 162 -> 161 -> 49  
+1424. sending payment from 66 to 164 amount: 900000  
+(2) 108 -> 156 -> 82  
+1430. sending payment from 126 to 140 amount: 900000  
+(2) 119 -> 128 -> 150  
+1430. sending payment from 36 to 115 amount: 900000  
+(2) 79 -> 37 -> 53  
+1423. sending payment from 150 to 92 amount: 900000  
+(3) 150 -> 7 -> 72 -> 58  
+1440. sending payment from 12 to 123 amount: 900000  
+(3) 19 -> 59 -> 165 -> 42  
+1428. sending payment from 91 to 5 amount: 900000  
+(2) 20 -> 4 -> 82  
+1422. sending payment from 16 to 162 amount: 900000  
+(2) 24 -> 32 -> 62  
+1422. sending payment from 81 to 134 amount: 900000  
+(2) 29 -> 48 -> 175  
+1426. sending payment from 81 to 49 amount: 900000  
+(2) 115 -> 46 -> 37  
+1437. sending payment from 9 to 163 amount: 900000  
+(2) 164 -> 126 -> 66  
+1425. sending payment from 49 to 163 amount: 900000  
+(1) 140 -> 126  
+1431. sending payment from 33 to 16 amount: 900000  
+(2) 115 -> 7 -> 36  
+1431. sending payment from 48 to 169 amount: 900000  
+(2) 92 -> 128 -> 150  
+1424. sending payment from 122 to 137 amount: 900000  
+(2) 123 -> 107 -> 12  
+1441. sending payment from 144 to 163 amount: 900000  
+(2) 5 -> 100 -> 91  
+1429. sending payment from 99 to 106 amount: 900000  
+(3) 162 -> 165 -> 87 -> 16  
+1423. sending payment from 108 to 26 amount: 900000  
+(2) 134 -> 6 -> 81  
+1423. sending payment from 65 to 25 amount: 900000  
+(2) 49 -> 161 -> 81  
+1427. sending payment from 86 to 5 amount: 900000  
+(1) 163 -> 9  
+1438. sending payment from 50 to 72 amount: 900000  
+(2) 163 -> 147 -> 49  
+1426. sending payment from 96 to 16 amount: 900000  
+(3) 16 -> 18 -> 131 -> 33  
+1432. sending payment from 35 to 108 amount: 900000  
+(2) 169 -> 39 -> 48  
+1432. sending payment from 40 to 41 amount: 900000  
+(2) 137 -> 57 -> 122  
+1425. sending payment from 140 to 19 amount: 900000  
+(2) 163 -> 145 -> 144  
+1442. sending payment from 33 to 135 amount: 900000  
+(2) 106 -> 74 -> 99  
+1430. sending payment from 91 to 81 amount: 900000  
+(2) 26 -> 46 -> 108  
+1424. sending payment from 109 to 119 amount: 900000  
+(2) 25 -> 53 -> 65  
+1424. sending payment from 21 to 157 amount: 900000  
+(2) 5 -> 127 -> 86  
+1428. sending payment from 18 to 0 amount: 900000  
+(2) 72 -> 172 -> 50  
+1439. sending payment from 13 to 58 amount: 900000  
+(2) 16 -> 65 -> 96  
+1427. sending payment from 14 to 73 amount: 900000  
+(1) 108 -> 35  
+1433. sending payment from 45 to 4 amount: 900000  
+(2) 41 -> 104 -> 40  
+1433. sending payment from 35 to 79 amount: 900000  
+(2) 19 -> 142 -> 140  
+1426. sending payment from 87 to 78 amount: 900000  
+(3) 135 -> 127 -> 62 -> 33  
+1443. sending payment from 124 to 163 amount: 900000  
+(2) 81 -> 109 -> 91  
+1431. sending payment from 4 to 145 amount: 900000  
+(2) 119 -> 95 -> 109  
+1425. sending payment from 156 to 131 amount: 900000  
+(3) 157 -> 135 -> 0 -> 21  
+1425. sending payment from 97 to 89 amount: 900000  
+(2) 0 -> 47 -> 18  
+1429. sending payment from 43 to 5 amount: 900000  
+(2) 58 -> 81 -> 13  
+1440. sending payment from 74 to 24 amount: 900000  
+(2) 4 -> 168 -> 45  
+1434. sending payment from 96 to 161 amount: 900000  
+(3) 73 -> 95 -> 166 -> 14  
+1428. sending payment from 6 to 70 amount: 900000  
+(2) 79 -> 47 -> 35  
+1434. sending payment from 19 to 81 amount: 900000  
+(2) 78 -> 7 -> 87  
+1427. sending payment from 74 to 34 amount: 900000  
+(2) 163 -> 127 -> 124  
+1444. sending payment from 0 to 92 amount: 900000  
+(2) 145 -> 67 -> 4  
+1432. sending payment from 79 to 145 amount: 900000  
+(3) 92 -> 128 -> 6 -> 0  
+1445. sending payment from 136 to 103 amount: 900000  
+(1) 131 -> 156  
+1426. sending payment from 174 to 17 amount: 900000  
+(1) 89 -> 97  
+1426. sending payment from 10 to 31 amount: 900000  
+(1) 5 -> 43  
+1430. sending payment from 131 to 106 amount: 900000  
+(2) 24 -> 31 -> 74  
+1441. sending payment from 16 to 56 amount: 900000  
+(3) 161 -> 0 -> 65 -> 96  
+1435. sending payment from 11 to 69 amount: 900000  
+(1) 70 -> 6  
+1429. sending payment from 158 to 169 amount: 900000  
+(2) 81 -> 58 -> 19  
+1435. sending payment from 150 to 167 amount: 900000  
+(2) 34 -> 7 -> 74  
+1428. sending payment from 47 to 15 amount: 900000  
+(1) 145 -> 79  
+1433. sending payment from 29 to 136 amount: 900000  
+(2) 103 -> 152 -> 136  
+1446. sending payment from 87 to 94 amount: 900000  
+(2) 17 -> 6 -> 174  
+1427. sending payment from 125 to 33 amount: 900000  
+(2) 31 -> 8 -> 10  
+1427. sending payment from 127 to 15 amount: 900000  
+(3) 106 -> 54 -> 88 -> 131  
+1431. sending payment from 134 to 149 amount: 900000  
+(2) 56 -> 87 -> 16  
+1442. sending payment from 169 to 70 amount: 900000  
+(2) 69 -> 85 -> 11  
+1436. sending payment from 39 to 13 amount: 900000  
+(3) 169 -> 128 -> 6 -> 158  
+1430. sending payment from 135 to 2 amount: 900000  
+(2) 167 -> 39 -> 150  
+1436. sending payment from 91 to 39 amount: 900000  
+(2) 15 -> 126 -> 47  
+1429. sending payment from 166 to 10 amount: 900000  
+(2) 136 -> 1 -> 29  
+1434. sending payment from 29 to 109 amount: 900000  
+(2) 94 -> 6 -> 87  
+1447. sending payment from 32 to 42 amount: 900000  
+(1) 33 -> 125  
+1428. sending payment from 121 to 149 amount: 900000  
+(2) 15 -> 4 -> 127  
+1428. sending payment from 24 to 174 amount: 900000  
+(2) 149 -> 160 -> 134  
+1432. sending payment from 18 to 149 amount: 900000  
+(2) 70 -> 126 -> 169  
+1443. sending payment from 78 to 99 amount: 900000  
+(1) 13 -> 39  
+1437. sending payment from 73 to 94 amount: 900000  
+(2) 2 -> 174 -> No such edge: 2 174 
+ 135  
+1431. sending payment from 46 to 85 amount: 900000  
+(2) 39 -> 142 -> 91  
+1437. sending payment from 10 to 172 amount: 900000  
+(2) 10 -> 94 -> 166  
+1430. sending payment from 119 to 154 amount: 900000  
+(2) 109 -> 1 -> 29  
+1435. sending payment from 65 to 102 amount: 900000  
+(2) 42 -> 57 -> 32  
+1448. sending payment from 111 to 1 amount: 900000  
+(2) 174 -> 51 -> 24  
+1429. sending payment from 88 to 44 amount: 900000  
+(2) 149 -> 156 -> 121  
+1429. sending payment from 132 to 114 amount: 900000  
+(2) 149 -> 166 -> 18  
+1433. sending payment from 164 to 101 amount: 900000  
+(2) 99 -> 6 -> 78  
+1444. sending payment from 46 to 122 amount: 900000  
+(2) 94 -> 79 -> 73  
+1438. sending payment from 55 to 20 amount: 900000  
+(2) 85 -> 128 -> 46  
+1432. sending payment from 150 to 47 amount: 900000  
+(2) 172 -> 127 -> 10  
+1438. sending payment from 62 to 80 amount: 900000  
+(2) 154 -> 126 -> 119  
+1431. sending payment from 157 to 114 amount: 900000  
+(3) 102 -> 147 -> 142 -> 65  
+1436. sending payment from 137 to 92 amount: 900000  
+(2) 1 -> 130 -> 111  
+1449. sending payment from 48 to 119 amount: 900000  
+(2) 44 -> 107 -> 88  
+1430. sending payment from 175 to 15 amount: 900000  
+(1) 114 -> 132  
+1430. sending payment from 51 to 96 amount: 900000  
+(2) 101 -> 130 -> 164  
+1434. sending payment from 20 to 129 amount: 900000  
+(2) 122 -> 170 -> 46  
+1445. sending payment from 39 to 5 amount: 900000  
+(2) 20 -> 65 -> 55  
+1439. sending payment from 25 to 52 amount: 900000  
+(2) 47 -> 39 -> 150  
+1433. sending payment from 91 to 107 amount: 900000  
+(2) 80 -> 145 -> 62  
+1439. sending payment from 30 to 84 amount: 900000  
+(2) 114 -> 116 -> 157  
+1432. sending payment from 172 to 11 amount: 900000  
+(3) 92 -> 43 -> 85 -> 137  
+1437. sending payment from 82 to 60 amount: 900000  
+(1) 119 -> 48  
+1450. sending payment from 90 to 80 amount: 900000  
+(2) 15 -> 31 -> 175  
+1431. sending payment from 45 to 21 amount: 900000  
+(3) 96 -> 100 -> 122 -> 51  
+1431. sending payment from 129 to 59 amount: 900000  
+(2) 129 -> 62 -> 20  
+1435. sending payment from 63 to 9 amount: 900000  
+(2) 5 -> 175 -> 39  
+1446. sending payment from 53 to 9 amount: 900000  
+(2) 52 -> 1 -> 25  
+1440. sending payment from 95 to 101 amount: 900000  
+(2) 107 -> 146 -> 91  
+1434. sending payment from 37 to 138 amount: 900000  
+(2) 84 -> 1 -> 30  
+1440. sending payment from 97 to 0 amount: 900000  
+(2) 11 -> 17 -> 172  
+1433. sending payment from 111 to 93 amount: 900000  
+(2) 80 -> 100 -> 90  
+1451. sending payment from 23 to 115 amount: 900000  
+(1) 60 -> 82  
+1438. sending payment from 133 to 8 amount: 900000  
+(2) 21 -> 37 -> 45  
+1432. sending payment from 11 to 57 amount: 900000  
+(2) 59 -> 100 -> 129  
+1432. sending payment from 49 to 59 amount: 900000  
+(1) 9 -> 63  
+1436. sending payment from 94 to 2 amount: 900000  
+(1) 9 -> 53  
+1447. sending payment from 82 to 144 amount: 900000  
+(2) 101 -> 6 -> 95  
+1441. sending payment from 45 to 120 amount: 900000  
+(2) 138 -> 100 -> 37  
+1435. sending payment from 112 to 153 amount: 900000  
+(2) 0 -> 62 -> 97  
+1441. sending payment from 150 to 148 amount: 900000  
+(2) 93 -> 142 -> 111  
+1434. sending payment from 120 to 13 amount: 900000  
+(2) 115 -> 65 -> 23  
+1452. sending payment from 107 to 59 amount: 900000  
+(2) 8 -> 49 -> 133  
+1439. sending payment from 95 to 94 amount: 900000  
+(1) 57 -> 11  
+1433. sending payment from 110 to 171 amount: 900000  
+(1) 59 -> 49  
+1433. sending payment from 110 to 119 amount: 900000  
+(2) 2 -> 38 -> 94  
+1437. sending payment from 31 to 115 amount: 900000  
+(2) 144 -> 116 -> 82  
+1448. sending payment from 20 to 71 amount: 900000  
+(2) 120 -> 146 -> 45  
+1442. sending payment from 83 to 69 amount: 900000  
+(2) 153 -> 116 -> 112  
+1436. sending payment from 64 to 28 amount: 900000  
+(3) 148 -> 142 -> 38 -> 150  
+1442. sending payment from 172 to 67 amount: 900000  
+(3) 13 -> 87 -> 54 -> 120  
+1435. sending payment from 166 to 126 amount: 900000  
+(2) 59 -> 132 -> 107  
+1453. sending payment from 147 to 117 amount: 900000  
+(2) 94 -> 78 -> 95  
+1440. sending payment from 139 to 36 amount: 900000  
+(1) 171 -> 110  
+1434. sending payment from 176 to 9 amount: 900000  
+(2) 119 -> 138 -> 110  
+1434. sending payment from 52 to 84 amount: 900000  
+(2) 115 -> 65 -> 31  
+1438. sending payment from 94 to 134 amount: 900000  
+(2) 71 -> 43 -> 20  
+1449. sending payment from 165 to 90 amount: 900000  
+(2) 69 -> 41 -> 83  
+1443. sending payment from 18 to 81 amount: 900000  
+(2) 28 -> 127 -> 64  
+1437. sending payment from 53 to 136 amount: 900000  
+(2) 67 -> 85 -> 172  
+1443. sending payment from 134 to 168 amount: 900000  
+(1) 126 -> 166  
+1436. sending payment from 106 to 153 amount: 900000  
+(2) 117 -> 171 -> 147  
+1454. sending payment from 166 to 77 amount: 900000  
+(2) 36 -> 168 -> 139  
+1441. sending payment from 37 to 130 amount: 900000  
+(1) 9 -> 176  
+1435. sending payment from 6 to 168 amount: 900000  
+(2) 84 -> 1 -> 52  
+1435. sending payment from 57 to 141 amount: 900000  
+(2) 134 -> 166 -> 94  
+1439. sending payment from 146 to 18 amount: 900000  
+(2) 90 -> 125 -> 165  
+1450. sending payment from 46 to 107 amount: 900000  
+(2) 81 -> 57 -> 18  
+1444. sending payment from 100 to 60 amount: 900000  
+(2) 136 -> 128 -> 53  
+1438. sending payment from 169 to 19 amount: 900000  
+(2) 168 -> 6 -> 134  
+1444. sending payment from 61 to 14 amount: 900000  
+(3) 153 -> 110 -> 74 -> 106  
+1437. sending payment from 150 to 78 amount: 900000  
+(2) 77 -> 143 -> 166  
+1455. sending payment from 34 to 102 amount: 900000  
+(2) 130 -> 55 -> 37  
+1442. sending payment from 86 to 76 amount: 900000  
+(1) 168 -> 6  
+1436. sending payment from 54 to 129 amount: 900000  
+(2) 141 -> 103 -> 57  
+1436. sending payment from 78 to 43 amount: 900000  
+(2) 18 -> 79 -> 146  
+1440. sending payment from 123 to 149 amount: 900000  
+(1) 107 -> 46  
+1451. sending payment from 135 to 36 amount: 900000  
+(1) 60 -> 100  
+1445. sending payment from 96 to 116 amount: 900000  
+(3) 19 -> 62 -> 126 -> 169  
+1439. sending payment from 109 to 122 amount: 900000  
+(2) 14 -> 37 -> 61  
+1445. sending payment from 29 to 143 amount: 900000  
+(2) 78 -> 7 -> 150  
+1438. sending payment from 73 to 9 amount: 900000  
+(2) 102 -> 107 -> 34  
+1456. sending payment from 120 to 166 amount: 900000  
+(2) 76 -> 69 -> 86  
+1443. sending payment from 54 to 163 amount: 900000  
+(2) 129 -> 103 -> 54  
+1437. sending payment from 87 to 43 amount: 900000  
+(2) 43 -> 9 -> 78  
+1437. sending payment from 166 to 83 amount: 900000  
+(2) 149 -> 142 -> 123  
+1441. sending payment from 57 to 44 amount: 900000  
+(2) 36 -> 168 -> 135  
+1452. sending payment from 128 to 102 amount: 900000  
+(3) 116 -> 52 -> 65 -> 96  
+1446. sending payment from 109 to 61 amount: 900000  
+(2) 122 -> 57 -> 109  
+1440. sending payment from 80 to 175 amount: 900000  
+(2) 143 -> 31 -> 29  No such edge: 31 29 
+ 
+1446. sending payment from 10 to 18 amount: 900000  
+(2) 9 -> 82 -> 73  
+1439. sending payment from 89 to 120 amount: 900000  
+(2) 166 -> 113 -> 120  
+1457. sending payment from 148 to 31 amount: 900000  
+(2) 163 -> 164 -> 54  
+1444. sending payment from 122 to 16 amount: 900000  
+(2) 43 -> 28 -> 87  
+1438. sending payment from 27 to 148 amount: 900000  
+(2) 83 -> 100 -> 166  
+1438. sending payment from 122 to 153 amount: 900000  
+(1) 44 -> 57  
+1442. sending payment from 76 to 175 amount: 900000  
+(2) 102 -> 139 -> 128  
+1453. sending payment from 156 to 4 amount: 900000  
+(1) 61 -> 109  
+1447. sending payment from 135 to 141 amount: 900000  
+(2) 175 -> 155 -> 80  
+1441. sending payment from 58 to 145 amount: 900000  
+(3) 18 -> 107 -> 157 -> 10  
+1447. sending payment from 1 to 62 amount: 900000  
+(2) 120 -> 146 -> 89  
+1440. sending payment from 138 to 27 amount: 900000  
+(2) 31 -> 94 -> 148  
+1458. sending payment from 15 to 162 amount: 900000  
+(1) 16 -> 122  
+1445. sending payment from 115 to 100 amount: 900000  
+(2) 148 -> 142 -> 27  
+1439. sending payment from 110 to 22 amount: 900000  
+(2) 153 -> 107 -> 122  
+1439. sending payment from 99 to 177 amount: 900000  
+(2) 175 -> 138 -> 76  
+1443. sending payment from 157 to 45 amount: 900000  
+(1) 4 -> 156  
+1454. sending payment from 136 to 74 amount: 900000  
+(2) 141 -> 130 -> 135  
+1448. sending payment from 2 to 33 amount: 900000  
+(2) 145 -> 116 -> 58  
+1442. sending payment from 18 to 145 amount: 900000  
+(1) 62 -> 1  
+1448. sending payment from 46 to 153 amount: 900000  
+(2) 27 -> 62 -> 138  
+1441. sending payment from 77 to 12 amount: 900000  
+(2) 162 -> 0 -> 15  
+1459. sending payment from 137 to 148 amount: 900000  
+(2) 100 -> 7 -> 115  
+1446. sending payment from 54 to 151 amount: 900000  
+(2) 22 -> 1 -> 110  
+1440. sending payment from 64 to 171 amount: 900000  
+(2) 177 -> 142 -> 99  
+1440. sending payment from 142 to 67 amount: 900000  
+(2) 45 -> 57 -> 157  
+1444. sending payment from 13 to 116 amount: 900000  
+(2) 74 -> 37 -> 136  
+1455. sending payment from 133 to 79 amount: 900000  
+(2) 33 -> 11 -> 2  
+1449. sending payment from 130 to 83 amount: 900000  
+(1) 145 -> 18  
+1443. sending payment from 97 to 135 amount: 900000  
+(2) 153 -> 107 -> 46  
+1449. sending payment from 146 to 39 amount: 900000  
+(2) 12 -> 38 -> 77  
+1442. sending payment from 177 to 99 amount: 900000  
+(1) 148 -> 137  
+1460. sending payment from 68 to 116 amount: 900000  
+(2) 151 -> 143 -> 54  
+1447. sending payment from 132 to 42 amount: 900000  
+(2) 171 -> 107 -> 64  
+1441. sending payment from 85 to 4 amount: 900000  
+(2) 67 -> 146 -> 142  
+1441. sending payment from 22 to 150 amount: 900000  
+(2) 116 -> 33 -> 13  
+1445. sending payment from 153 to 129 amount: 900000  
+(2) 79 -> 107 -> 133  
+1456. sending payment from 114 to 167 amount: 900000  
+(2) 83 -> 45 -> 130  
+1450. sending payment from 167 to 176 amount: 900000  
+(2) 135 -> 40 -> 97  
+1444. sending payment from 110 to 79 amount: 900000  
+(2) 39 -> 62 -> 146  
+1450. sending payment from 36 to 55 amount: 900000  
+(2) 99 -> 173 -> 177  
+1443. sending payment from 79 to 77 amount: 900000  
+(2) 116 -> 9 -> 68  
+1461. sending payment from 42 to 37 amount: 900000  
+(2) 42 -> 57 -> 132  
+1448. sending payment from 42 to 43 amount: 900000  
+(1) 4 -> 85  
+1442. sending payment from 57 to 92 amount: 900000  
+(3) 150 -> 126 -> 128 -> 22  
+1442. sending payment from 170 to 129 amount: 900000  
+(2) 129 -> 108 -> 153  
+1446. sending payment from 111 to 97 amount: 900000  
+(2) 167 -> 141 -> 114  
+1457. sending payment from 145 to 109 amount: 900000  
+(2) 176 -> 126 -> 167  
+1451. sending payment from 6 to 94 amount: 900000  
+(1) 79 -> 110  
+1445. sending payment from 136 to 100 amount: 900000  
+(2) 55 -> 39 -> 36  
+1451. sending payment from 76 to 11 amount: 900000  
+(2) 77 -> 95 -> 79  
+1444. sending payment from 122 to 98 amount: 900000  
+(2) 37 -> 83 -> 42  
+1462. sending payment from 101 to 42 amount: 900000  
+(2) 43 -> 85 -> 42  
+1449. sending payment from 52 to 112 amount: 900000  
+(1) 92 -> 57  
+1443. sending payment from 54 to 63 amount: 900000  
+(2) 129 -> 134 -> 170  
+1443. sending payment from 51 to 148 amount: 900000  
+(2) 97 -> 175 -> 111  
+1447. sending payment from 81 to 69 amount: 900000  
+(2) 109 -> 57 -> 145  
+1458. sending payment from 142 to 177 amount: 900000  
+(2) 94 -> 83 -> 6  
+1452. sending payment from 91 to 46 amount: 900000  
+(2) 100 -> 107 -> 136  
+1446. sending payment from 44 to 122 amount: 900000  
+(2) 11 -> 103 -> 76  
+1452. sending payment from 5 to 78 amount: 900000  
+(2) 98 -> 57 -> 122  
+1445. sending payment from 92 to 7 amount: 900000  
+(2) 42 -> 130 -> 101  
+1463. sending payment from 19 to 91 amount: 900000  
+(2) 112 -> 142 -> 52  
+1450. sending payment from 120 to 5 amount: 900000  
+(2) 63 -> 142 -> 54  
+1444. sending payment from 168 to 46 amount: 900000  
+(2) 148 -> 142 -> 51  
+1444. sending payment from 130 to 111 amount: 900000  
+(2) 69 -> 114 -> 81  
+1448. sending payment from 44 to 115 amount: 900000  
+(2) 177 -> 136 -> 142  
+1459. sending payment from 14 to 72 amount: 900000  
+(2) 46 -> 69 -> 91  
+1453. sending payment from 130 to 13 amount: 900000  
+(1) 122 -> 44  
+1447. sending payment from 23 to 161 amount: 900000  
+(2) 78 -> 94 -> 5  
+1453. sending payment from 59 to 10 amount: 900000  
+(1) 7 -> 92  
+1446. sending payment from 154 to 100 amount: 900000  
+(2) 91 -> 58 -> 19  
+1464. sending payment from 146 to 174 amount: 900000  
+(3) 5 -> 76 -> 113 -> 120  
+1451. sending payment from 160 to 57 amount: 900000  
+(1) 46 -> 168  
+1445. sending payment from 43 to 146 amount: 900000  
+(1) 111 -> 130  
+1445. sending payment from 35 to 139 amount: 900000  
+(2) 115 -> 103 -> 44  
+1449. sending payment from 84 to 154 amount: 900000  
+(2) 72 -> 62 -> 14  
+1460. sending payment from 81 to 42 amount: 900000  
+(2) 13 -> 53 -> 130  
+1454. sending payment from 109 to 1 amount: 900000  
+(2) 161 -> 51 -> 23  
+1448. sending payment from 157 to 112 amount: 900000  
+(2) 10 -> 168 -> 59  
+1454. sending payment from 89 to 106 amount: 900000  
+(2) 100 -> 4 -> 154  
+1447. sending payment from 91 to 63 amount: 900000  
+(2) 174 -> 161 -> 146  
+1465. sending payment from 111 to 22 amount: 900000  
+(2) 57 -> 79 -> 160  
+1452. sending payment from 159 to 78 amount: 900000  
+(2) 146 -> 51 -> 43  
+1446. sending payment from 134 to 36 amount: 900000  
+(2) 139 -> 135 -> 35  
+1446. sending payment from 34 to 45 amount: 900000  
+(2) 154 -> 1 -> 84  
+1450. sending payment from 79 to 86 amount: 900000  
+(2) 42 -> 7 -> 81  
+1461. sending payment from 22 to 173 amount: 900000  
+(1) 1 -> 109  
+1455. sending payment from 134 to 64 amount: 900000  
+(1) 106 -> 89  
+1455. sending payment from 37 to 158 amount: 900000  
+(2) 112 -> 85 -> 157  
+1449. sending payment from 158 to 68 amount: 900000  
+(2) 63 -> 116 -> 91  
+1448. sending payment from 153 to 145 amount: 900000  
+(2) 22 -> 40 -> 111  
+1466. sending payment from 143 to 37 amount: 900000  
+(3) 78 -> 97 -> 162 -> 159  
+1453. sending payment from 24 to 33 amount: 900000  
+(2) 36 -> 69 -> 134  
+1447. sending payment from 126 to 71 amount: 900000  
+(2) 45 -> 132 -> 34  
+1447. sending payment from 7 to 25 amount: 900000  
+(2) 86 -> 107 -> 79  
+1451. sending payment from 27 to 39 amount: 900000  
+(2) 173 -> 142 -> 22  
+1462. sending payment from 23 to 143 amount: 900000  
+(2) 64 -> 40 -> 134  
+1456. sending payment from 9 to 172 amount: 900000  
+(3) 158 -> 166 -> 12 -> 37  
+1456. sending payment from 124 to 53 amount: 900000  
+(2) 68 -> 142 -> 158  
+1450. sending payment from 148 to 121 amount: 900000  
+(2) 145 -> 107 -> 153  
+1449. sending payment from 41 to 122 amount: 900000  
+(2) 37 -> 79 -> 143  
+1467. sending payment from 134 to 172 amount: 900000  
+(2) 33 -> 62 -> 24  
+1454. sending payment from 83 to 116 amount: 900000  
+(2) 25 -> 43 -> 7  
+1448. sending payment from 34 to 141 amount: 900000  
+(2) 71 -> 1 -> 126  
+1448. sending payment from 158 to 16 amount: 900000  
+(2) 39 -> 142 -> 27  
+1452. sending payment from 147 to 23 amount: 900000  
+(3) 143 -> 174 -> 107 -> 23  
+1463. sending payment from 66 to 41 amount: 900000  
+(2) 172 -> 166 -> 9  
+1457. sending payment from 53 to 75 amount: 900000  
+(2) 53 -> 57 -> 124  
+1457. sending payment from 74 to 143 amount: 900000  
+(2) 121 -> 155 -> 148  
+1451. sending payment from 46 to 51 amount: 900000  
+(1) 122 -> 41  
+1450. sending payment from 171 to 88 amount: 900000  
+(2) 172 -> 175 -> 134  
+1468. sending payment from 148 to 55 amount: 900000  
+(2) 116 -> 58 -> 83  
+1455. sending payment from 140 to 10 amount: 900000  
+(3) 141 -> 169 -> 128 -> 34  
+1449. sending payment from 53 to 166 amount: 900000  
+(2) 16 -> 146 -> 158  
+1449. sending payment from 144 to 165 amount: 900000  
+(2) 23 -> 87 -> 147  
+1453. sending payment from 42 to 61 amount: 900000  
+(1) 41 -> 66  
+1464. sending payment from 20 to 135 amount: 900000  
+(2) 75 -> 26 -> 53  
+1458. sending payment from 144 to 174 amount: 900000  
+(2) 143 -> 168 -> 74  
+1458. sending payment from 138 to 39 amount: 900000  
+(2) 51 -> 142 -> 46  
+1452. sending payment from 79 to 42 amount: 900000  
+(2) 88 -> 127 -> 171  
+1451. sending payment from 27 to 9 amount: 900000  
+(2) 55 -> 128 -> 148  
+1469. sending payment from 136 to 126 amount: 900000  
+(2) 10 -> 94 -> 140  
+1456. sending payment from 88 to 149 amount: 900000  
+(2) 166 -> 128 -> 53  
+1450. sending payment from 104 to 16 amount: 900000  
+(2) 165 -> 62 -> 144  
+1450. sending payment from 118 to 48 amount: 900000  
+(2) 61 -> 165 -> 42  
+1454. sending payment from 78 to 13 amount: 900000  
+(2) 135 -> 44 -> 20  
+1465. sending payment from 15 to 136 amount: 900000  
+(2) 174 -> 175 -> 144  
+1459. sending payment from 123 to 166 amount: 900000  
+(1) 39 -> 138  
+1459. sending payment from 144 to 79 amount: 900000  
+(2) 42 -> 128 -> 79  
+1453. sending payment from 58 to 17 amount: 900000  
+(2) 9 -> 11 -> 27  
+1452. sending payment from 153 to 53 amount: 900000  
+(2) 126 -> 64 -> 136  
+1470. sending payment from 104 to 157 amount: 900000  
+(2) 149 -> 139 -> 88  
+1457. sending payment from 68 to 10 amount: 900000  
+(1) 16 -> 104  
+1451. sending payment from 112 to 170 amount: 900000  
+(1) 48 -> 118  
+1451. sending payment from 72 to 158 amount: 900000  
+(2) 13 -> 1 -> 78  
+1455. sending payment from 84 to 173 amount: 900000  
+(2) 136 -> 37 -> 15  
+1466. sending payment from 157 to 137 amount: 900000  
+(2) 166 -> 131 -> 123  
+1460. sending payment from 140 to 114 amount: 900000  
+(2) 79 -> 4 -> 144  
+1460. sending payment from 9 to 108 amount: 900000  
+(1) 17 -> 58  
+1454. sending payment from 128 to 133 amount: 900000  
+(2) 53 -> 110 -> 153  
+1453. sending payment from 118 to 176 amount: 900000  
+(2) 157 -> 166 -> 104  
+1471. sending payment from 40 to 176 amount: 900000  
+(2) 10 -> 69 -> 68  
+1458. sending payment from 122 to 15 amount: 900000  
+(2) 170 -> 113 -> 112  
+1452. sending payment from 119 to 89 amount: 900000  
+(2) 158 -> 58 -> 72  
+1452. sending payment from 125 to 96 amount: 900000  
+(1) 173 -> 84  
+1456. sending payment from 46 to 132 amount: 900000  
+(2) 137 -> 9 -> 157  
+1467. sending payment from 94 to 171 amount: 900000  
+(1) 114 -> 140  
+1461. sending payment from 159 to 120 amount: 900000  
+(1) 108 -> 9  
+1461. sending payment from 130 to 58 amount: 900000  
+(2) 133 -> 145 -> 128  
+1455. sending payment from 114 to 70 amount: 900000  
+(2) 176 -> 147 -> 118  
+1454. sending payment from 98 to 33 amount: 900000  
+(2) 176 -> 97 -> 40  
+1472. sending payment from 41 to 168 amount: 900000  
+(2) 15 -> 51 -> 122  
+1459. sending payment from 128 to 51 amount: 900000  
+(2) 89 -> 132 -> 119  
+1453. sending payment from 120 to 96 amount: 900000  
+(2) 96 -> 100 -> 125  
+1453. sending payment from 141 to 136 amount: 900000  
+(1) 132 -> 46  
+1457. sending payment from 32 to 82 amount: 900000  
+(1) 171 -> 94  
+1468. sending payment from 86 to 135 amount: 900000  
+(3) 120 -> 146 -> 141 -> 159  
+1462. sending payment from 12 to 104 amount: 900000  
+(2) 58 -> 143 -> 130  
+1462. sending payment from 69 to 68 amount: 900000  
+(2) 70 -> 131 -> 114  
+1456. sending payment from 152 to 59 amount: 900000  
+(2) 33 -> 130 -> 98  
+1455. sending payment from 2 to 119 amount: 900000  
+(1) 168 -> 41  
+1473. sending payment from 34 to 78 amount: 900000  
+(1) 51 -> 128  
+1460. sending payment from 18 to 144 amount: 900000  
+(3) 96 -> 132 -> 156 -> 120  
+1454. sending payment from 5 to 9 amount: 900000  
+(2) 136 -> 69 -> 141  
+1454. sending payment from 22 to 64 amount: 900000  
+(2) 82 -> 62 -> 32  
+1458. sending payment from 77 to 58 amount: 900000  
+(3) 135 -> 126 -> 138 -> 86  
+1469. sending payment from 82 to 43 amount: 900000  
+(2) 104 -> 9 -> 12  
+1463. sending payment from 94 to 59 amount: 900000  
+(1) 68 -> 69  
+1463. sending payment from 132 to 41 amount: 900000  
+(2) 59 -> 156 -> 152  
+1457. sending payment from 160 to 129 amount: 900000  
+(2) 119 -> 82 -> 2  
+1456. sending payment from 92 to 112 amount: 900000  
+(2) 78 -> 97 -> 34  
+1474. sending payment from 11 to 151 amount: 900000  
+(2) 144 -> 127 -> 18  
+1461. sending payment from 119 to 99 amount: 900000  
+(2) 9 -> 175 -> 5  
+1455. sending payment from 25 to 86 amount: 900000  
+(2) 64 -> 8 -> 22  
+1455. sending payment from 157 to 140 amount: 900000  
+(2) 58 -> 39 -> 77  
+1459. sending payment from 162 to 82 amount: 900000  
+(2) 43 -> 44 -> 82  
+1470. sending payment from 170 to 57 amount: 900000  
+(2) 59 -> 83 -> 94  
+1464. sending payment from 159 to 110 amount: 900000  
+(2) 41 -> 47 -> 132  
+1464. sending payment from 96 to 109 amount: 900000  
+(1) 129 -> 160  
+1458. sending payment from 105 to 109 amount: 900000  
+(2) 112 -> 125 -> 92  
+1457. sending payment from 105 to 100 amount: 900000  
+(2) 151 -> 57 -> 11  
+1475. sending payment from 27 to 70 amount: 900000  
+(1) 99 -> 119  
+1462. sending payment from 123 to 33 amount: 900000  
+(2) 86 -> 138 -> 25  
+1456. sending payment from 98 to 78 amount: 900000  
+(2) 140 -> 127 -> 157  
+1456. sending payment from 173 to 55 amount: 900000  
+(2) 82 -> 165 -> 162  
+1460. sending payment from 66 to 120 amount: 900000  
+(1) 57 -> 170  
+1471. sending payment from 26 to 50 amount: 900000  
+(3) 110 -> 69 -> 115 -> 159  
+1465. sending payment from 42 to 145 amount: 900000  
+(2) 109 -> 74 -> 96  
+1465. sending payment from 153 to 0 amount: 900000  
+(1) 109 -> 105  
+1459. sending payment from 1 to 163 amount: 900000  
+(1) 100 -> 105  
+1458. sending payment from 42 to 77 amount: 900000  
+(2) 70 -> 98 -> 27  
+1476. sending payment from 59 to 67 amount: 900000  
+(2) 33 -> 130 -> 123  
+1463. sending payment from 105 to 136 amount: 900000  
+(2) 78 -> 94 -> 98  
+1457. sending payment from 75 to 65 amount: 900000  
+(2) 55 -> 87 -> 173  
+1457. sending payment from 156 to 131 amount: 900000  
+(2) 120 -> 113 -> 66  
+1461. sending payment from 163 to 117 amount: 900000  
+(2) 50 -> 51 -> 26  
+1472. sending payment from 87 to 93 amount: 900000  
+(2) 145 -> 57 -> 42  
+1466. sending payment from 159 to 42 amount: 900000  
+(3) 0 -> 109 -> 107 -> 153  
+1466. sending payment from 165 to 26 amount: 900000  
+(1) 163 -> 1  
+1460. sending payment from 31 to 107 amount: 900000  
+(2) 77 -> 69 -> 42  
+1459. sending payment from 132 to 40 amount: 900000  
+(2) 67 -> 122 -> 59  
+1477. sending payment from 122 to 83 amount: 900000  
+(2) 136 -> 116 -> 105  
+1464. sending payment from 126 to 17 amount: 900000  
+(2) 65 -> 6 -> 75  
+1458. sending payment from 14 to 160 amount: 900000  
+(1) 131 -> 156  
+1458. sending payment from 116 to 11 amount: 900000  
+(2) 117 -> 171 -> 163  
+1462. sending payment from 70 to 109 amount: 900000  
+(2) 93 -> 142 -> 87  
+1473. sending payment from 121 to 25 amount: 900000  
+(2) 42 -> 143 -> 159  
+1467. sending payment from 87 to 148 amount: 900000  
+(1) 26 -> 165  
+1467. sending payment from 115 to 45 amount: 900000  
+(2) 107 -> 95 -> 31  
+1461. sending payment from 142 to 23 amount: 900000  
+(1) 40 -> 132  
+1460. sending payment from 66 to 43 amount: 900000  
+(2) 83 -> 132 -> 122  
+1478. sending payment from 81 to 163 amount: 900000  
+(2) 17 -> 31 -> 126  
+1465. sending payment from 38 to 41 amount: 900000  
+(2) 160 -> 166 -> 14  
+1459. sending payment from 46 to 165 amount: 900000  
+(2) 11 -> 48 -> 116  
+1459. sending payment from 8 to 5 amount: 900000  
+(1) 109 -> 70  
+1463. sending payment from 164 to 124 amount: 900000  
+(2) 25 -> 57 -> 121  
+1474. sending payment from 135 to 60 amount: 900000  
+(2) 148 -> 63 -> 87  
+1468. sending payment from 158 to 66 amount: 900000  
+(2) 45 -> 69 -> 115  
+1468. sending payment from 75 to 171 amount: 900000  
+(2) 23 -> 49 -> 142  
+1462. sending payment from 64 to 174 amount: 900000  
+(1) 43 -> 66  
+1461. sending payment from 95 to 9 amount: 900000  
+(2) 163 -> 114 -> 81  
+1479. sending payment from 29 to 18 amount: 900000  
+(2) 41 -> 51 -> 38  
+1466. sending payment from 123 to 59 amount: 900000  
+(2) 165 -> 71 -> 46  
+1460. sending payment from 32 to 90 amount: 900000  
+(2) 5 -> 76 -> 8  
+1460. sending payment from 176 to 139 amount: 900000  
+(2) 124 -> 166 -> 164  
+1464. sending payment from 94 to 0 amount: 900000  
+(1) 60 -> 135  
+1475. sending payment from 112 to 158 amount: 900000  
+(2) 66 -> 157 -> 158  
+1469. sending payment from 70 to 13 amount: 900000  
+(2) 171 -> 6 -> 75  
+1469. sending payment from 1 to 23 amount: 900000  
+(1) 174 -> 64  
+1463. sending payment from 70 to 150 amount: 900000  
+(1) 9 -> 95  
+1462. sending payment from 5 to 25 amount: 900000  
+(2) 18 -> 107 -> 29  
+1480. sending payment from 153 to 151 amount: 900000  
+(2) 59 -> 130 -> 123  
+1467. sending payment from 91 to 168 amount: 900000  
+(2) 90 -> 57 -> 32  
+1461. sending payment from 45 to 145 amount: 900000  
+(2) 139 -> 85 -> 176  
+1461. sending payment from 94 to 145 amount: 900000  
+(2) 0 -> 62 -> 94  
+1465. sending payment from 138 to 133 amount: 900000  
+(2) 158 -> 156 -> 112  
+1476. sending payment from 106 to 80 amount: 900000  
+(2) 13 -> 87 -> 70  
+1470. sending payment from 52 to 18 amount: 900000  
+(1) 23 -> 1  
+1470. sending payment from 118 to 26 amount: 900000  
+(2) 150 -> 114 -> 70  
+1464. sending payment from 135 to 2 amount: 900000  
+(2) 25 -> 94 -> 5  
+1463. sending payment from 146 to 131 amount: 900000  
+(3) 151 -> 142 -> 132 -> 153  
+1481. sending payment from 169 to 165 amount: 900000  
+(2) 168 -> 114 -> 91  
+1468. sending payment from 116 to 56 amount: 900000  
+(2) 145 -> 156 -> 45  
+1462. sending payment from 59 to 97 amount: 900000  
+(2) 145 -> 163 -> 94  
+1462. sending payment from 55 to 104 amount: 900000  
+(2) 133 -> 148 -> 138  
+1466. sending payment from 124 to 64 amount: 900000  
+(3) 80 -> 6 -> 83 -> 106  
+1477. sending payment from 111 to 123 amount: 900000  
+(2) 18 -> 87 -> 52  
+1471. sending payment from 95 to 19 amount: 900000  
+(2) 26 -> 49 -> 118  
+1471. sending payment from 42 to 31 amount: 900000  
+(3) 2 -> 163 -> 40 -> 135  
+1465. sending payment from 27 to 8 amount: 900000  
+(1) 131 -> 146  
+1464. sending payment from 63 to 176 amount: 900000  
+(2) 165 -> 128 -> 169  
+1482. sending payment from 12 to 46 amount: 900000  
+(2) 56 -> 58 -> 116  
+1469. sending payment from 111 to 96 amount: 900000  
+(1) 97 -> 59  
+1463. sending payment from 53 to 38 amount: 900000  
+(2) 104 -> 128 -> 55  
+1463. sending payment from 101 to 144 amount: 900000  
+(2) 64 -> 175 -> 124  
+1467. sending payment from 150 to 53 amount: 900000  
+(1) 123 -> 111  
+1478. sending payment from 146 to 32 amount: 900000  
+(2) 19 -> 142 -> 95  
+1472. sending payment from 98 to 95 amount: 900000  
+(2) 31 -> 57 -> 42  
+1472. sending payment from 123 to 55 amount: 900000  
+(2) 8 -> 57 -> 27  
+1466. sending payment from 146 to 161 amount: 900000  
+(3) 176 -> 171 -> 164 -> 63  
+1465. sending payment from 48 to 159 amount: 900000  
+(2) 46 -> 29 -> 12  
+1483. sending payment from 130 to 145 amount: 900000  
+(2) 96 -> 132 -> 111  
+1470. sending payment from 103 to 129 amount: 900000  
+(1) 38 -> 53  
+1464. sending payment from 55 to 72 amount: 900000  
+(1) 144 -> 101  
+1464. sending payment from 174 to 151 amount: 900000  
+(2) 53 -> 27 -> 150  
+1468. sending payment from 73 to 148 amount: 900000  
+(2) 32 -> 48 -> 146  
+1479. sending payment from 19 to 66 amount: 900000  
+(2) 95 -> 9 -> 98  
+1473. sending payment from 71 to 150 amount: 900000  
+(2) 55 -> 9 -> 123  
+1473. sending payment from 129 to 177 amount: 900000  
+(1) 161 -> 146  
+1467. sending payment from 14 to 3 amount: 900000  
+(2) 159 -> 97 -> 48  
+1466. sending payment from 23 to 53 amount: 900000  
+(2) 145 -> 172 -> 130  
+1484. sending payment from 30 to 53 amount: 900000  
+(1) 129 -> 103  
+1471. sending payment from 104 to 98 amount: 900000  
+(2) 72 -> 146 -> 55  
+1465. sending payment from 61 to 92 amount: 900000  
+(1) 151 -> 174  
+1465. sending payment from 109 to 79 amount: 900000  
+(2) 148 -> 9 -> 73  
+1469. sending payment from 43 to 105 amount: 900000  
+(1) 66 -> 19  
+1480. sending payment from 30 to 31 amount: 900000  
+(2) 150 -> 128 -> 71  
+1474. sending payment from 165 to 8 amount: 900000  
+(3) 177 -> 116 -> 113 -> 129  
+1474. sending payment from 174 to 81 amount: 900000  
+(2) 3 -> 57 -> 14  
+1468. sending payment from 9 to 138 amount: 900000  
+(1) 53 -> 23  
+1467. sending payment from 132 to 119 amount: 900000  
+(1) 53 -> 30  
+1485. sending payment from 71 to 131 amount: 900000  
+(2) 98 -> 135 -> 104  
+1472. sending payment from 5 to 45 amount: 900000  
+(2) 92 -> 146 -> 61  
+1466. sending payment from 82 to 112 amount: 900000  
+(2) 79 -> 107 -> 109  
+1466. sending payment from 92 to 42 amount: 900000  
+(2) 105 -> 83 -> 43  
+1470. sending payment from 42 to 131 amount: 900000  
+(1) 31 -> 30  
+1481. sending payment from 127 to 57 amount: 900000  
+(2) 8 -> 57 -> 165  
+1475. sending payment from 20 to 150 amount: 900000  
+(3) 81 -> 146 -> 142 -> 174  
+1475. sending payment from 14 to 134 amount: 900000  
+(1) 138 -> 9  
+1469. sending payment from 150 to 28 amount: 900000  
+(1) 119 -> 132  
+1468. sending payment from 68 to 40 amount: 900000  
+(2) 131 -> 130 -> 71  
+1486. sending payment from 39 to 21 amount: 900000  
+(2) 45 -> 100 -> 5  
+1473. sending payment from 85 to 166 amount: 900000  
+(2) 112 -> 17 -> 82  
+1467. sending payment from 161 to 135 amount: 900000  
+(2) 42 -> 100 -> 92  
+1467. sending payment from 101 to 130 amount: 900000  
+(1) 131 -> 42  
+1471. sending payment from 70 to 148 amount: 900000  
+(1) 57 -> 127  
+1482. sending payment from 31 to 142 amount: 900000  
+(2) 150 -> 38 -> 20  
+1476. sending payment from 62 to 28 amount: 900000  
+(2) 134 -> 51 -> 14  
+1476. sending payment from 31 to 51 amount: 900000  
+(3) 28 -> 31 -> 114 -> 150  
+1470. sending payment from 98 to 94 amount: 900000  
+(2) 40 -> 107 -> 68  
+1469. sending payment from 172 to 64 amount: 900000  
+(2) 21 -> 13 -> 39  
+1487. sending payment from 172 to 164 amount: 900000  
+(1) 166 -> 85  
+1474. sending payment from 33 to 131 amount: 900000  
+(2) 135 -> 25 -> 161  
+1468. sending payment from 110 to 65 amount: 900000  
+(2) 130 -> 166 -> 101  
+1468. sending payment from 146 to 14 amount: 900000  
+(2) 148 -> 149 -> 70  
+1472. sending payment from 164 to 171 amount: 900000  
+(1) 142 -> 31  
+1483. sending payment from 120 to 30 amount: 900000  
+(1) 51 -> 31 (1) 28 -> 62  
+ 
+1477. sending payment from 11 to 129 amount: 900000  
+1477. sending payment from 11 to 88 amount: 900000  
+(1) 94 -> 98  
+1471. sending payment from 159 to 137 amount: 900000  
+(2) 64 -> 50 -> 172  
+1470. sending payment from 74 to 44 amount: 900000  
+(2) 164 -> 142 -> 172  
+1488. sending payment from 59 to 110 amount: 900000  
+(1) 131 -> 33  
+1475. sending payment from 6 to 157 amount: 900000  
+(2) 65 -> 142 -> 110  
+1469. sending payment from 141 to 130 amount: 900000  
+(2) 14 -> 51 -> 146  
+1469. sending payment from 45 to 138 amount: 900000  
+(1) 171 -> 164  
+1473. sending payment from 77 to 60 amount: 900000  
+(2) 30 -> 53 -> 120  
+1484. sending payment from 55 to 74 amount: 900000  
+(2) 88 -> 70 -> 11  
+1478. sending payment from 89 to 1 amount: 900000  
+(2) 129 -> 9 -> 11  
+1478. sending payment from 111 to 36 amount: 900000  
+(2) 137 -> 97 -> 159  
+1472. sending payment from 175 to 136 amount: 900000  
+(1) 44 -> 74  
+1471. sending payment from 112 to 125 amount: 900000  
+(1) 110 -> 59  
+1489. sending payment from 24 to 8 amount: 900000  
+(2) 157 -> 128 -> 6  
+1476. sending payment from 131 to 109 amount: 900000  
+(1) 130 -> 141  
+1470. sending payment from 45 to 77 amount: 900000  
+(2) 138 -> 142 -> 45  
+1470. sending payment from 66 to 95 amount: 900000  
+(2) 60 -> 100 -> 77  
+1474. sending payment from 81 to 134 amount: 900000  
+(2) 74 -> 142 -> 55  
+1485. sending payment from 176 to 102 amount: 900000  
+(2) 1 -> 142 -> 89  
+1479. sending payment from 23 to 129 amount: 900000  
+(2) 36 -> 44 -> 111  
+1479. sending payment from 13 to 169 amount: 900000  
+(1) 136 -> 175  
+1473. sending payment from 153 to 66 amount: 900000  
+(2) 125 -> 63 -> 112  
+1472. sending payment from 58 to 28 amount: 900000  
+(2) 8 -> 59 -> 24  
+1490. sending payment from 86 to 38 amount: 900000  
+(2) 109 -> 40 -> 131  
+1477. sending payment from 84 to 11 amount: 900000  
+(2) 77 -> 100 -> 45  
+1471. sending payment from 97 to 81 amount: 900000  
+(2) 95 -> 69 -> 66  
+1471. sending payment from 32 to 166 amount: 900000  
+(2) 134 -> 6 -> 81  
+1475. sending payment from 114 to 3 amount: 900000  
+(3) 102 -> 149 -> 85 -> 176  
+1486. sending payment from 111 to 65 amount: 900000  
+(3) 169 -> 128 -> 48 -> 13  
+1480. sending payment from 18 to 94 amount: 900000  
+(2) 129 -> 63 -> 23  
+1480. sending payment from 12 to 164 amount: 900000  
+(2) 66 -> 6 -> 153  
+1474. sending payment from 22 to 103 amount: 900000  
+(3) 28 -> 57 -> 10 -> 58  
+1473. sending payment from 58 to 156 amount: 900000  
+(2) 38 -> 53 -> 86  
+1491. sending payment from 112 to 142 amount: 900000  
+(2) 11 -> 100 -> 84  
+1478. sending payment from 55 to 46 amount: 900000  
+(2) 81 -> 109 -> 97  
+1472. sending payment from 95 to 160 amount: 900000  
+(2) 166 -> 59 -> 32  
+1472. sending payment from 149 to 35 amount: 900000  
+(2) 3 -> 124 -> 114  
+1476. sending payment from 92 to 80 amount: 900000  
+(2) 65 -> 132 -> 111  
+1487. sending payment from 102 to 14 amount: 900000  
+(2) 94 -> 79 -> 18  
+1481. sending payment from 153 to 37 amount: 900000  
+(2) 164 -> 87 -> 12  
+1481. sending payment from 34 to 68 amount: 900000  
+(2) 103 -> 1 -> 22  
+1475. sending payment from 20 to 63 amount: 900000  
+(2) 156 -> 132 -> 58  
+1474. sending payment from 135 to 23 amount: 900000  
+(1) 142 -> 112  
+1492. sending payment from 144 to 3 amount: 900000  
+(2) 46 -> 85 -> 55  
+1479. sending payment from 116 to 8 amount: 900000  
+(2) 160 -> 114 -> 95  
+1473. sending payment from 173 to 131 amount: 900000  
+(2) 35 -> 157 -> 149  
+1473. sending payment from 74 to 14 amount: 900000  
+(3) 80 -> 44 -> 125 -> 92  
+1477. sending payment from 79 to 74 amount: 900000  
+(2) 14 -> 48 -> 102  
+1488. sending payment from 23 to 135 amount: 900000  
+(2) 37 -> 107 -> 153  
+1482. sending payment from 66 to 123 amount: 900000  
+(2) 68 -> 58 -> 34  
+1482. sending payment from 155 to 166 amount: 900000  
+(2) 63 -> 57 -> 20  
+1476. sending payment from 40 to 86 amount: 900000  
+(2) 23 -> 107 -> 135  
+1475. sending payment from 98 to 5 amount: 900000  
+(2) 3 -> 39 -> 144  
+1493. sending payment from 77 to 72 amount: 900000  
+(2) 8 -> 57 -> 116  
+1480. sending payment from 42 to 117 amount: 900000  
+(2) 131 -> 142 -> 173  
+1474. sending payment from 175 to 57 amount: 900000  
+(2) 14 -> 126 -> 74  
+1474. sending payment from 31 to 40 amount: 900000  
+(2) 74 -> 110 -> 79  
+1478. sending payment from 120 to 135 amount: 900000  
+(2) 135 -> 107 -> 23  
+1489. sending payment from 63 to 120 amount: 900000  
+(1) 123 -> 66  
+1483. sending payment from 93 to 76 amount: 900000  
+(2) 166 -> 84 -> 155  
+1483. sending payment from 174 to 8 amount: 900000  
+(2) 86 -> 106 -> 40  
+1477. sending payment from 21 to 131 amount: 900000  
+(2) 5 -> 174 -> 98  
+1476. sending payment from 149 to 126 amount: 900000  
+(1) 72 -> 77  
+1494. sending payment from 169 to 55 amount: 900000  
+(2) 117 -> 39 -> 42  
+1481. sending payment from 160 to 51 amount: 900000  
+(2) 57 -> 87 -> 175  
+1475. sending payment from 60 to 100 amount: 900000  
+(2) 40 -> 41 -> 31  
+1475. sending payment from 108 to 177 amount: 900000  
+(2) 135 -> 140 -> 120  
+1479. sending payment from 79 to 138 amount: 900000  
+(2) 120 -> 148 -> 63  
+1490. sending payment from 154 to 138 amount: 900000  
+(3) 76 -> 46 -> 92 -> 93  
+1484. sending payment from 84 to 163 amount: 900000  
+(2) 8 -> 175 -> 174  
+1484. sending payment from 153 to 31 amount: 900000  
+(2) 131 -> 114 -> 21  
+1478. sending payment from 14 to 90 amount: 900000  
+(2) 126 -> 166 -> 149  
+1477. sending payment from 4 to 78 amount: 900000  
+(3) 55 -> 5 -> 3 -> 169  
+1495. sending payment from 112 to 119 amount: 900000  
+(2) 51 -> 146 -> 160  
+1482. sending payment from 3 to 94 amount: 900000  
+(1) 100 -> 60  
+1476. sending payment from 33 to 24 amount: 900000  
+(2) 177 -> 116 -> 108  
+1476. sending payment from 15 to 98 amount: 900000  
+(1) 138 -> 79  
+1480. sending payment from 36 to 40 amount: 900000  
+(2) 138 -> 66 -> 154  
+1491. sending payment from 6 to 21 amount: 900000  
+(1) 163 -> 84  
+1485. sending payment from 126 to 163 amount: 900000  
+(2) 31 -> 143 -> 153  
+1485. sending payment from 99 to 102 amount: 900000  
+(3) 90 -> 161 -> 57 -> 14  
+1479. sending payment from 61 to 40 amount: 900000  
+(2) 78 -> 175 -> 4  
+1478. sending payment from 158 to 168 amount: 900000  
+(2) 119 -> 102 -> 112  
+1496. sending payment from 164 to 173 amount: 900000  
+(3) 94 -> 148 -> 124 -> 3  
+1483. sending payment from 148 to 6 amount: 900000  
+(3) 24 -> 49 -> 147 -> 33  
+1477. sending payment from 59 to 126 amount: 900000  
+(2) 98 -> 57 -> 15  
+1477. sending payment from 4 to 161 amount: 900000  
+(4) 40 -> 174 -> 161 -> 7 -> 36  
+1481. sending payment from 144 to 111 amount: 900000  
+(2) 21 -> 46 -> 6  
+1492. sending payment from 91 to 70 amount: 900000  
+(2) 163 -> 170 -> 126  
+1486. sending payment from 15 to 143 amount: 900000  
+(2) 102 -> 152 -> 99  
+1486. sending payment from 38 to 107 amount: 900000  
+(2) 40 -> 135 -> 61  
+1480. sending payment from 21 to 128 amount: 900000  
+(2) 168 -> 6 -> 158  
+1479. sending payment from 82 to 39 amount: 900000  
+(1) 173 -> 164  
+1497. sending payment from 72 to 19 amount: 900000  
+(2) 6 -> 94 -> 148  
+1484. sending payment from 75 to 91 amount: 900000  
+(1) 126 -> 59  
+1478. sending payment from 28 to 153 amount: 900000  
+(2) 161 -> 85 -> 4  
+1478. sending payment from 147 to 159 amount: 900000  
+(2) 111 -> 132 -> 144  
+1482. sending payment from 87 to 63 amount: 900000  
+(2) 70 -> 109 -> 91  
+1493. sending payment from 112 to 74 amount: 900000  
+(2) 143 -> 142 -> 15  
+1487. sending payment from 26 to 103 amount: 900000  
+(2) 107 -> 166 -> 38  
+1487. sending payment from 153 to 66 amount: 900000  
+(2) 128 -> 125 -> 21  
+1481. sending payment from 91 to 80 amount: 900000  
+(2) 39 -> 69 -> 82  
+1480. sending payment from 25 to 176 amount: 900000  
+(2) 19 -> 1 -> 72  
+1498. sending payment from 25 to 126 amount: 900000  
+(3) 91 -> 78 -> 103 -> 75  
+1485. sending payment from 161 to 81 amount: 900000  
+(2) 153 -> 4 -> 28  
+1479. sending payment from 151 to 47 amount: 900000  
+(2) 159 -> 39 -> 147  
+1479. sending payment from 68 to 31 amount: 900000  
+(1) 63 -> 87  
+1483. sending payment from 96 to 4 amount: 900000  
+(2) 74 -> 126 -> 112  
+1494. sending payment from 147 to 105 amount: 900000  
+(2) 103 -> 165 -> 26  
+1488. sending payment from 125 to 26 amount: 900000  
+(2) 66 -> 108 -> 153  
+1488. sending payment from 89 to 11 amount: 900000  
+(2) 80 -> 146 -> 91  
+1482. sending payment from 39 to 80 amount: 900000  
+(2) 176 -> 57 -> 25  
+1481. sending payment from 84 to 160 amount: 900000  
+(2) 126 -> 116 -> 25  
+1499. sending payment from 35 to 24 amount: 900000  
+(1) 81 -> 161  
+1486. sending payment from 132 to 111 amount: 900000  
+(2) 47 -> 142 -> 151  
+1480. sending payment from 18 to 127 amount: 900000  
+(2) 31 -> 15 -> 68  
+1480. sending payment from 28 to 95 amount: 900000  
+(2) 4 -> 132 -> 96  
+1484. sending payment from 39 to 38 amount: 900000  
+(1) 105 -> 147  
+1495. sending payment from 82 to 167 amount: 900000  
+(3) 26 -> 53 -> 129 -> 125  
+1489. sending payment from 66 to 16 amount: 900000  
+(2) 11 -> 57 -> 89  
+1489. sending payment from 21 to 30 amount: 900000  
+(2) 80 -> 85 -> 39  
+1483. sending payment from 166 to 0 amount: 900000  
+(1) 160 -> 84  
+1482. sending payment from 163 to 107 amount: 900000  
+(2) 24 -> 39 -> 35  
+1500. sending payment from 32 to 1 amount: 900000  
+(1) 111 -> 132  
+1487. sending payment from 69 to 128 amount: 900000  
+(2) 127 -> 171 -> 18  
+1481. sending payment from 27 to 144 amount: 900000  
+(2) 95 -> 130 -> 28  
+1481. sending payment from 18 to 102 amount: 900000  
+(1) 38 -> 39  
+1485. sending payment from 57 to 104 amount: 900000  
+(3) 167 -> 141 -> 69 -> 82  
+1496. sending payment from 29 to 130 amount: 900000  
+(2) 16 -> 94 -> 66  
+1490. sending payment from 169 to 29 amount: 900000  
+(2) 30 -> 31 -> 21  
+1490. sending payment from 137 to 152 amount: 900000  
+(2) 0 -> 6 -> 166  
+1484. sending payment from 74 to 4 amount: 900000  
+(1) 1 -> 32  
+1501. sending payment from 38 to 131 amount: 900000  
+(1) 107 -> 163  
+1483. sending payment from 17 to 101 amount: 900000  
+(1) 128 -> 69  
+1488. sending payment from 171 to 79 amount: 900000  
+(2) 144 -> 146 -> 27  
+1482. sending payment from 153 to 81 amount: 900000  
+(2) 102 -> 173 -> 18  
+1482. sending payment from 21 to 105 amount: 900000  
+(1) 104 -> 57  
+1486. sending payment from 159 to 124 amount: 900000  
+(2) 130 -> 37 -> 29  
+1497. sending payment from 77 to 69 amount: 900000  
+(2) 29 -> 141 -> 169  
+1491. sending payment from 115 to 37 amount: 900000  
+(2) 152 -> 107 -> 137  
+1491. sending payment from 51 to 59 amount: 900000  
+(2) 4 -> 175 -> 74  
+1485. sending payment from 118 to 54 amount: 900000  
+(2) 131 -> 166 -> 38  
+1502. sending payment from 20 to 164 amount: 900000  
+(1) 101 -> 17  
+1484. sending payment from 39 to 93 amount: 900000  
+(1) 79 -> 171  
+1489. sending payment from 118 to 44 amount: 900000  
+(3) 81 -> 27 -> 4 -> 153  
+1483. sending payment from 158 to 129 amount: 900000  
+(2) 105 -> 114 -> 21  
+1483. sending payment from 2 to 156 amount: 900000  
+(2) 124 -> 3 -> 159  
+1487. sending payment from 85 to 106 amount: 900000  
+(1) 69 -> 77  
+1498. sending payment from 133 to 89 amount: 900000  
+(2) 37 -> 39 -> 115  
+1492. sending payment from 51 to 73 amount: 900000  
+(1) 59 -> 51  
+1492. sending payment from 47 to 115 amount: 900000  
+(2) 54 -> 69 -> 118  
+1486. sending payment from 73 to 15 amount: 900000  
+(3) 164 -> 154 -> 1 -> 20  
+1503. sending payment from 83 to 85 amount: 900000  
+(2) 93 -> 142 -> 39  
+1485. s
