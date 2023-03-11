@@ -20,7 +20,7 @@
 #define NUM_SIM               10
 #define TR_AMT            900000 /* 0.009 BTC */
 #define INIT_CAP         1000000 /* 0.010 BTC */
-#define FEE_CORRECTION         0
+#define FEE_CORRECTION      1000   
 #define CAPACITY_LIMIT       800
 #define SATOSHI_TO_BTC 100000000 /*   10^8    */
 
@@ -140,7 +140,8 @@ void printArray(int arr[], int size)
     printf("\n");
 }
 int map_vertices(struct Graph* graph, struct Graph* new_graph, int from, int to){
-
+// The SP algoirthm works only when the edges are sorted in ascending order
+// Here we reorder the edges if the source is not '0' and return a new graph object
  int new_to;
  int* source_vertices, *source_vertices_original, *target_vertices_original, *tv, *fees, *caps;
 
@@ -211,6 +212,15 @@ int map_vertices(struct Graph* graph, struct Graph* new_graph, int from, int to)
 
   }
 
+ free(source_vertices);
+ free(source_vertices_original);
+ free(target_vertices_original);
+ free(fees);
+ free(caps);
+ free(tv);
+ free(rev);
+ free(pms);
+
  return map_vertice(to, from, graph->V);
 }
 void print_graph(struct Graph* graph){
@@ -233,11 +243,13 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
  
 //    print_graph(graph);
     if(from != 0){
+// The SP algoirthm works only when the edges are sorted in ascending order
      struct Graph* new_graph = createGraph(graph->V, graph->E);
      new_graph->V = graph->V;
      new_graph->E = graph->E;
      int new_to = map_vertices(graph, new_graph, from, to);
      struct path* pth2 = BellmanFord(new_graph, 0, new_to, amt);
+     free(new_graph->edge);
      free(new_graph);
 
       for(int jj=0; jj < pth2->len + 1 ; jj++){
@@ -331,7 +343,6 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
                  for(int ii = 0; ii < dcnt; ii++){
                   if(dup[ii].at == v){
                    dup[ii].from = u;
-// printf(" 1. setting from: %d at: %d \n",dup[ii].from, dup[ii].at);
                    newelem = 1;
                   }
                   }
@@ -339,7 +350,6 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
                    if(newelem == 0){
                     dup[dcnt].at = v;
                     dup[dcnt].from = u;
-// printf(" 2. setting from: %d at: %d \n",dup[dcnt].from, dup[dcnt].at);
                    }
 
                  dcnt = dcnt + 1;
@@ -354,8 +364,6 @@ struct path* BellmanFord(struct Graph* graph, int from, int to, int amt)
       pth->nodes[i] = 0;
      }
      pth->len = 0;
-//     printf("findpaths %d: \n",to);
-// printf("dcnt: %d \n",dcnt);
      findpaths(to, dup, dcnt, pth, graph);
 
 
@@ -544,8 +552,8 @@ int main(int argc, char *argv[])
     sscanf (argv[1],"%d",&V);
     sscanf (argv[2],"%d",&E);
 
-    int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
-     for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*NUMBER_OF_PAYMENTS);
+//    int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
+//     for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*NUMBER_OF_PAYMENTS);
 
     #pragma omp parallel for 
     for(int isim = 0; isim < NUM_SIM; isim++){
@@ -598,10 +606,10 @@ int main(int argc, char *argv[])
        }
       for (int j = 0; j < graph->E; j++)
        {
-          if(graph->edge[j].routing_revenue == maxrr){
+          if(graph->edge[j].routing_revenue == maxrr && graph->edge[j].number_of_routed_payments > 5){
            printf("%d/%d u: %d v: %d rr: %f BTC r_payments: %d vf: %d maxrevenue \n",isim, ii, graph->edge[j].source, graph->edge[j].destination, (double)maxrr/SATOSHI_TO_BTC, graph->edge[j].number_of_routed_payments, graph->edge[j].variable_fee);
           }
-          if(graph->edge[j].number_of_routed_payments > maxnr - 2 ){
+          if(graph->edge[j].number_of_routed_payments > maxnr - 2 && graph->edge[j].number_of_routed_payments > 5){
            printf("%d/%d u: %d v: %d r_payments: %d rr: %f BTC vf: %d maxnumber \n",isim, ii, graph->edge[j].source, graph->edge[j].destination, maxnr, (double)graph->edge[j].routing_revenue/SATOSHI_TO_BTC, graph->edge[j].variable_fee);
           }
        }

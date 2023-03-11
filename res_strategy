@@ -1,0 +1,432 @@
+Start Time : Sat Mar 11 15:33:59 2023
+Loading topology... 0 0 
+Topology loaded... 
+topology() took 0.026511 seconds to execute 
+Loading topology... 4 7 
+1. sending payment from 153 to 34 amount: 900000  
+Topology loaded... 
+topology() took 0.025092 seconds to execute 
+Loading topology... 5 8 
+1. sending payment from 86 to 91 amount: 900000  
+Topology loaded... 
+topology() took 0.022787 seconds to execute 
+Loading topology... 3 6 
+1. sending payment from 128 to 111 amount: 900000  
+Topology loaded... 
+topology() took 0.022681 seconds to execute 
+Loading topology... 1 2 
+1. sending payment from 14 to 11 amount: 900000  
+Topology loaded... 
+topology() took 0.023567 seconds to execute 
+Loading topology... 6 9 
+1. sending payment from 117 to 72 amount: 900000  
+Topology loaded... 
+topology() took 0.002548 seconds to execute 
+Loading topology... 2 4 
+1. sending payment from 151 to 34 amount: 900000  
+Topology loaded... 
+topology() took 0.022693 seconds to execute 
+1. sending payment from 43 to 173 amount: 900000  
+(2) 34 -> 166 -> 153  
+2. sending payment from 80 to 130 amount: 900000  
+(2) 111 -> 130 -> 128  
+2. sending payment from 37 to 83 amount: 900000  
+(2) 11 -> 17 -> 14  
+2. sending payment from 33 to 104 amount: 900000  
+(2) 91 -> 132 -> 86  
+2. sending payment from 146 to 62 amount: 900000  
+(2) 72 -> 155 -> 117  
+2. sending payment from 169 to 149 amount: 900000  
+(2) 34 -> 166 -> 151  
+2. sending payment from 136 to 156 amount: 900000  
+(2) 173 -> 44 -> 43  
+2. sending payment from 5 to 71 amount: 900000  
+(3) 130 -> 1 -> 152 -> 80  
+3. sending payment from 78 to 58 amount: 900000  
+(3) 83 -> 6 -> 144 -> 37  
+3. sending payment from 104 to 44 amount: 900000  
+(3) 104 -> 142 -> 131 -> 33  
+3. sending payment from 155 to 13 amount: 900000  
+(2) 62 -> 107 -> 146  
+3. sending payment from 7 to 116 amount: 900000  
+(3) 149 -> 124 -> 3 -> 169  
+3. sending payment from 153 to 67 amount: 900000  
+(4) 71 -> 15 -> 9 -> 43 -> 5  
+3. sending payment from 77 to 45 amount: 900000  
+(3) 156 -> 104 -> 9 -> 136  
+3. sending payment from 30 to 166 amount: 900000  
+(2) 44 -> 60 -> 104  
+4. sending payment from 87 to 54 amount: 900000  
+(3) 13 -> 74 -> 69 -> 155  
+4. sending payment from 102 to 131 amount: 900000  
+(2) 116 -> 90 -> 7  
+4. sending payment from 17 to 81 amount: 900000  
+(3) 67 -> 168 -> 166 -> 153  
+4. sending payment from 5 to 99 amount: 900000  
+(3) 45 -> 57 -> 97 -> 77  
+4. sending payment from 150 to 19 amount: 900000  
+(4) 58 -> 62 -> 60 -> 130 -> 78  
+4. sending payment from 139 to 59 amount: 900000  
+(4) 166 -> 138 -> 32 -> 53 -> 30  
+4. sending payment from 101 to 150 amount: 900000  
+(4) 54 -> 103 -> 51 -> 147 -> 87  
+(3) 81 -> 37 -> 53 -> 17  
+5. sending payment from 88 to 41 amount: 900000  
+5. sending payment from 60 to 85 amount: 900000  
+(2) 131 -> 1 -> 102  
+5. sending payment from 159 to 101 amount: 900000  
+(2) 99 -> 127 -> 5  
+5. sending payment from 7 to 63 amount: 900000  
+(3) 19 -> 142 -> 114 -> 150  
+5. sending payment from 89 to 109 amount: 900000  
+(3) 59 -> 154 -> 152 -> 139  
+5. sending payment from 32 to 66 amount: 900000  
+(3) 150 -> 114 -> 64 -> 101  
+5. sending payment from 149 to 29 amount: 900000  
+(2) 85 -> 62 -> 60  
+6. sending payment from 79 to 82 amount: 900000  
+(3) 41 -> 1 -> 165 -> 88  
+6. sending payment from 123 to 106 amount: 900000  
+(4) 63 -> 2 -> 46 -> No such edge: 2 46 
+ 61 -> 7  
+6. sending payment from 3 to 90 amount: 900000  
+(3) 101 -> 69 -> 141 -> 159  
+6. sending payment from 129 to 40 amount: 900000  
+(2) 109 -> 97 -> 89  
+6. sending payment from 146 to 160 amount: 900000  
+(2) 66 -> 168 -> 32  
+6. sending payment from 174 to 92 amount: 900000  
+(3) 29 -> 107 -> 158 -> 149  
+6. sending payment from 87 to 51 amount: 900000  
+(2) 82 -> 4 -> 79  
+7. sending payment from 137 to 166 amount: 900000  
+(3) 106 -> 83 -> 70 -> 123  
+7. sending payment from 83 to 169 amount: 900000  
+(3) 90 -> 6 -> 34 -> 3  
+7. sending payment from 123 to 53 amount: 900000  
+(3) 40 -> 56 -> 48 -> 129  
+7. sending payment from 28 to 114 amount: 900000  
+(3) 160 -> 83 -> 45 -> 146  
+7. sending payment from 64 to 168 amount: 900000  
+(3) 92 -> 125 -> 103 -> 174  
+7. sending payment from 137 to 125 amount: 900000  
+(4) 51 -> 110 -> 92 -> 125 -> 87  
+7. sending payment from 6 to 174 amount: 900000  
+(3) 169 -> 39 -> 62 -> 83  
+8. sending payment from 70 to 19 amount: 900000  
+(2) 166 -> 104 -> 137  
+8. sending payment from 2 to 123 amount: 900000  
+(3) 53 -> 62 -> 168 -> 123  
+8. sending payment from 102 to 41 amount: 900000  
+(3) 114 -> 142 -> 31 -> 28  
+8. sending payment from 142 to 74 amount: 900000  
+(3) 168 -> 156 -> 154 -> 64  
+8. sending payment from 47 to 105 amount: 900000  
+(3) 125 -> 129 -> 127 -> 137  
+8. sending payment from 57 to 19 amount: 900000  
+(4) 174 -> 173 -> 171 -> 60 -> 6  
+8. sending payment from 90 to 64 amount: 900000  
+(2) 123 -> 166 -> 2  
+9. sending payment from 27 to 143 amount: 900000  
+(3) 74 -> 141 -> 132 -> 142  
+9. sending payment from 84 to 63 amount: 900000  
+(3) 105 -> 168 -> 166 -> 47  
+9. sending payment from 67 to 173 amount: 900000  
+(3) 19 -> 18 -> 6 -> 70  
+9. sending payment from 26 to 44 amount: 900000  
+(3) 19 -> 1 -> 175 -> 57  
+9. sending payment from 118 to 63 amount: 900000  
+(3) 64 -> 95 -> 128 -> 90  
+9. sending payment from 107 to 44 amount: 900000  
+(3) 41 -> 40 -> 170 -> 102  
+9. sending payment from 92 to 40 amount: 900000  
+(3) 143 -> 154 -> 146 -> 27  
+10. sending payment from 6 to 88 amount: 900000  
+(2) 63 -> 166 -> 84  
+10. sending payment from 28 to 146 amount: 900000  
+(2) 44 -> 31 -> 26  No such edge: 31 26 
+ 
+10. sending payment from 3 to 64 amount: 900000  
+(4) 173 -> 1 -> 175 -> 124 -> 67  
+10. sending payment from 148 to 158 amount: 900000  
+(2) 63 -> 48 -> 118  
+10. sending payment from 25 to 40 amount: 900000  
+(2) 44 -> 46 -> 107  
+10. sending payment from 68 to 24 amount: 900000  
+(3) 40 -> 95 -> 87 -> 92  
+10. sending payment from 97 to 56 amount: 900000  
+(2) 88 -> 107 -> 6  
+11. sending payment from 49 to 0 amount: 900000  
+(3) 146 -> 44 -> 43 -> 28  
+11. sending payment from 124 to 7 amount: 900000  
+(3) 64 -> 85 -> 43 -> 3  
+11. sending payment from 126 to 136 amount: 900000  
+(2) 40 -> 128 -> 25  
+11. sending payment from 104 to 39 amount: 900000  
+ too much recursion in findpaths... 
+at: 1 from: 6 
+at: 17 from: 1 
+at: 19 from: 1 
+at: 27 from: 1 
+at: 35 from: 1 
+at: 39 from: 1 
+at: 62 from: 1 
+at: 71 from: 1 
+at: 74 from: 1 
+at: 79 from: 1 
+at: 100 from: 1 
+at: 110 from: 1 
+at: 111 from: 1 
+at: 116 from: 6 
+at: 118 from: 6 
+at: 119 from: 1 
+at: 125 from: 100 
+at: 128 from: 11 
+at: 138 from: 8 
+at: 142 from: 8 
+at: 153 from: 8 
+at: 154 from: 1 
+at: 162 from: 8 
+at: 167 from: 8 
+at: 168 from: 9 
+at: 0 from: 1 
+at: 6 from: 1 
+at: 7 from: 8 
+at: 8 from: 1 
+at: 9 from: 1 
+at: 10 from: 1 
+at: 11 from: 1 
+at: 14 from: 1 
+at: -1 from: -1 
+at: 18 from: 1 
+at: -1 from: -1 
+at: 20 from: 1 
+at: 22 from: 1 
+at: 23 from: 1 
+at: -1 from: -1 
+at: 28 from: 1 
+at: 31 from: 1 
+at: 32 from: 1 
+at: 33 from: 1 
+at: 34 from: 1 
+at: -1 from: -1 
+at: 36 from: 1 
+at: 37 from: 1 
+at: -1 from: -1 
+at: 41 from: 1 
+at: 42 from: 1 
+at: 43 from: 1 
+at: 45 from: 1 
+at: 46 from: 1 
+at: 47 from: 1 
+at: 48 from: 1 
+at: 50 from: 1 
+at: 51 from: 1 
+at: 54 from: 1 
+at: 55 from: 1 
+at: 57 from: 1 
+at: 58 from: 1 
+at: 59 from: 1 
+at: 60 from: 1 
+at: 61 from: 1 
+at: -1 from: -1 
+at: 63 from: 1 
+at: 64 from: 1 
+at: 66 from: 1 
+at: 68 from: 1 
+at: 69 from: 1 
+at: 70 from: 1 
+at: -1 from: -1 
+at: 73 from: 1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 83 from: 1 
+at: 87 from: 1 
+at: 95 from: 1 
+at: 96 from: 1 
+at: 98 from: 1 
+at: -1 from: -1 
+at: 103 from: 1 
+at: 104 from: 1 
+at: 106 from: 1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 117 from: 1 
+at: -1 from: -1 
+at: 120 from: 1 
+at: 127 from: 1 
+at: 135 from: 1 
+at: 141 from: 1 
+at: 144 from: 1 
+at: 146 from: 1 
+at: 147 from: 1 
+at: 149 from: 1 
+at: 150 from: 1 
+at: 151 from: 1 
+at: 152 from: 1 
+at: -1 from: -1 
+at: 155 from: 1 
+at: 156 from: 1 
+at: 164 from: 1 
+at: 166 from: 1 
+at: 169 from: 1 
+at: 172 from: 1 
+at: 174 from: 1 
+at: 175 from: 1 
+at: 176 from: 1 
+at: -1 from: -1 
+at: 13 from: 6 
+at: 21 from: 6 
+at: 26 from: 6 
+at: 29 from: 6 
+at: 38 from: 6 
+at: 93 from: 6 
+at: 107 from: 6 
+at: 108 from: 6 
+at: 112 from: 6 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 123 from: 6 
+at: 148 from: 6 
+at: 158 from: 6 
+at: 2 from: 8 
+at: 40 from: 8 
+at: 75 from: 8 
+at: 121 from: 11 
+at: 122 from: 8 
+at: 124 from: 8 
+at: 133 from: 110 
+at: 134 from: 8 
+at: 136 from: 8 
+at: 139 from: 110 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 163 from: 18 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 115 from: 8 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 126 from: 8 
+at: 129 from: 8 
+at: 130 from: 8 
+at: 131 from: 8 
+at: 132 from: 8 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 140 from: 8 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 171 from: 8 
+at: 4 from: 9 
+at: 78 from: 9 
+at: 97 from: 9 
+at: -1 from: -1 
+at: 15 from: 10 
+at: 25 from: 10 
+at: 84 from: 10 
+at: 5 from: 11 
+at: 16 from: 11 
+at: 67 from: 11 
+at: 72 from: 11 
+at: 76 from: 11 
+at: 77 from: 11 
+at: 86 from: 11 
+at: 88 from: 11 
+at: 90 from: 11 
+at: 92 from: 11 
+at: 102 from: 11 
+at: 105 from: 11 
+at: 114 from: 11 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 157 from: 11 
+at: 173 from: 11 
+at: 24 from: 17 
+at: 137 from: 17 
+at: 160 from: 14 
+at: 170 from: 14 
+at: -1 from: -1 
+at: 177 from: 17 
+at: 89 from: 17 
+at: -1 from: -1 
+at: 12 from: 17 
+at: -1 from: -1 
+at: 44 from: 17 
+at: 56 from: 17 
+at: 81 from: 17 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 145 from: 17 
+at: 161 from: 17 
+at: 165 from: 17 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 65 from: 19 
+at: 109 from: 19 
+at: 159 from: 98 
+at: 113 from: 144 
+at: 30 from: 98 
+at: 80 from: 87 
+at: 82 from: 110 
+at: 91 from: 110 
+at: 94 from: 110 
+at: 99 from: 149 
+at: 3 from: 96 
+at: 52 from: 164 
+at: 85 from: 64 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 143 from: 110 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 101 from: 149 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: 53 from: 87 
+at: -1 from: -1 
+at: 49 from: 87 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
+at: -1 from: -1 
