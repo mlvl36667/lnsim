@@ -16,9 +16,9 @@
 #include <time.h>
 #include <omp.h>
 
-#define NUMBER_OF_PAYMENTS  10000
-#define NUM_SIM                10
-#define TR_AMT             200000 /* 0.003 BTC */
+#define NUMBER_OF_PAYMENTS     10
+#define NUM_SIM                 2
+#define TR_AMT             800000 /* 0.003 BTC */
 #define INIT_CAP          1000000 /* 0.010 BTC */
 #define FEE_CORRECTION          0
 #define FEE_CORRECTION_LARGE 2000
@@ -235,8 +235,8 @@ int map_vertices(struct Graph* graph, struct Graph* new_graph, int from, int to)
  free(target_vertices_original);
  free(fees);
  free(vfees);
- free(vf_lrg);
- free(vf_sml);
+// free(vf_lrg);
+// free(vf_sml);
  free(caps);
  free(tv);
  free(rev);
@@ -443,6 +443,10 @@ void load_topology(const char* file_name, Graph* graph, int cap)
     {  
       fscanf (file, "%d", &i);      
       if(ii % 4 == 0){
+       if( counter > graph->E - 1){
+        fclose (file);        
+        return;
+       }
        graph->edge[counter].source = i;
       }
       if(ii % 4 == 1){
@@ -687,8 +691,8 @@ int main(int argc, char *argv[])
 //     for(int ii=0; ii < V; ii++){
 //      printf("id %d number_of_forwarded_payments: %d \n",ii, number_of_forwarded_payments[ii]);
 //     }
-//     free(graph->edge);
-//     free(graph);
+     free(graph->edge);
+     free(graph);
      }
 // 
 //     FILE *out_file = fopen("vis", "w"); // write only
