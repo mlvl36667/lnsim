@@ -18,7 +18,7 @@
 
 #define NUMBER_OF_PAYMENTS 10000
 #define NUM_SIM               10
-#define TR_AMT            900000 /* 0.009 BTC */
+#define TR_AMT            300000 /* 0.003 BTC */
 #define INIT_CAP         1000000 /* 0.010 BTC */
 #define FEE_CORRECTION      2000
 //#define CAPACITY_LIMIT       800
@@ -427,7 +427,8 @@ int reduce_cap(struct Graph* graph, int source, int destination, int amt ){
            graph->edge[j].capacity = graph->edge[j].capacity - amt;
 
            if(graph->edge[j].capacity < INIT_CAP/2) {
-            graph->edge[j].variable_fee = graph->edge[j].variable_fee + FEE_CORRECTION;
+            graph->edge[j].base_fee = graph->edge[j].base_fee * 2;
+//            graph->edge[j].variable_fee = graph->edge[j].variable_fee + FEE_CORRECTION;
             return 1;
            }
 
@@ -445,7 +446,8 @@ void increase_cap(struct Graph* graph, int source, int destination, int amt ){
           if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
            graph->edge[j].capacity = graph->edge[j].capacity + amt;
            if(graph->edge[j].capacity > INIT_CAP + INIT_CAP/2) {
-            graph->edge[j].variable_fee = MAX(graph->edge[j].variable_fee - FEE_CORRECTION,0);
+            graph->edge[j].base_fee = MAX(graph->edge[j].base_fee / 2, 1 );
+//            graph->edge[j].variable_fee = MAX(graph->edge[j].variable_fee - FEE_CORRECTION,0);
            }
            return;
           }
