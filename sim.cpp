@@ -18,12 +18,12 @@
 
 #define NUMBER_OF_PAYMENTS  10000
 #define NUM_SIM                10
-#define TR_AMT             300000 /* 0.003 BTC */
+#define TR_AMT             200000 /* 0.003 BTC */
 #define INIT_CAP          1000000 /* 0.010 BTC */
 #define FEE_CORRECTION          0
 #define FEE_CORRECTION_LARGE 2000
 #define FEE_CORRECTION_SMALL 1000
-#define AM_BND               1.2 /* bound for large/small amounts */
+#define AM_BND               1.1 /* bound for large/small amounts */
 //#define CAPACITY_LIMIT       800
 #define SATOSHI_TO_BTC 100000000 /*   10^8    */
 
