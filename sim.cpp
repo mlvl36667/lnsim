@@ -16,9 +16,9 @@
 #include <time.h>
 #include <omp.h>
 
-#define NUMBER_OF_PAYMENTS     10
-#define NUM_SIM                 2
-#define TR_AMT             800000 /* 0.003 BTC */
+#define NUMBER_OF_PAYMENTS  10000
+#define NUM_SIM                10
+#define TR_AMT             100000 /* 0.003 BTC */
 #define INIT_CAP          1000000 /* 0.010 BTC */
 #define FEE_CORRECTION          0
 #define FEE_CORRECTION_LARGE 2000
