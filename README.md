@@ -27,3 +27,11 @@ export OMP_NUM_THREADS=10 && g++ -o sim sim.cpp -fopenmp && ./sim [NUM_OF_VERTIC
 Simulation results are published at:
 
 https://bit.ly/3T7YxI4
+
+## Visualisation
+
+Create eps files from numerical data under `visualisation` using `gnuplot`:
+
+```
+gnuplot pl.gp
+```
