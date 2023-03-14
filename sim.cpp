@@ -18,11 +18,11 @@
 
 #define NUMBER_OF_PAYMENTS  10000
 #define NUM_SIM                10
-#define TR_AMT             100000 /* 0.003 BTC */
+#define TR_AMT             100000 /* 0.001 BTC */
 #define INIT_CAP          1000000 /* 0.010 BTC */
-#define FEE_CORRECTION          0
-#define FEE_CORRECTION_LARGE 2000
-#define FEE_CORRECTION_SMALL 1000
+#define FEE_CORRECTION       1000
+#define FEE_CORRECTION_LARGE 1000
+#define FEE_CORRECTION_SMALL 2000
 #define AM_BND               1.1 /* bound for large/small amounts */
 //#define CAPACITY_LIMIT       800
 #define SATOSHI_TO_BTC 100000000 /*   10^8    */
@@ -235,8 +235,8 @@ int map_vertices(struct Graph* graph, struct Graph* new_graph, int from, int to)
  free(target_vertices_original);
  free(fees);
  free(vfees);
-// free(vf_lrg);
-// free(vf_sml);
+ free(vf_lrg);
+ free(vf_sml);
  free(caps);
  free(tv);
  free(rev);
