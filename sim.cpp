@@ -5,7 +5,7 @@
 // ####               All rights reserved                           #######################
 // ########################################################################################
 // # install: sudo apt install libomp-dev
-// # run: export OMP_NUM_THREADS=10 && g++ -o sim sim.cpp -fopenmp && ./sim [NUM_OF_VERTICES] [NUM_OF_EDGES] 
+// # run: export NUMBER_OF_VERTICES=300; export NUM_SIM=10; export NUMBER_OF_PAYMENTS=100; export CONNECTIVITY=10; export TOPOLOGY_FILE=topologies/graph_${CONNECTIVITY}; export OMP_NUM_THREADS=10 && g++ -o sim sim.cpp -fopenmp && ./sim
 // ########################################################################################
 // ########################################################################################
 
@@ -16,8 +16,6 @@
 #include <time.h>
 #include <omp.h>
 
-#define NUMBER_OF_PAYMENTS  10000
-#define NUM_SIM                10
 #define TR_AMT             100000 /* 0.001 BTC */
 #define INIT_CAP          1000000 /* 0.010 BTC */
 #define FEE_CORRECTION       1000
@@ -29,6 +27,31 @@
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
+int count_lines(const char *filename) {
+    FILE *file = fopen(filename, "r");  // Fájl megnyitása olvasásra
+    if (file == NULL) {
+        perror("Hiba a fájl megnyitásakor");
+        exit(EXIT_FAILURE);
+    }
+
+    int line_count = 0;
+    char ch;
+
+    // Sorok számlálása
+    while ((ch = fgetc(file)) != EOF) {
+        if (ch == '\n') {
+            line_count++;
+        }
+    }
+
+    // Ha a fájl nem üres, akkor egy extra sort számolunk, ha a fájl nem végződik új sor karakterrel.
+    if (ch != '\n' && ftell(file) != 0) {
+        line_count++;
+    }
+
+    fclose(file);  // Fájl bezárása
+    return line_count;
+}
 struct Edge
 {
     int source;
@@ -615,15 +638,41 @@ int main(int argc, char *argv[])
 
     time_t mytime = time(NULL);
     char * time_str = ctime(&mytime);
+
+    const char *env_var = "CONNECTIVITY"; // Környezeti változó neve
+    const char *cn = getenv(env_var); // Környezeti változó lekérése
+    int topology_number = strtol(cn, NULL, 10);
+    char command[256];        
+    snprintf(command, sizeof(command), "python3 generate_graph.py %d topologies/graph_%d", topology_number, topology_number);
+    int result = system(command);
+    if (result == -1) {
+        perror("system hívás hibája");
+        return EXIT_FAILURE;
+    }
+
+    env_var = "TOPOLOGY_FILE"; // Környezeti változó neve
+    const char *topology_file = getenv(env_var); // Környezeti változó lekérése
+
     time_str[strlen(time_str)-1] = '\0';
     printf("Start Time : %s\n", time_str);
  
-    sscanf (argv[1],"%d",&V);
-    sscanf (argv[2],"%d",&E);
+//   sscanf (argv[1],"%d",&V);
+    env_var = "NUMBER_OF_VERTICES"; 
+    cn = getenv(env_var); // Környezeti változó lekérése
+    V = strtol(cn, NULL, 10);
 
 //    int** sim_res = (int**)malloc(sizeof(int*)*NUM_SIM);
 //     for(int ii=0; ii < NUM_SIM; ii++) sim_res[ii] = (int*)malloc(sizeof(int)*NUMBER_OF_PAYMENTS);
 
+    env_var = "NUM_SIM"; 
+    cn = getenv(env_var); // Környezeti változó lekérése
+    int NUM_SIM = strtol(cn, NULL, 10);
+
+    env_var = "NUMBER_OF_PAYMENTS"; 
+    cn = getenv(env_var); // Környezeti változó lekérése
+    int NUMBER_OF_PAYMENTS = strtol(cn, NULL, 10);
+
+    E = count_lines(topology_file);
     #pragma omp parallel for 
     for(int isim = 0; isim < NUM_SIM; isim++){
 
@@ -641,7 +690,7 @@ int main(int argc, char *argv[])
     {
      printf("Loading topology... %d %d \n", omp_get_thread_num(), isim);
      t  = clock();
-     load_topology("ln_topology", graph, INIT_CAP);
+     load_topology(topology_file, graph, INIT_CAP);
      printf("Topology loaded... \n");
      t = clock() - t;
      double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
