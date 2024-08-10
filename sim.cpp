@@ -18,9 +18,6 @@
 
 #define TR_AMT             100000 /* 0.001 BTC */
 #define INIT_CAP          1000000 /* 0.010 BTC */
-#define FEE_CORRECTION       1000
-#define FEE_CORRECTION_LARGE 1000
-#define FEE_CORRECTION_SMALL 2000
 #define AM_BND               1.1 /* bound for large/small amounts */
 //#define CAPACITY_LIMIT       800
 #define SATOSHI_TO_BTC 100000000 /*   10^8    */
@@ -495,7 +492,7 @@ void load_topology(const char* file_name, Graph* graph, int cap)
   fclose (file);        
 }
 
-int reduce_cap(struct Graph* graph, int source, int destination, int amt ){
+int reduce_cap(struct Graph* graph, int source, int destination, int amt, int FEE_CORRECTION, int FEE_CORRECTION_LARGE, int FEE_CORRECTION_SMALL ){
         
         for (int j = 0; j < graph->E; j++)
         {
@@ -518,7 +515,7 @@ int reduce_cap(struct Graph* graph, int source, int destination, int amt ){
  printf(" No such edge: %d %d \n", source,destination);
  return 0;
 }
-void increase_cap(struct Graph* graph, int source, int destination, int amt ){
+void increase_cap(struct Graph* graph, int source, int destination, int amt, int FEE_CORRECTION, int FEE_CORRECTION_LARGE, int FEE_CORRECTION_SMALL){
         for (int j = 0; j < graph->E; j++)
         {
           if(graph->edge[j].source == source && graph->edge[j].destination == destination) {
@@ -575,7 +572,7 @@ int get_routing_revenue(int from, int to, struct Graph* graph, int amt){
  printf(" No such edge: %d %d \n", from,to);
  return 0;
 }
-int send_payment(struct payment* pm, struct Graph* graph, int* nofp){
+int send_payment(struct payment* pm, struct Graph* graph, int* nofp, int FEE_CORRECTION, int FEE_CORRECTION_LARGE, int FEE_CORRECTION_SMALL){
  int capacity_critical;
 
  printf("sending payment from %d to %d amount: %d  \n",pm->from,pm->to,pm->amount);
@@ -604,8 +601,8 @@ int send_payment(struct payment* pm, struct Graph* graph, int* nofp){
     printf(" %d ->", pth->nodes[jj]);
     nofp[pth->nodes[jj]] = nofp[pth->nodes[jj]] + 1;
    }
-   capacity_critical = reduce_cap(graph, pth->nodes[jj], pth->nodes[jj-1], pm->amount );
-   increase_cap(graph, pth->nodes[jj-1], pth->nodes[jj], pm->amount );
+   capacity_critical = reduce_cap(graph, pth->nodes[jj], pth->nodes[jj-1], pm->amount, FEE_CORRECTION, FEE_CORRECTION_LARGE, FEE_CORRECTION_SMALL );
+   increase_cap(graph, pth->nodes[jj-1], pth->nodes[jj], pm->amount,  FEE_CORRECTION, FEE_CORRECTION_LARGE, FEE_CORRECTION_SMALL );
    routing_revenue += get_routing_revenue(pth->nodes[jj] , pth->nodes[jj-1] , graph, pm->amount); 
   }
 
@@ -672,6 +669,18 @@ int main(int argc, char *argv[])
     cn = getenv(env_var); // Környezeti változó lekérése
     int NUMBER_OF_PAYMENTS = strtol(cn, NULL, 10);
 
+    env_var = "FEE_CORRECTION"; 
+    cn = getenv(env_var); // Környezeti változó lekérése
+    int FEE_CORRECTION = strtol(cn, NULL, 10);
+
+    env_var = "FEE_CORRECTION_LARGE"; 
+    cn = getenv(env_var); // Környezeti változó lekérése
+    int FEE_CORRECTION_LARGE = strtol(cn, NULL, 10);
+
+    env_var = "FEE_CORRECTION_SMALL"; 
+    cn = getenv(env_var); // Környezeti változó lekérése
+    int FEE_CORRECTION_SMALL = strtol(cn, NULL, 10);
+
     E = count_lines(topology_file);
     #pragma omp parallel for 
     for(int isim = 0; isim < NUM_SIM; isim++){
@@ -713,7 +722,7 @@ int main(int argc, char *argv[])
       }
 
       printf("%d. ",ii);
-      revs = revs + send_payment(create_payment(from, to, amt), graph, number_of_forwarded_payments);
+      revs = revs + send_payment(create_payment(from, to, amt), graph, number_of_forwarded_payments, FEE_CORRECTION, FEE_CORRECTION_LARGE, FEE_CORRECTION_SMALL);
 
       int maxrr = 0;
       int maxnr = 0;
